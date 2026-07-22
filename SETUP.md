@@ -30,12 +30,13 @@ cp .env.gitbook.example .env.gitbook
 
 # 2. Edit .env.gitbook → GITBOOK_API_TOKEN=gbp_your_token_here
 
-# 3. Build + upload
-make gitbook-build
-make gitbook-upload
+# 3. Build + publish (GitHub) + optional API upload
+make gitbook-complete
 ```
 
-From `seo-kit-second/` you can also run `make gitbook-upload` (forwards to root).
+Publish target repo: **https://github.com/clarity-fintech/gitbook** (HTTPS via `gh auth`, no SSH key needed).
+
+From `seo-kit-second/` all gitbook targets forward to root (`make gitbook-complete`, etc.).
 
 ### Common terminal mistakes
 
@@ -71,12 +72,18 @@ npx gitbook spaces create Yuash1ualCkP03YzJ8ts --body '{"title":"Clarity — Pub
 
 After upload, set **Institutional** and **Investor** spaces to Private in GitBook → Space settings → Visibility.
 
-## Git sync (optional, recommended for ongoing edits)
+## Git sync (connect in GitBook UI)
 
-1. GitBook → Space → Settings → Git Sync
-2. Connect this repo
-3. Point each space at `docs/gitbook/public`, `developer`, etc.
-4. `SUMMARY.md` in each folder drives sidebar hierarchy
+Published source: **https://github.com/clarity-fintech/gitbook** on branch `main`.
+
+1. [Clarity org](https://app.gitbook.com/o/Yuash1ualCkP03YzJ8ts) → each Space → **Integrations → Git Sync**
+2. Repository: `clarity-fintech/gitbook`
+3. Root folder per space: `public` | `developer` | `institutional` | `investor-private`
+4. Enable **Pull on push**
+
+Re-publish after edits: `make gitbook-publish` (from repo root or `seo-kit-second/`).
+
+See [GIT_SYNC.md](./GIT_SYNC.md) for full wiring.
 
 ## API (Ask endpoint example)
 
