@@ -28,3 +28,13 @@
   * [Realms & Inner Store](ai-overview/realms-inner-store.md)
   * [Compliance & legal](ai-overview/compliance-legal.md)
 * [Roadmap](roadmap/public-roadmap.md)
+* Walkthrough
+  * [Full documentation guide](walkthrough/full-documentation-guide.md)
+  * [Whitepaper & access](walkthrough/whitepaper-and-access.md)
+* Reference
+  * [GitBook Ask API](reference/gitbook-ask-api.md)
+  * [Link corpus (320+ URLs)](reference/link-corpus/README.md)
+* Full whitepaper chapters
+  * [Ecosystem Vision (2 ch)](ecosystem-vision/README.md)
+  * [Clarity Eco (2 ch)](clarity-eco/README.md)
+  * [Computational Substrate (1 ch)](computational-substrate/README.md)

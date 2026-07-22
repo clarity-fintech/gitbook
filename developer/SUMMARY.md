@@ -14,3 +14,10 @@
   * [clrty_* namespace](methods/clrty-namespace.md)
 * [SDKs & nodes](sdks/nodes-and-sdks.md)
 * [Investor edition bridge](whitepaper/investor-edition-bridge.md)
+* Full whitepaper chapters
+  * [Investor Edition (3 ch)](investor-edition/README.md)
+  * [Whitepaper EXT (3 ch)](investor-ext/README.md)
+  * [Yellowpaper v1 Full (3 ch)](full-text/README.md)
+  * [Clarity Yellowpaper (3 ch)](clarity-yellowpaper/README.md)
+  * [Investor Edition (HTML) (4 ch)](investor-html/README.md)
+  * [Investor Edition HTML (alt) (4 ch)](investor-html-alt/README.md)
