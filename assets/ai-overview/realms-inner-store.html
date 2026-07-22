@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>CLRTY realms and Inner Store — CLRTY AI Overview</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Google Sans,Roboto,Arial,sans-serif;background:#202124;color:#e8eaed;padding:20px;line-height:1.58;font-size:14px}
+.ai-shell{max-width:980px;margin:0 auto}
+.ai-layout{display:flex;gap:20px;align-items:flex-start}
+.ai-main{flex:1;min-width:0;padding-right:8px}
+.ai-sidebar{width:340px;flex-shrink:0;background:#303134;border-radius:16px;padding:14px 12px 10px;border:1px solid #3c4043}
+.ai-header{display:flex;align-items:center;gap:8px;font-size:18px;font-weight:500;margin-bottom:14px;color:#e8eaed}
+.sparkle{width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#8ab4f8,#c58af9);border-radius:50%;font-size:12px}
+.ai-para{margin-bottom:14px;color:#bdc1c6;font-size:14px}
+mark.hl{background:rgba(138,180,248,.22);color:#8ab4f8;border-radius:4px;padding:0 2px;text-decoration:none}
+.cite-group{display:inline-flex;gap:4px;margin-left:4px;vertical-align:middle}
+.cite-pill{display:inline-flex;align-items:center;gap:4px;background:#3c4043;border:1px solid #5f6368;border-radius:999px;padding:2px 8px 2px 4px;font-size:11px;color:#9aa0a6;vertical-align:middle}
+.cite-dot{width:16px;height:16px;border-radius:50%;background:#5f6368;display:inline-flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:#fff}
+.cite-more{padding:2px 8px}
+.section-h{margin:18px 0 10px;font-size:16px;font-weight:500;color:#e8eaed}
+.section-intro{margin-bottom:10px;color:#bdc1c6;font-size:14px}
+.ai-list{margin:0 0 16px 18px;color:#bdc1c6}
+.ai-list li{margin-bottom:10px}
+.ai-list strong{color:#e8eaed;font-weight:500}
+.sites-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;padding:0 4px;font-size:13px;color:#9aa0a6}
+.site-fav-row{display:flex;gap:2px}
+.site-fav{width:18px;height:18px;border-radius:50%;background:#5f6368;display:inline-flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:#fff;border:1px solid #3c4043}
+.source-card{display:flex;gap:10px;padding:10px 6px;border-radius:12px;margin-bottom:4px;transition:background .15s}
+.source-card:hover{background:#3c4043}
+.source-body{flex:1;min-width:0}
+.source-title{display:block;font-size:13px;font-weight:500;color:#8ab4f8;text-decoration:none;line-height:1.35;margin-bottom:4px}
+.source-title:hover{text-decoration:underline}
+.source-snippet{font-size:12px;color:#9aa0a6;line-height:1.4;margin-bottom:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.source-meta{display:flex;align-items:center;gap:6px;font-size:11px;color:#9aa0a6}
+.favicon{width:16px;height:16px;border-radius:50%;background:#5f6368;display:inline-flex;align-items:center;justify-content:center;font-size:8px;font-weight:700;color:#fff}
+.source-thumb{width:72px;height:72px;border-radius:10px;flex-shrink:0;background:#3c4043}
+.show-all{display:block;width:100%;margin-top:6px;padding:10px;border:none;border-radius:999px;background:transparent;color:#8ab4f8;font-size:13px;font-weight:500;cursor:pointer;text-align:center}
+.show-all:hover{background:#3c4043}
+.ask-bar-wrap{margin-top:20px;padding-top:4px}
+.ask-bar{display:flex;align-items:center;gap:10px;background:#303134;border:1px solid #5f6368;border-radius:999px;padding:12px 16px;max-width:640px}
+.ask-plus{width:28px;height:28px;border-radius:50%;background:#3c4043;border:1px solid #5f6368;color:#e8eaed;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.ask-input{flex:1;background:transparent;border:none;color:#9aa0a6;font-size:14px;outline:none;font-family:inherit}
+.ask-mic{color:#9aa0a6;font-size:18px;flex-shrink:0}
+@media(max-width:860px){.ai-layout{flex-direction:column}.ai-sidebar{width:100%}}
+</style>
+</head>
+<body>
+<div class="ai-shell">
+  <div class="ai-layout">
+    <main class="ai-main">
+      <div class="ai-header"><span class="sparkle">✦</span> AI Overview</div>
+      <p class="ai-para">Realms replace flat RPC with seven capability layers while the Inner Store is <mark class="hl">a capability-gated environment loader — not a dashboard SKU — activated via clrty_inner_enter when wallet thresholds qualify</mark>.<span class="cite-group"><span class="cite-pill" title="Ecosystem"><span class="cite-dot">E</span>Ecosystem</span><span class="cite-pill" title="Yellowpaper"><span class="cite-dot">Y</span>Yellowpaper</span><span class="cite-pill" title="Investor"><span class="cite-dot">I</span>Investor</span></span></p>
+      <h2 class="section-h">Seven realms</h2>
+      <p class="section-intro">Infrastructure through Inner — each maps to clrty_* method namespaces.<span class="cite-group"><span class="cite-pill" title="Substrate"><span class="cite-dot">S</span>Substrate</span><span class="cite-pill" title="Eco"><span class="cite-dot">E</span>Eco</span></span></p>
+      <ul class="ai-list"><li><strong>Infrastructure:</strong> Routing, latency probes, node health RPC.</li>
+<li><strong>Data:</strong> clrty_data_query — tiered query surfaces.</li>
+<li><strong>Institutional:</strong> Cohort metrics and capital flow views (gated).</li>
+<li><strong>AI:</strong> clrty_ai_signal — signals and prompt augmentation.</li>
+<li><strong>Execution:</strong> clrty_exec_route — HELIX-aware routing.</li>
+<li><strong>Capital:</strong> clrty_capital_flow — MIRRA institutional surfaces.</li>
+<li><strong>Inner:</strong> Flow maps, AI terminals, strategy rooms on qualification.</li></ul>
+      <div class="ask-bar-wrap">
+        <form class="ask-bar" action="https://clarity-7.gitbook.io/clarity-docs/" method="get" target="_blank">
+          <span class="ask-plus">+</span>
+          <input class="ask-input" name="q" placeholder="Ask anything about CLRTY" aria-label="Ask anything"/>
+          <span class="ask-mic">🎤</span>
+        </form>
+      </div>
+    </main>
+    <aside class="ai-sidebar">
+      <div class="sites-head">
+        <span>8 sites</span>
+        <span class="site-fav-row"><span class="site-fav">E</span><span class="site-fav">Y</span><span class="site-fav">I</span><span class="site-fav">S</span><span class="site-fav">E</span></span>
+      </div>
+      <article class="source-card">
+  <div class="source-body">
+    <a class="source-title" href="https://clarity-7.gitbook.io/clarity-docs/public/architecture/realms" target="_blank" rel="noopener">Intelligence OS framing — 7 realms</a>
+    <p class="source-snippet">10-Page EditionEcosystem VisionPDF Whitepaper CLRTY Ecosystem Vision Whitepaper Why CLRTY aims to become a top platform, how HELIX, Fortress, NeuroStable, and …</p>
+    <div class="source-meta">
+      <span class="favicon">E</span>
+      <span class="domain">Ecosystem</span>
+    </div>
+  </div>
+  <div class="source-thumb" style="background-image:url('https://cdn.jsdelivr.net/gh/clarity-fintech/gitbook@main/assets/diagrams/svg/23-fault-tolerant-mesh-topology.svg');background-size:cover;background-position:center;" aria-hidden="true"></div>
+</article>
+<article class="source-card">
+  <div class="source-body">
+    <a class="source-title" href="https://clarity-7.gitbook.io/clarity-docs/developer/yellowpaper/07-wallets-nodes-apis" target="_blank" rel="noopener">Wallets, APIs, node infrastructure</a>
+    <p class="source-snippet">CLRTYYellowpaper v1.0 · Formal protocol specification and infrastructure architecture CLRTY-1 Moniversive Quantum Blockchain and Developer Infrastructure A for…</p>
+    <div class="source-meta">
+      <span class="favicon">Y</span>
+      <span class="domain">Yellowpaper</span>
+    </div>
+  </div>
+  <div class="source-thumb" style="background-image:url('https://cdn.jsdelivr.net/gh/clarity-fintech/gitbook@main/assets/diagrams/svg/04-autonetic-mesh-control-flow.svg');background-size:cover;background-position:center;" aria-hidden="true"></div>
+</article>
+<article class="source-card">
+  <div class="source-body">
+    <a class="source-title" href="https://clarity-7.gitbook.io/clarity-docs/developer/whitepaper/investor-edition-bridge" target="_blank" rel="noopener">ΣYMBRA multi-agent IDE layer</a>
+    <p class="source-snippet">VOLKOV INTELLIGENCE SYSTEMS $CLRTY (CLARITY) MIRRA / Investor &amp; Technical Whitepaper A proposed computational commodity substrate, omnichain token architecture…</p>
+    <div class="source-meta">
+      <span class="favicon">I</span>
+      <span class="domain">Investor</span>
+    </div>
+  </div>
+  <div class="source-thumb" style="background-image:url('https://cdn.jsdelivr.net/gh/clarity-fintech/gitbook@main/assets/diagrams/svg/21-multimodal-inference-manifold.svg');background-size:cover;background-position:center;" aria-hidden="true"></div>
+</article>
+<article class="source-card">
+  <div class="source-body">
+    <a class="source-title" href="https://clarity-7.gitbook.io/clarity-docs/public/architecture/inner-store" target="_blank" rel="noopener">Computational substrate</a>
+    <p class="source-snippet">Strategic Vision: The Computational Substrate The $CLRTY architecture is built on three core pillars that distinguish it from legacy ledger systems: 1. Determi…</p>
+    <div class="source-meta">
+      <span class="favicon">S</span>
+      <span class="domain">Substrate</span>
+    </div>
+  </div>
+  <div class="source-thumb" style="background-image:url('https://cdn.jsdelivr.net/gh/clarity-fintech/gitbook@main/assets/diagrams/svg/03-neurotemplate-pipeline.svg');background-size:cover;background-position:center;" aria-hidden="true"></div>
+</article>
+<article class="source-card">
+  <div class="source-body">
+    <a class="source-title" href="https://clarity-7.gitbook.io/clarity-docs/public/products/new-products-2026" target="_blank" rel="noopener">Inner companies &amp; DePIN layer</a>
+    <p class="source-snippet">10-Page EditionEcosystem VisionPDF Whitepaper CLRTY Ecosystem Vision Whitepaper Why CLRTY aims to become a top platform, how HELIX, Fortress, NeuroStable, and …</p>
+    <div class="source-meta">
+      <span class="favicon">E</span>
+      <span class="domain">Eco</span>
+    </div>
+  </div>
+  <div class="source-thumb" style="background-image:url('https://cdn.jsdelivr.net/gh/clarity-fintech/gitbook@main/assets/diagrams/svg/15-autonetic-mesh-self-healing.svg');background-size:cover;background-position:center;" aria-hidden="true"></div>
+</article>
+<article class="source-card">
+  <div class="source-body">
+    <a class="source-title" href="https://clarity-7.gitbook.io/clarity-docs/institutional/whitepaper/market-gap-companion" target="_blank" rel="noopener">Gap coverage — access model</a>
+    <p class="source-snippet">CLRTY Whitepaper Companion Section Market Position, Overall Gap Coverage, Governance Architecture, and Institutional Readiness This document is a standalone co…</p>
+    <div class="source-meta">
+      <span class="favicon">M</span>
+      <span class="domain">Market</span>
+    </div>
+  </div>
+  <div class="source-thumb" style="background-image:url('https://cdn.jsdelivr.net/gh/clarity-fintech/gitbook@main/assets/diagrams/svg/22-autonomous-strategy-refactoring.svg');background-size:cover;background-position:center;" aria-hidden="true"></div>
+</article>
+<article class="source-card">
+  <div class="source-body">
+    <a class="source-title" href="https://clarity-7.gitbook.io/clarity-docs/institutional/data/institutional-data-layer" target="_blank" rel="noopener">Institutional readiness — data APIs</a>
+    <p class="source-snippet">Volume III Institutional Readiness PDF Export Edition CLRTY Whitepaper Volume III Institutional Readiness, Evidence Architecture, Exchange Submission Support, …</p>
+    <div class="source-meta">
+      <span class="favicon">V</span>
+      <span class="domain">Vol III</span>
+    </div>
+  </div>
+  <div class="source-thumb" style="background-image:url('https://cdn.jsdelivr.net/gh/clarity-fintech/gitbook@main/assets/diagrams/svg/08-predictive-liquidity-routing.svg');background-size:cover;background-position:center;" aria-hidden="true"></div>
+</article>
+<article class="source-card">
+  <div class="source-body">
+    <a class="source-title" href="https://clarity-7.gitbook.io/clarity-docs/institutional/whitepaper/security-governance-addendum" target="_blank" rel="noopener">Access governance controls</a>
+    <p class="source-snippet">STANDALONE WHITEPAPER SECTION / PDF EDITION CLRTY Updated Whitepaper Addendum Security, Governance, Token Controls, and Exchange Readiness A separate instituti…</p>
+    <div class="source-meta">
+      <span class="favicon">S</span>
+      <span class="domain">Security</span>
+    </div>
+  </div>
+  <div class="source-thumb" style="background-image:url('https://cdn.jsdelivr.net/gh/clarity-fintech/gitbook@main/assets/diagrams/svg/13-governance-override-hierarchy.svg');background-size:cover;background-position:center;" aria-hidden="true"></div>
+</article>
+      <button type="button" class="show-all" onclick="this.closest('.ai-sidebar').querySelectorAll('.source-card').forEach(e=>e.style.display='flex');this.style.display='none'">Show all</button>
+    </aside>
+  </div>
+</div>
+</body>
+</html>
