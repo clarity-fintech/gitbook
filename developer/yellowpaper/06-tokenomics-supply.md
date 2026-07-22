@@ -117,3 +117,20 @@ High-level CLRTY architecture synthesized from public website and repository mat
 PRISM provides intelligence, HELIX handles execution/ routing, and clrty-1 acts as the deterministic settlement substrate.
 
 [S3][S4][S6][S7][S8] Protocol assumptions used in the remainder of this document are conservative: (a) deterministic execution is a design goal and interface contract; (b) state commitment is Merkleized or equivalently hash-committed; (c) validation finality depends on a supermajority threshold over active validators or their equivalent; (
+
+
+<!-- clrty-blocks:v1 -->
+
+{% hint style="info" %}
+**Whitepaper source**
+
+**Source:** `yellowpaper_v1` · 11 pp pages
+
+CLRTY Yellowpaper v1 formal specification
+{% endhint %}
+
+{% hint style="info" %}
+**Developer reference**
+
+Formal notation and proofs — see Developer space for full Υ(σ,T) pipeline.
+{% endhint %}

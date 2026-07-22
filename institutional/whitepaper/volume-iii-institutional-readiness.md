@@ -175,3 +175,20 @@ Reviewers will expect jurisdictional mapping, sanctions handling, customer scree
 Financial due diligence further requires treasury controls, reserve or proof-of- capital logic where represented, and reconciliations between toke
 
 _…continued in source PDF._
+
+
+<!-- clrty-blocks:v1 -->
+
+{% hint style="warning" %}
+**L2**
+
+Institutional whitepaper volume — private diligence tier.
+{% endhint %}
+
+```diagram-panel
+svg: 09-attestation-ledger.svg
+caption: Attestation ledger
+```
+
+![Attestation ledger](../../assets/diagrams/svg/09-attestation-ledger.svg)
+*Attestation ledger*

@@ -11,10 +11,14 @@
 | Field | Value |
 | --- | --- |
 | **Display name** | Clarity |
-| **Organization ID** | `Yuash1ualCkP03YzJ8ts` |
+| **Organization ID** | `6MCNfiz1cpjlR5LX4kWw` |
+| **Site ID** | `site_xTRE6` |
+| **Live site** | https://clarity-7.gitbook.io/clarity-docs/ |
+| **Preview** | https://app.gitbook.com/o/6MCNfiz1cpjlR5LX4kWw/sites/site_xTRE6/preview |
 
 ```bash
-GITBOOK_ORG_ID=Yuash1ualCkP03YzJ8ts
+GITBOOK_ORG_ID=6MCNfiz1cpjlR5LX4kWw
+GITBOOK_SITE_ID=site_xTRE6
 GITBOOK_ORG_NAME=Clarity
 ```
 
@@ -30,8 +34,9 @@ cp .env.gitbook.example .env.gitbook
 
 # 2. Edit .env.gitbook → GITBOOK_API_TOKEN=gbp_your_token_here
 
-# 3. Build + publish (GitHub) + optional API upload
-make gitbook-complete
+# 3. Authenticate (browser) + upload via CLI API
+make gitbook-login
+make gitbook-site-publish
 ```
 
 Publish target repo: **https://github.com/clarity-fintech/gitbook** (HTTPS via `gh auth`, no SSH key needed).

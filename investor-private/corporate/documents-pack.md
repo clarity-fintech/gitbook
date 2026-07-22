@@ -157,3 +157,12 @@ Confidentiality All non-public technical, financial, treasury, token, wallet, se
 Dispute Resolution Any dispute arising under this Agreement shall be resolve
 
 _…continued in source PDF._
+
+
+<!-- clrty-blocks:v1 -->
+
+{% hint style="danger" %}
+**Restricted**
+
+Investor-private tier — do not redistribute.
+{% endhint %}

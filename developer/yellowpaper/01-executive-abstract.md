@@ -115,3 +115,20 @@ The node deployment kit further distinguishes public nodes, private execution no
 High-level CLRTY architecture synthesized from public website and repository materials.
 
 PRISM provides intelligence, HELIX handles execution/
+
+
+<!-- clrty-blocks:v1 -->
+
+{% hint style="info" %}
+**Whitepaper source**
+
+**Source:** `yellowpaper_v1` · 11 pp pages
+
+CLRTY Yellowpaper v1 formal specification
+{% endhint %}
+
+{% hint style="info" %}
+**Developer reference**
+
+Formal notation and proofs — see Developer space for full Υ(σ,T) pipeline.
+{% endhint %}

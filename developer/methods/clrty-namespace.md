@@ -9,3 +9,22 @@
 | `clrty_capital_flow` | Capital | Institutional flow views (gated) |
 
 Prefix convention: all CLRTY JSON-RPC methods use `clrty_`.
+
+
+<!-- clrty-blocks:v1 -->
+
+{% hint style="info" %}
+**Method convention**
+
+All CLRTY JSON-RPC methods use the `clrty_` prefix and map to realm capability layers.
+{% endhint %}
+
+{% expandable title="Method → realm mapping" %}
+| Method | Realm |
+| --- | --- |
+| clrty_data_query | Data |
+| clrty_ai_signal | AI |
+| clrty_exec_route | Execution |
+| clrty_inner_enter | Inner |
+| clrty_capital_flow | Capital |
+{% endexpandable %}

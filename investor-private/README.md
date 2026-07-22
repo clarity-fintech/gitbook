@@ -16,3 +16,19 @@ This space contains offering documents **never released** on the public site or 
 | Pitch deck | HTML + PDF variants |
 
 GitBook space must be **private** with visitor auth or invite-only links.
+
+
+<!-- clrty-blocks:v1 -->
+
+{% hint style="danger" %}
+**Restricted**
+
+Accredited investors / NDA counterparties only. Offering documents never released on public site or GitHub.
+{% endhint %}
+
+```investor-doc
+type: data-room-index
+classification: restricted
+```
+
+PPM · Term sheet · Token warrant · Corporate pack · Pitch deck · Cap table

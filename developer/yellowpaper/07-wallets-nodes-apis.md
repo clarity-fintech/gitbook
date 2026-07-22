@@ -131,3 +131,20 @@ Public wallet guidance further implies that accounts may also represent program 
 The Developer Kit describes accounts as “Moniversion State Containers” capable of deterministic updates and compressible history, which is formalized here as the requirement that account-local updates be pure functions of prior committed state and valid inputs.
 
 [S8] Users / Wallets / Apps wallet integration · SDKs · CLI PRISM intent · prediction · cache · audit HELIX private routing · simulation · MEV protection clrty-1 Settlement and Deterministic Execution Layer accounts · transitions · receipts · state root · supply oracle · execution gates Node Infrastructure public · private · strategy · compliance · DePIN Developer Plane developer kit · research kit · node kit · APIs Security & Governance disclosure hub · controls · stress evidence 4 5.1 Storage model Because the security materials expect verified source, indexable events, snapshots, and deterministic checksums, the natural formal commitment model is a Merkleized key-value trie or equivalent authen
+
+
+<!-- clrty-blocks:v1 -->
+
+{% hint style="info" %}
+**Whitepaper source**
+
+**Source:** `yellowpaper_v1` · 11 pp pages
+
+CLRTY Yellowpaper v1 formal specification
+{% endhint %}
+
+{% hint style="info" %}
+**Developer reference**
+
+Formal notation and proofs — see Developer space for full Υ(σ,T) pipeline.
+{% endhint %}

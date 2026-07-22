@@ -65,3 +65,34 @@ Inner Companies → DePIN economic units (services inside the network)
 ## Different from the repo S20 whitepaper
 
 The GitHub `docs/whitepaper.md` draft focuses on **Set manifold math (99→1), Proof-of-Convergence, and NTT supply**. This space focuses on **product architecture and platform shape** — complementary, not duplicate.
+
+
+<!-- clrty-blocks:v1 -->
+
+{% hint style="info" %}
+**Whitepaper source**
+
+**Source:** `whitepaper_ecosystem` · 10 pp pages
+
+10-Page EditionEcosystem VisionPDF Whitepaper CLRTY Ecosystem Vision Whitepaper Why CLRTY aims to become a top platform, how HELIX, Fortress, NeuroStable, and the broader stack fit together, and what the long-range ecosystem could unlock Prepared from the uploaded CLRTY whitepaper PDFs, public CLRTY web pages, public GitHub repositories, and user-supplied strategic framing. Date: 2026-07-04. 16M Fixed token hard cap referenced in public materials <400ms Deterministic finality language on the public site 6+ Public ecosystem repositories supporting the platform story 100 Readiness tasks already developed in adjacent diligence materials This paper is intentionally different from the existing governance and institutional- readiness documents. It focuses on the why: why CLRTY is being framed as…
+{% endhint %}
+
+{% tabs %}
+{% tab title="Outer Store" %}
+**clrty-1** public ledger — `uclrty`, deterministic execution, community-visible state.
+{% endtab %}
+{% tab title="Inner Store" %}
+Capability-gated intelligence environment loaded via `clrty_inner_enter`.
+{% endtab %}
+{% tab title="Inner Companies" %}
+DePIN economic units — services, nodes, AI, and access layers inside the network.
+{% endtab %}
+{% endtabs %}
+
+```diagram-panel
+svg: 02-l1-substrate-topology.svg
+caption: L1 substrate topology
+```
+
+![L1 substrate topology](../../assets/diagrams/svg/02-l1-substrate-topology.svg)
+*L1 substrate topology*

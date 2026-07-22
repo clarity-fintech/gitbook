@@ -127,3 +127,20 @@ The world state is a mapping σ : A → AccountState, where an account state min
 Public wallet guidance further implies that accounts may also represent program state and data allocations, not only token balances.
 
 [S5][S8] AccountState := (balance, nonce, storage_root, code_hash, acct
+
+
+<!-- clrty-blocks:v1 -->
+
+{% hint style="info" %}
+**Whitepaper source**
+
+**Source:** `yellowpaper_v1` · 11 pp pages
+
+CLRTY Yellowpaper v1 formal specification
+{% endhint %}
+
+{% hint style="info" %}
+**Developer reference**
+
+Formal notation and proofs — see Developer space for full Υ(σ,T) pipeline.
+{% endhint %}

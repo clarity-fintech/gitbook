@@ -111,3 +111,25 @@ Key Rotation & Recovery 22.
 Risk Considerations 23.
 
 Governanc
+
+
+<!-- clrty-blocks:v1 -->
+
+```compliance-matrix
+program: Exchange readiness (45 items)
+items: 5
+```
+
+- Custody & key management
+- Market surveillance hooks
+- Listing diligence artifacts
+- Incident response playbooks
+- Governance override hierarchy
+
+```diagram-panel
+svg: 28-140-step-battery-validation-pipeline.svg
+caption: 140-step battery validation pipeline
+```
+
+![140-step battery validation pipeline](../../assets/diagrams/svg/28-140-step-battery-validation-pipeline.svg)
+*140-step battery validation pipeline*

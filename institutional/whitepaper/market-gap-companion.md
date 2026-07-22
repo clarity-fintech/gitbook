@@ -173,3 +173,20 @@ Execution thesis CLRTY token as execution fuel, settlement coordination layer, a
 
 
 _…continued in source PDF._
+
+
+<!-- clrty-blocks:v1 -->
+
+{% hint style="warning" %}
+**L2**
+
+Institutional whitepaper volume — private diligence tier.
+{% endhint %}
+
+```diagram-panel
+svg: 09-attestation-ledger.svg
+caption: Attestation ledger
+```
+
+![Attestation ledger](../../assets/diagrams/svg/09-attestation-ledger.svg)
+*Attestation ledger*

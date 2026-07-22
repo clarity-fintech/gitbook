@@ -129,3 +129,20 @@ Public wallet guidance further implies that accounts may also represent program 
 [S5][S8] AccountState := (balance, nonce, storage_root, code_hash, acct_type, policy_meta) σ[a] := AccountState of address a The supplied materials support at least two effective account classes: externally controlled wallet/accounts, and program or contract accounts storing convergent state.
 
 The Developer Kit describes
+
+
+<!-- clrty-blocks:v1 -->
+
+{% hint style="info" %}
+**Whitepaper source**
+
+**Source:** `yellowpaper_v1` · 11 pp pages
+
+CLRTY Yellowpaper v1 formal specification
+{% endhint %}
+
+{% hint style="info" %}
+**Developer reference**
+
+Formal notation and proofs — see Developer space for full Υ(σ,T) pipeline.
+{% endhint %}

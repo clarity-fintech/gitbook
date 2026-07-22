@@ -115,3 +115,12 @@ Customer pipeline, signed partnerships, and evidence behind stated performance c
 Security reviews, compliance framework, and treasury custody controls.
 
 Sources: https://www.clarity-fintech.com/ ; https://app.notion.com/p/Early-Access-to-CLRITY-37f704760d24800298b3ede45d52ce4d?source=copy_link ; management-provided product and traction notes.
+
+
+<!-- clrty-blocks:v1 -->
+
+{% hint style="danger" %}
+**Restricted**
+
+Investor-private tier — do not redistribute.
+{% endhint %}

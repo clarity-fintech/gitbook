@@ -143,3 +143,31 @@ The node deployment kit further distinguishes public nodes, private execution no
 High-level CLRTY architecture synthesized from public website and repository materials.
 
 PRISM provides intelligenc
+
+
+<!-- clrty-blocks:v1 -->
+
+{% tabs %}
+{% tab title="HELIX" %}
+HELIX execution infrastructure, developer tooling, node operations, and security controls. Document status. PDF-ready technical yellowpaper compiled from public project materials, repository documentation, website statements, and project-supplied implementation notes provided in the request. This document distinguishes normative protocol definitions from reference implementation details, modeled results, and operational/security evidence. Ownership notice. Moniversion / Moniversive theory is attributed in this document as solely owned by C. William Ferguson, per the project-provided attribution notice. Inclusion here is descriptive and does not transfer rights. Scope note. Where evidence is limited to local or simulated test artifacts, the text states that limitation explicitly. Hosted-mainnet or public endpoint performance is not asserted beyond available evidence. Protocol chain clrty-1 Native denomination uclrty Nominal decimals 9 Reported max supply 16,000,000 CLRTY Core layers PRISM intelligence · HELIX execution · wallet/account layer · node infrastructure · developer APIs · security and resilience layers Abstract CLRTY is presented across the supplied materials as a sovereign layer-1 execution environment with a native asset, deterministic execution semantics, private-routing and liquidity-coordination infrastructure, and an associated developer ecosystem spanning CLI, SDKs, wallet integration, node deployment, security documentation, and research packs. This yellowpaper formalizes the system as a deterministic state transition machine, introduces notation for world state, blocks, transactions, machine state, and validator synchronization, and embeds protocol-specific extensions around HELIX routing, deterministic state verification, and a Moniversive recursion model. It also maps public implementation evidence to formal sections so protocol engineers and institutional reviewers can separate specification from proof, simulation, and roadmap. Table of
+{% endtab %}
+{% tab title="MIRRA" %}
+Private execution, MEV-resistant routing, liquidity coordination — institutional surfaces gated at Capital realm.
+{% endtab %}
+{% endtabs %}
+
+```diagram-panel
+svg: 08-predictive-liquidity-routing.svg
+caption: Predictive liquidity routing
+```
+
+![Predictive liquidity routing](../../assets/diagrams/svg/08-predictive-liquidity-routing.svg)
+*Predictive liquidity routing*
+
+```diagram-panel
+svg: 06-mirra-dark-pool.svg
+caption: MIRRA dark pool
+```
+
+![MIRRA dark pool](../../assets/diagrams/svg/06-mirra-dark-pool.svg)
+*MIRRA dark pool*

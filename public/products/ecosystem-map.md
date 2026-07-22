@@ -20,3 +20,27 @@
 | **Quant / Arbitrage CLI** | Liquidity intelligence tooling | Developer · Institutional | Roadmap |
 | **AML/KYC/CTF Program** | Compliance operating model | Institutional · Investor | v1.0 program doc |
 | **Exchange Readiness Matrix** | 45-item onboarding checklist (Vol II) | Institutional | Diligence |
+
+
+<!-- clrty-blocks:v1 -->
+
+```product-stack
+layers: clrty-1,PRISM,HELIX,Fortress,NeuroStable,MIRRA
+source: whitepaper_ecosystem
+```
+
+See ecosystem map for full product table.
+
+```diagram-panel
+svg: 06-mirra-dark-pool.svg
+caption: MIRRA dark pool architecture
+```
+
+![MIRRA dark pool architecture](../../assets/diagrams/svg/06-mirra-dark-pool.svg)
+*MIRRA dark pool architecture*
+
+{% hint style="info" %}
+**Product inventory**
+
+Full product matrix sourced from **Ecosystem Vision Whitepaper** and **New Products 2026** materials.
+{% endhint %}

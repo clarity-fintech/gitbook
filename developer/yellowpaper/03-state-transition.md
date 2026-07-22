@@ -109,3 +109,29 @@ Equation (2) defines a generic state commitment compatible with Merkleized accou
 Equation (3) encodes the project-supplied BFT threshold for finalization.
 
 Equations (4) and (5) capture t
+
+
+<!-- clrty-blocks:v1 -->
+
+```yellowpaper-notation
+equation: "Υ(σ, T) := Apply( Converge( Execute( Validate( Optimize( Score( Simulate(T, σ) ) ) ) ) ) )"
+label: State transition (Yellowpaper v1)
+```
+
+```text
+Υ(σ, T) := Apply( Converge( Execute( Validate( Optimize( Score( Simulate(T, σ) ) ) ) ) ) )
+```
+
+Simulate → Score → Optimize → Validate → Execute → Converge → Apply
+
+{% expandable title="Full Yellowpaper excerpt — state transition" %}
+CLRTYYellowpaper v1.0 · Formal protocol specification and infrastructure architecture CLRTY-1 Moniversive Quantum Blockchain and Developer Infrastructure A formal technical specification for the CLRTY protocol family, including native asset semantics, deterministic execution, Moniversion theory framing, HELIX execution infrastructure, developer tooling, node operations, and security controls. Document status. PDF-ready technical yellowpaper compiled from public project materials, repository documentation, website statements, and project-supplied implementation notes provided in the request. This document distinguishes normative protocol definitions from reference implementation details, modeled results, and operational/security evidence. Ownership notice. Moniversion / Moniversive theory is attributed in this document as solely owned by C. William Ferguson, per the project-provided attribution notice. Inclusion here is descriptive and does not transfer rights. Scope note. Where evidence is limited to local or simulated test artifacts, the text states that limitation explicitly. Hosted-mainnet or public endpoint performance is not asserted beyond available evidence. Protocol chain clrty-1 Native denomination uclrty Nominal decimals 9 Reported max supply 16,000,000 CLRTY Core layers PRISM intelligence · HELIX execution · wallet/account layer · node infrastructure · developer APIs · security and resilience layers Abstract CLRTY is presented across the supplied materials as a sovereign layer-1 execution environment with a native asset, deterministic execution semantics, private-routing and liquidity-coordination infrastructure, and an associated developer ecosystem spanning CLI, SDKs, wallet integration, node deployment, security documentation, and research packs. This yellowpaper formalizes the system as a deterministic state transition machine, introduces notation for world state, blocks, transactions, machine state, and validator synchronization, and embeds protocol-specific extensions around HELIX routing, deterministic state verification, and a Moniversive recursion model. It also maps public implementation evidence to formal sections so protocol engineers and institutional reviewers can separate specification from proof, simulation, and roadmap. Table of contents Executive Abstract Ownership, attribution, and caveats Notation and formal preliminaries System model and assumptions World state, accounts, storage, and commitments Block structure and receipts Transaction semantics and state transition function Deterministic execution engine Consensus, synchronization, finality, and verifier model Moniversion theory and Moniversive recursion HELIX execution, liquidity routing, and safety gates Tokenomics and supply integrity Wallets, APIs, developers, and node infrastructure Security architecture and resilience layers Validation evidence and implementation status Glossary, references, and appendices 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 1 Prepared using the project website, public GitHub repositories, Notion pages, and project-supplied notes included in the request. 2 1. Executive Abstract Across the supplied materials, CLRTY is described as a deterministic capital-and-execution infrastructure centered on the clrty-1 chain, a native uclrty asset, PRISM intelligence services, HELIX routing and private execution, developer kits, node deployment tooling, and a security/disclosure program. The public website frames the system through “Proof-of-Intelligence,” HELIX private execution, AI allocation routing, and deterministic finality claims for cross-agent financial transactions; the repository set expands this into CLI surfaces, node roles, wallet flows, SDKs, research packs, and security evidence expectations. [S1][S3][S4][S5][S6][S7][S8] This yellowpaper normalizes those materials into a formal state-machine specification. At the core is a deterministic transition system Υ(σ, T) → σ′, where σ is world state, T is a t…
+{% endexpandable %}
+
+{% hint style="info" %}
+**Whitepaper source**
+
+**Source:** `yellowpaper_v1` · 11 pp pages
+
+CLRTY Yellowpaper v1 — formal specification
+{% endhint %}

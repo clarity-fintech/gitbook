@@ -31,3 +31,27 @@ This GitBook space is intentionally **not** a copy of the repository S20 technic
 | L1 | Developer | Engineers, integrators |
 | L2 | Institutional | Funds, exchanges, compliance |
 | L3 | Investor Private | Accredited / NDA data room |
+
+
+<!-- clrty-blocks:v1 -->
+
+{% hint style="success" %}
+**L0 Public tier**
+
+This space presents the **Intelligence OS** narrative — gates, realms, Inner Store, and product stack. It complements (does not duplicate) the repo S20 whitepaper draft.
+{% endhint %}
+
+```product-stack
+layers: clrty-1,PRISM,HELIX,Fortress,NeuroStable,MIRRA
+source: whitepaper_ecosystem
+```
+
+See ecosystem map for full product table.
+
+```diagram-panel
+svg: 01-nexus-orchestrator.svg
+caption: Nexus orchestrator — intelligence plane topology
+```
+
+![Nexus orchestrator — intelligence plane topology](../assets/diagrams/svg/01-nexus-orchestrator.svg)
+*Nexus orchestrator — intelligence plane topology*

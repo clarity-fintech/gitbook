@@ -251,3 +251,20 @@ S5 PQC standardizationNIST finalized FIPS 203, 204, and 205 in 2024 and urged im
 S6 EU compliance environment MiCA imposes uniform EU rules, white- paper formatting, data standards, and CASP authorization expectations Documentation quality and 
 
 _…continued in source PDF._
+
+
+<!-- clrty-blocks:v1 -->
+
+{% hint style="warning" %}
+**L2**
+
+Institutional whitepaper volume — private diligence tier.
+{% endhint %}
+
+```diagram-panel
+svg: 09-attestation-ledger.svg
+caption: Attestation ledger
+```
+
+![Attestation ledger](../../assets/diagrams/svg/09-attestation-ledger.svg)
+*Attestation ledger*
