@@ -38,5 +38,5 @@ svg: 11-institutional-hsm-root-of-trust.svg
 caption: Institutional HSM root of trust
 ```
 
-![Institutional HSM root of trust](../../assets/diagrams/svg/11-institutional-hsm-root-of-trust.svg)
+![Institutional HSM root of trust](https://raw.githubusercontent.com/clarity-fintech/gitbook/main/assets/diagrams/svg/11-institutional-hsm-root-of-trust.svg)
 *Institutional HSM root of trust*

@@ -146,7 +146,7 @@ svg: 20-cryptographic-audit-trail-tree.svg
 caption: Cryptographic audit trail tree
 ```
 
-![Cryptographic audit trail tree](../../assets/diagrams/svg/20-cryptographic-audit-trail-tree.svg)
+![Cryptographic audit trail tree](https://raw.githubusercontent.com/clarity-fintech/gitbook/main/assets/diagrams/svg/20-cryptographic-audit-trail-tree.svg)
 *Cryptographic audit trail tree*
 
 {% expandable title="Audit synthesis excerpt" %}

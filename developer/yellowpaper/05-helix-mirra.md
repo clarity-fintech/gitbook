@@ -161,7 +161,7 @@ svg: 08-predictive-liquidity-routing.svg
 caption: Predictive liquidity routing
 ```
 
-![Predictive liquidity routing](../../assets/diagrams/svg/08-predictive-liquidity-routing.svg)
+![Predictive liquidity routing](https://raw.githubusercontent.com/clarity-fintech/gitbook/main/assets/diagrams/svg/08-predictive-liquidity-routing.svg)
 *Predictive liquidity routing*
 
 ```diagram-panel
@@ -169,5 +169,5 @@ svg: 06-mirra-dark-pool.svg
 caption: MIRRA dark pool
 ```
 
-![MIRRA dark pool](../../assets/diagrams/svg/06-mirra-dark-pool.svg)
+![MIRRA dark pool](https://raw.githubusercontent.com/clarity-fintech/gitbook/main/assets/diagrams/svg/06-mirra-dark-pool.svg)
 *MIRRA dark pool*

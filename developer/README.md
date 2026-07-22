@@ -37,5 +37,5 @@ svg: 05-neurotemplate-evolutionary-loop.svg
 caption: Neurotemplate evolutionary loop
 ```
 
-![Neurotemplate evolutionary loop](../../assets/diagrams/svg/05-neurotemplate-evolutionary-loop.svg)
+![Neurotemplate evolutionary loop](https://raw.githubusercontent.com/clarity-fintech/gitbook/main/assets/diagrams/svg/05-neurotemplate-evolutionary-loop.svg)
 *Neurotemplate evolutionary loop*

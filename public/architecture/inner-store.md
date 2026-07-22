@@ -43,5 +43,5 @@ svg: 03-neurotemplate-pipeline.svg
 caption: Neurotemplate pipeline
 ```
 
-![Neurotemplate pipeline](../../assets/diagrams/svg/03-neurotemplate-pipeline.svg)
+![Neurotemplate pipeline](https://raw.githubusercontent.com/clarity-fintech/gitbook/main/assets/diagrams/svg/03-neurotemplate-pipeline.svg)
 *Neurotemplate pipeline*

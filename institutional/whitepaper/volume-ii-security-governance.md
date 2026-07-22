@@ -232,7 +232,7 @@ svg: 14-regulatory-compliance-middleware.svg
 caption: Regulatory compliance middleware
 ```
 
-![Regulatory compliance middleware](../../assets/diagrams/svg/14-regulatory-compliance-middleware.svg)
+![Regulatory compliance middleware](https://raw.githubusercontent.com/clarity-fintech/gitbook/main/assets/diagrams/svg/14-regulatory-compliance-middleware.svg)
 *Regulatory compliance middleware*
 
 ```diagram-panel
@@ -240,5 +240,5 @@ svg: 27-hsm-rooted-security-fortress.svg
 caption: HSM-rooted security fortress
 ```
 
-![HSM-rooted security fortress](../../assets/diagrams/svg/27-hsm-rooted-security-fortress.svg)
+![HSM-rooted security fortress](https://raw.githubusercontent.com/clarity-fintech/gitbook/main/assets/diagrams/svg/27-hsm-rooted-security-fortress.svg)
 *HSM-rooted security fortress*

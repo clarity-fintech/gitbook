@@ -179,5 +179,5 @@ svg: 21-multimodal-inference-manifold.svg
 caption: Multimodal inference manifold
 ```
 
-![Multimodal inference manifold](../../assets/diagrams/svg/21-multimodal-inference-manifold.svg)
+![Multimodal inference manifold](https://raw.githubusercontent.com/clarity-fintech/gitbook/main/assets/diagrams/svg/21-multimodal-inference-manifold.svg)
 *Multimodal inference manifold*

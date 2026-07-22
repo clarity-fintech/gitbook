@@ -36,7 +36,7 @@ svg: 06-mirra-dark-pool.svg
 caption: MIRRA dark pool architecture
 ```
 
-![MIRRA dark pool architecture](../../assets/diagrams/svg/06-mirra-dark-pool.svg)
+![MIRRA dark pool architecture](https://raw.githubusercontent.com/clarity-fintech/gitbook/main/assets/diagrams/svg/06-mirra-dark-pool.svg)
 *MIRRA dark pool architecture*
 
 {% hint style="info" %}

@@ -20,7 +20,7 @@ svg: 04-autonetic-mesh-control-flow.svg
 caption: Autonetic mesh control flow
 ```
 
-![Autonetic mesh control flow](../../assets/diagrams/svg/04-autonetic-mesh-control-flow.svg)
+![Autonetic mesh control flow](https://raw.githubusercontent.com/clarity-fintech/gitbook/main/assets/diagrams/svg/04-autonetic-mesh-control-flow.svg)
 *Autonetic mesh control flow*
 
 {% hint style="info" %}

@@ -77,5 +77,5 @@ svg: 13-governance-override-hierarchy.svg
 caption: Governance override hierarchy
 ```
 
-![Governance override hierarchy](../../assets/diagrams/svg/13-governance-override-hierarchy.svg)
+![Governance override hierarchy](https://raw.githubusercontent.com/clarity-fintech/gitbook/main/assets/diagrams/svg/13-governance-override-hierarchy.svg)
 *Governance override hierarchy*

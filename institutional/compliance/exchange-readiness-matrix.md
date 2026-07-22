@@ -131,5 +131,5 @@ svg: 28-140-step-battery-validation-pipeline.svg
 caption: 140-step battery validation pipeline
 ```
 
-![140-step battery validation pipeline](../../assets/diagrams/svg/28-140-step-battery-validation-pipeline.svg)
+![140-step battery validation pipeline](https://raw.githubusercontent.com/clarity-fintech/gitbook/main/assets/diagrams/svg/28-140-step-battery-validation-pipeline.svg)
 *140-step battery validation pipeline*

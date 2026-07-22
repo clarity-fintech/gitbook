@@ -94,5 +94,5 @@ svg: 02-l1-substrate-topology.svg
 caption: L1 substrate topology
 ```
 
-![L1 substrate topology](../../assets/diagrams/svg/02-l1-substrate-topology.svg)
+![L1 substrate topology](https://raw.githubusercontent.com/clarity-fintech/gitbook/main/assets/diagrams/svg/02-l1-substrate-topology.svg)
 *L1 substrate topology*

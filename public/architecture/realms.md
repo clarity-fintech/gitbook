@@ -57,5 +57,5 @@ svg: 23-fault-tolerant-mesh-topology.svg
 caption: Fault-tolerant mesh topology
 ```
 
-![Fault-tolerant mesh topology](../../assets/diagrams/svg/23-fault-tolerant-mesh-topology.svg)
+![Fault-tolerant mesh topology](https://raw.githubusercontent.com/clarity-fintech/gitbook/main/assets/diagrams/svg/23-fault-tolerant-mesh-topology.svg)
 *Fault-tolerant mesh topology*

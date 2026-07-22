@@ -19,7 +19,7 @@ svg: 02-l1-substrate-topology.svg
 caption: CLRTY L1 substrate
 ```
 
-![CLRTY L1 substrate](../../assets/diagrams/svg/02-l1-substrate-topology.svg)
+![CLRTY L1 substrate](https://raw.githubusercontent.com/clarity-fintech/gitbook/main/assets/diagrams/svg/02-l1-substrate-topology.svg)
 *CLRTY L1 substrate*
 
 {% expandable title="Layer breakdown" %}

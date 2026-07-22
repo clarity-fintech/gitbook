@@ -13,4 +13,6 @@
 * Products
   * [Ecosystem map](products/ecosystem-map.md)
   * [New products 2026](products/new-products-2026.md)
+* Reference
+  * [Custom blocks](reference/custom-blocks.md)
 * [Roadmap](roadmap/public-roadmap.md)

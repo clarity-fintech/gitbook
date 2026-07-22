@@ -53,5 +53,5 @@ svg: 01-nexus-orchestrator.svg
 caption: Nexus orchestrator — intelligence plane topology
 ```
 
-![Nexus orchestrator — intelligence plane topology](../assets/diagrams/svg/01-nexus-orchestrator.svg)
+![Nexus orchestrator — intelligence plane topology](https://raw.githubusercontent.com/clarity-fintech/gitbook/main/assets/diagrams/svg/01-nexus-orchestrator.svg)
 *Nexus orchestrator — intelligence plane topology*
