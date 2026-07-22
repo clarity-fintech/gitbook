@@ -15,4 +15,4 @@
 | Security Audit | security_audit | L2 | 9 |
 | Computational Substrate | substrate | L0 | 2 |
 
-Generated: 2026-07-22T13:08:57.366Z
+Generated: 2026-07-22T13:10:53.576Z
