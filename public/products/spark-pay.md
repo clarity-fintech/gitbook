@@ -22,4 +22,10 @@ Universal payment layer for CLRTY — URL checkout, wallet deep links, and decen
 - [CortexPay](../../frontend/products/commerce/cortexpay.html) — programmable commerce
 - [7 RPC Gate architecture](../architecture/realms.md) — gated ecosystem access
 
+## All sections
+
+Full cross-link hub: [Developer → Payments → All sections](https://clarity-7.gitbook.io/clarity-docs/developer/payments/all-sections)
+
+See [Segment map](https://clarity-7.gitbook.io/clarity-docs/developer/payments/segment-map) for GitBook ↔ website ↔ GitHub wiring.
+
 See [Segment map](../developer/payments/segment-map.md) for full GitBook ↔ website ↔ GitHub wiring.

@@ -1,5 +1,7 @@
 # Segment map — GitBook ↔ clarity-fintech.com ↔ GitHub
 
+> **Full cross-link index:** [All sections](all-sections.md) — every nav segment, GitBook space, live URL, and GitHub repo.
+
 Connects all Clarity documentation and product segments to **Spark Pay**.
 
 ## GitBook org site
