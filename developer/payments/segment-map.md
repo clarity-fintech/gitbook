@@ -75,6 +75,17 @@ make clarity-spark-sync
 | 2 | L1 + DePIN + 7 RPC gates | Settlement + gated API access |
 | 3 | Application (Pay) | **Spark Pay URL + off-ramp + dashboard hooks** |
 
+## Platform command index (all surfaces)
+
+| Doc | Scope |
+|-----|-------|
+| **[CLRTY command index](../operations/clrty-command-index.md)** | Prism, mainnet, testnet, Cherry VDS, monitors, edge bands, Spark Pay |
+| [Operations hub](../operations/README.md) | Deploy + GitBook publish entry point |
+| [CLI master reference](../cli/master-command-reference.md) | `clrtynet` node + wallet commands |
+| [Launch COMMAND_FLOWS](../../../launch/COMMAND_FLOWS.md) | Monorepo deploy SSOT |
+
+Regenerate: `make sync-command-flows` · Publish: `make gitbook-publish`
+
 ## Cross-reference index
 
 - [Spark Pay overview](spark-pay-overview.md)

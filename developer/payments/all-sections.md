@@ -45,6 +45,15 @@ Admin: [GitBook site_Utrrz](https://app.gitbook.com/o/Yuash1ualCkP03YzJ8ts/sites
 | wallet_integration | [github.com/clarity-fintech/wallet_integration](https://github.com/clarity-fintech/wallet_integration) |
 | developer_kit | [github.com/clarity-fintech/developer_kit](https://github.com/clarity-fintech/developer_kit) |
 
+## Platform operations (all commands)
+
+| Doc | Link |
+|-----|------|
+| **CLRTY command index** | [operations/clrty-command-index.md](../operations/clrty-command-index.md) |
+| Operations hub | [operations/README.md](../operations/README.md) |
+| CLI (`clrtynet`) | [cli/master-command-reference.md](../cli/master-command-reference.md) |
+| Launch SSOT | [COMMAND_FLOWS.md](../../../launch/COMMAND_FLOWS.md) |
+
 ## Developer docs in this section
 
 - [Overview](spark-pay-overview.md)
