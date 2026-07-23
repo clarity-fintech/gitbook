@@ -2,7 +2,8 @@
 
 > Auto-generated 2026-07-23 from `packages/clarity_spark/src/commands.js`, `Makefile`, and `link-flow-registry.js`.  
 > Regenerate: `node scripts/spark_pay/generate_gitbook_usage.mjs`  
-> Full system test: `make spark-pay-full-test` · E2E pay flow: `make spark-pay-e2e`
+> Full system test: `make spark-pay-full-test` · E2E pay flow: `make spark-pay-e2e`  
+> **Heavy breakdown (RPC + all 31 checks):** [Full system test guide](../operations/full-system-test-guide.md)
 
 ## Canonical URLs
 
