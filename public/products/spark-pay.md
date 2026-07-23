@@ -15,6 +15,7 @@ Universal payment layer for CLRTY — merchant dashboard, customer checkout, wal
 | Customer checkout | [pay.clarity-fintech.com](https://pay.clarity-fintech.com) |
 | Product page | [clarity-fintech.com/tools/spark-pay.html](https://www.clarity-fintech.com/tools/spark-pay.html) |
 | Developer docs | [GitBook — Spark Pay overview](../developer/payments/spark-pay-overview.md) |
+| Usage & commands | [GitBook — tested commands](../developer/payments/spark-usage-commands.md) |
 | Command matrix | [Tasks 1601–2600](../developer/payments/spark-command-matrix.md) |
 | SDK | [github.com/clarity-fintech/clarity_spark](https://github.com/clarity-fintech/clarity_spark) |
 

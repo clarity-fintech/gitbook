@@ -1,11 +1,11 @@
 ---
-url_count: 411
+url_count: 423
 cli_pages: 47
 ---
 
 # Backlinks CLI matrix — all URLs + terminal commands
 
-> **411 indexed URLs** · **47 paginated CLI pages** · **18 enriched summaries**
+> **423 indexed URLs** · **47 paginated CLI pages** · **18 enriched summaries**
 
 Every Clarity Fintech URL from the data manifest, paired with a terminal probe command. Priority crawl URLs are listed first; the full corpus is paginated by hostname.
 
@@ -295,7 +295,7 @@ curl -sS "https://rpc.clarity-fintech.com/health" 2>/dev/null || curl -sS -X POS
 ```
 
 
-## Full corpus (411 URLs)
+## Full corpus (423 URLs)
 
 Browse all **47** paginated pages grouped by **36** hosts: [Backlinks CLI index](backlinks-cli/SUMMARY.md)
 

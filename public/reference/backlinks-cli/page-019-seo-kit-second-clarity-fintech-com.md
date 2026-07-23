@@ -1,14 +1,14 @@
 ---
 host: "seo-kit-second.clarity-fintech.com"
-url_count: 3
+url_count: 9
 page: 19
 ---
 
-# Backlinks CLI — seo-kit-second.clarity-fintech.com (1–3 of 3)
+# Backlinks CLI — seo-kit-second.clarity-fintech.com (1–9 of 9)
 
-> **320 indexed URLs** · Host `seo-kit-second.clarity-fintech.com` · Page 1 of 1
+> **423 indexed URLs** · Host `seo-kit-second.clarity-fintech.com` · Page 1 of 1
 
-[← Previous](page-018-network-monitor-d1g-pages-dev.md) · [Next →](page-020-sitemap-clarity-fintech-com.md)
+[← Previous](page-018-status-clarity-fintech-com.md) · [Next →](page-020-clrty-status-pages-dev.md)
 
 ### https://seo-kit-second.clarity-fintech.com/health
 
@@ -38,11 +38,77 @@ curl -sS -I "https://seo-kit-second.clarity-fintech.com/sitemap-funnel.xml" | he
 curl -sS -I "https://seo-kit-second.clarity-fintech.com/sitemap-social.xml" | head -3
 ```
 
+---
+
+### https://seo-kit-second.clarity-fintech.com/social
+
+**URL:** [https://seo-kit-second.clarity-fintech.com/social](https://seo-kit-second.clarity-fintech.com/social)
+
+```bash
+curl -sS -I "https://seo-kit-second.clarity-fintech.com/social" | head -3
+```
+
+---
+
+### https://seo-kit-second.clarity-fintech.com/social/linkedin
+
+**URL:** [https://seo-kit-second.clarity-fintech.com/social/linkedin](https://seo-kit-second.clarity-fintech.com/social/linkedin)
+
+```bash
+curl -sS -I "https://seo-kit-second.clarity-fintech.com/social/linkedin" | head -3
+```
+
+---
+
+### https://seo-kit-second.clarity-fintech.com/social/notion
+
+**URL:** [https://seo-kit-second.clarity-fintech.com/social/notion](https://seo-kit-second.clarity-fintech.com/social/notion)
+
+```bash
+curl -sS -I "https://seo-kit-second.clarity-fintech.com/social/notion" | head -3
+```
+
+---
+
+### https://seo-kit-second.clarity-fintech.com/social/other
+
+**URL:** [https://seo-kit-second.clarity-fintech.com/social/other](https://seo-kit-second.clarity-fintech.com/social/other)
+
+```bash
+curl -sS -I "https://seo-kit-second.clarity-fintech.com/social/other" | head -3
+```
+
+---
+
+### https://seo-kit-second.clarity-fintech.com/social/telegram
+
+**URL:** [https://seo-kit-second.clarity-fintech.com/social/telegram](https://seo-kit-second.clarity-fintech.com/social/telegram)
+
+```bash
+curl -sS -I "https://seo-kit-second.clarity-fintech.com/social/telegram" | head -3
+```
+
+---
+
+### https://seo-kit-second.clarity-fintech.com/social/x
+
+**URL:** [https://seo-kit-second.clarity-fintech.com/social/x](https://seo-kit-second.clarity-fintech.com/social/x)
+
+```bash
+curl -sS -I "https://seo-kit-second.clarity-fintech.com/social/x" | head -3
+```
+
 
 {% expandable title="Bulk probe this host" %}
 ```bash
 curl -sS -I "https://seo-kit-second.clarity-fintech.com/health" | head -3
 curl -sS -I "https://seo-kit-second.clarity-fintech.com/sitemap-funnel.xml" | head -3
 curl -sS -I "https://seo-kit-second.clarity-fintech.com/sitemap-social.xml" | head -3
+curl -sS -I "https://seo-kit-second.clarity-fintech.com/social" | head -3
+curl -sS -I "https://seo-kit-second.clarity-fintech.com/social/linkedin" | head -3
+curl -sS -I "https://seo-kit-second.clarity-fintech.com/social/notion" | head -3
+curl -sS -I "https://seo-kit-second.clarity-fintech.com/social/other" | head -3
+curl -sS -I "https://seo-kit-second.clarity-fintech.com/social/telegram" | head -3
+curl -sS -I "https://seo-kit-second.clarity-fintech.com/social/x" | head -3
 ```
 {% endexpandable %}

@@ -1,5 +1,7 @@
 # Spark Pay command matrix (Tasks 1601–2600)
 
+> **Usage guide:** [Usage & commands (tested)](spark-usage-commands.md) — all SDK, Make, cURL, and test commands in one place.
+
 Each engine step (1–200) maps to five operational subtasks in `scripts/spark_pay/steps/`.
 
 ## Make targets

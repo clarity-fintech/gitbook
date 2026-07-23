@@ -6,7 +6,7 @@ page: 40
 
 # Backlinks CLI — openletter.svangel.com (1–1 of 1)
 
-> **411 indexed URLs** · Host `openletter.svangel.com` · Page 1 of 1
+> **423 indexed URLs** · Host `openletter.svangel.com` · Page 1 of 1
 
 [← Previous](page-039-luma-com.md) · [Next →](page-041-pay-clarity-fintech-com.md)
 

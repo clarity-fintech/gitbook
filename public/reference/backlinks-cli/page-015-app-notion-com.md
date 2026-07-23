@@ -6,7 +6,7 @@ page: 15
 
 # Backlinks CLI — app.notion.com (1–23 of 23)
 
-> **411 indexed URLs** · Host `app.notion.com` · Page 1 of 1
+> **423 indexed URLs** · Host `app.notion.com` · Page 1 of 1
 
 [← Previous](page-014-exchange-clarity-fintech-com.md) · [Next →](page-016-monitor-clarity-fintech-com.md)
 

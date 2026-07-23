@@ -57,4 +57,4 @@ Live URLs: [spark.clarity-fintech.com](https://spark.clarity-fintech.com) · [pa
 
 Deploy: `make spark-pay-1501-1600` · `make spark-pay-1601-2600`
 
-See [Merchant UI](spark-merchant-ui.md) · [Command matrix](spark-command-matrix.md)
+See [Merchant UI](spark-merchant-ui.md) · [Usage & commands](spark-usage-commands.md) · [Command matrix](spark-command-matrix.md)

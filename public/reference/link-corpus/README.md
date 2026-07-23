@@ -1,10 +1,10 @@
 ---
-url_count: 411
+url_count: 423
 ---
 
 # CLRTY Link Corpus — Full index
 
-> **411 indexed URLs** across Clarity Fintech, clrty.network, exchange, labs, social, and Notion hubs.
+> **423 indexed URLs** across Clarity Fintech, clrty.network, exchange, labs, social, and Notion hubs.
 
 This corpus powers SEO harvest, GitBook Ask scope, and the full documentation walkthrough. URLs are grouped by hostname and paginated for navigation.
 
@@ -14,13 +14,13 @@ This corpus powers SEO harvest, GitBook Ask scope, and the full documentation wa
 - **clarity-fintech.com** — 62 URLs
 - **exchange.clarity-fintech.com** — 27 URLs
 - **app.notion.com** — 23 URLs
-- **monitor.clarity-fintech.com** — 12 URLs
-- **network-monitor-d1g.pages.dev** — 9 URLs
+- **monitor.clarity-fintech.com** — 16 URLs
+- **network-monitor-d1g.pages.dev** — 13 URLs
+- **status.clarity-fintech.com** — 10 URLs
 - **seo-kit-second.clarity-fintech.com** — 9 URLs
+- **clrty-status.pages.dev** — 8 URLs
 - **sitemap.clarity-fintech.com** — 8 URLs
-- **status.clarity-fintech.com** — 8 URLs
 - **github.com** — 7 URLs
-- **clrty-status.pages.dev** — 6 URLs
 - **dune.com** — 3 URLs
 - **linkedin.com** — 3 URLs
 - **clrty-data.chandlerferguson319.workers.dev** — 2 URLs

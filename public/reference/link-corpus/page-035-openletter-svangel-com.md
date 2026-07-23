@@ -10,5 +10,5 @@ url_count: 1
 | [https://openletter.svangel.com/](https://openletter.svangel.com/) | `openletter.svangel.com` |
 
 {% expandable title="About this page" %}
-Part of the **411-URL** Clarity data corpus. Host `openletter.svangel.com` · batch 1.
+Part of the **423-URL** Clarity data corpus. Host `openletter.svangel.com` · batch 1.
 {% endexpandable %}

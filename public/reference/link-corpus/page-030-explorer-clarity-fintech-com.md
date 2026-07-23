@@ -10,5 +10,5 @@ url_count: 1
 | [https://explorer.clarity-fintech.com/](https://explorer.clarity-fintech.com/) | `explorer.clarity-fintech.com` |
 
 {% expandable title="About this page" %}
-Part of the **411-URL** Clarity data corpus. Host `explorer.clarity-fintech.com` · batch 1.
+Part of the **423-URL** Clarity data corpus. Host `explorer.clarity-fintech.com` · batch 1.
 {% endexpandable %}

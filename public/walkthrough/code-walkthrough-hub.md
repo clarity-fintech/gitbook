@@ -7,7 +7,7 @@ Every section below uses the **Developer Console** pattern: multi-tab menus for 
 {% hint style="success" %}
 **320+ indexed URLs**
 
-This guide is indexed in the **411+ URL link corpus**. Browse all Clarity surfaces: [Link corpus index](../reference/link-corpus/README.md). Query programmatically via [GitBook Ask API](../reference/gitbook-ask-api.md).
+This guide is indexed in the **423+ URL link corpus**. Browse all Clarity surfaces: [Link corpus index](../reference/link-corpus/README.md). Query programmatically via [GitBook Ask API](../reference/gitbook-ask-api.md).
 {% endhint %}
 
 ## Multi-menu walkthrough index
@@ -27,7 +27,7 @@ This guide is indexed in the **411+ URL link corpus**. Browse all Clarity surfac
 | [Wallet installation](wallet-installation-guide.md) | Web wallet, partner SDK, hardware wallets |
 | [Chrome extension](chrome-extension-guide.md) | Load unpacked, side panel, exchange tab dock |
 | [Whitepaper & access](whitepaper-and-access.md) | All volumes + tier gates + investor funnel |
-| [Full documentation guide](full-documentation-guide.md) | L0–L3 tier map + 411 URL corpus |
+| [Full documentation guide](full-documentation-guide.md) | L0–L3 tier map + 423 URL corpus |
 | [Notion → GitBook map](notion-to-gitbook-map.md) | Section-by-section source alignment |
 
 ## Notion documentation sections → GitBook

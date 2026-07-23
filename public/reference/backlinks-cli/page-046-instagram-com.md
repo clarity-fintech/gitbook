@@ -6,7 +6,7 @@ page: 46
 
 # Backlinks CLI — instagram.com (1–1 of 1)
 
-> **411 indexed URLs** · Host `instagram.com` · Page 1 of 1
+> **423 indexed URLs** · Host `instagram.com` · Page 1 of 1
 
 [← Previous](page-045-williamferguson-gumroad-com.md) · [Next →](page-047-youtube-com.md)
 

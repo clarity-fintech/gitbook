@@ -5,6 +5,7 @@ Spark Pay is the universal payment URL layer for CLRTY — expanded from Solana 
 ## In this section
 
 * [Overview](spark-pay-overview.md)
+* [Usage & commands (tested)](spark-usage-commands.md)
 * [claritypay:// URI reference](claritypay-uri.md)
 * [Off-ramp schema (no-KYC optimized)](off-ramp-no-kyc.md)
 * [API reference](api-reference.md)

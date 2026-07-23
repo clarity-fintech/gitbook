@@ -48,6 +48,7 @@ Admin: [GitBook site_Utrrz](https://app.gitbook.com/o/Yuash1ualCkP03YzJ8ts/sites
 ## Developer docs in this section
 
 - [Overview](spark-pay-overview.md)
+- [Usage & commands (tested)](spark-usage-commands.md)
 - [claritypay:// URI](claritypay-uri.md)
 - [Off-ramp schema](off-ramp-no-kyc.md)
 - [API reference](api-reference.md)

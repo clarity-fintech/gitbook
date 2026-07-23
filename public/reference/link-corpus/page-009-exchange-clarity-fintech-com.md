@@ -36,5 +36,5 @@ url_count: 27
 | [https://exchange.clarity-fintech.com/sell](https://exchange.clarity-fintech.com/sell) | `exchange.clarity-fintech.com` |
 
 {% expandable title="About this page" %}
-Part of the **411-URL** Clarity data corpus. Host `exchange.clarity-fintech.com` · batch 1.
+Part of the **423-URL** Clarity data corpus. Host `exchange.clarity-fintech.com` · batch 1.
 {% endexpandable %}

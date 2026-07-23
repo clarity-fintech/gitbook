@@ -6,7 +6,7 @@ page: 37
 
 # Backlinks CLI — invest.clrty.network (1–1 of 1)
 
-> **411 indexed URLs** · Host `invest.clrty.network` · Page 1 of 1
+> **423 indexed URLs** · Host `invest.clrty.network` · Page 1 of 1
 
 [← Previous](page-036-faucet-clarity-fintech-com.md) · [Next →](page-038-labs-clarity-fintech-com.md)
 
