@@ -6,7 +6,7 @@ page: 25
 
 # Backlinks CLI — clrty-data.chandlerferguson319.workers.dev (1–2 of 2)
 
-> **405 indexed URLs** · Host `clrty-data.chandlerferguson319.workers.dev` · Page 1 of 1
+> **411 indexed URLs** · Host `clrty-data.chandlerferguson319.workers.dev` · Page 1 of 1
 
 [← Previous](page-024-linkedin-com.md) · [Next →](page-026-seo-clarity-fintech-com.md)
 

@@ -6,7 +6,7 @@ page: 43
 
 # Backlinks CLI — rpc.clarity-fintech.com (1–1 of 1)
 
-> **405 indexed URLs** · Host `rpc.clarity-fintech.com` · Page 1 of 1
+> **411 indexed URLs** · Host `rpc.clarity-fintech.com` · Page 1 of 1
 
 [← Previous](page-042-promptbase-com.md) · [Next →](page-044-unmarred-failing-e60-notion-site.md)
 

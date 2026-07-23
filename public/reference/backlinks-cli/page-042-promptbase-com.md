@@ -6,7 +6,7 @@ page: 42
 
 # Backlinks CLI — promptbase.com (1–1 of 1)
 
-> **405 indexed URLs** · Host `promptbase.com` · Page 1 of 1
+> **411 indexed URLs** · Host `promptbase.com` · Page 1 of 1
 
 [← Previous](page-041-pay-clarity-fintech-com.md) · [Next →](page-043-rpc-clarity-fintech-com.md)
 

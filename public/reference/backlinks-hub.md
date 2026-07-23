@@ -9,7 +9,7 @@ backlinks: true
 {% hint style="success" %}
 **320+ indexed URLs**
 
-This guide is indexed in the **405+ URL link corpus**. Browse all Clarity surfaces: [Link corpus index](../reference/link-corpus/README.md). Query programmatically via [GitBook Ask API](../reference/gitbook-ask-api.md).
+This guide is indexed in the **411+ URL link corpus**. Browse all Clarity surfaces: [Link corpus index](../reference/link-corpus/README.md). Query programmatically via [GitBook Ask API](../reference/gitbook-ask-api.md).
 {% endhint %}
 
 All registered backlink surfaces with terminal probe commands. IndexNow hosts: `www.clarity-fintech.com`, `exchange.clarity-fintech.com`, `clrty.network`.

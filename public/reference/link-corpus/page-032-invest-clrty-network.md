@@ -10,5 +10,5 @@ url_count: 1
 | [https://invest.clrty.network/](https://invest.clrty.network/) | `invest.clrty.network` |
 
 {% expandable title="About this page" %}
-Part of the **405-URL** Clarity data corpus. Host `invest.clrty.network` · batch 1.
+Part of the **411-URL** Clarity data corpus. Host `invest.clrty.network` · batch 1.
 {% endexpandable %}

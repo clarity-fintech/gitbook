@@ -6,7 +6,7 @@ page: 8
 
 # Backlinks CLI — clrty.network (176–200 of 206)
 
-> **405 indexed URLs** · Host `clrty.network` · Page 8 of 9
+> **411 indexed URLs** · Host `clrty.network` · Page 8 of 9
 
 [← Previous](page-007-clrty-network.md) · [Next →](page-009-clrty-network.md)
 

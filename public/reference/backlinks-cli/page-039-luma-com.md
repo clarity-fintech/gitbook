@@ -6,7 +6,7 @@ page: 39
 
 # Backlinks CLI — luma.com (1–1 of 1)
 
-> **405 indexed URLs** · Host `luma.com` · Page 1 of 1
+> **411 indexed URLs** · Host `luma.com` · Page 1 of 1
 
 [← Previous](page-038-labs-clarity-fintech-com.md) · [Next →](page-040-openletter-svangel-com.md)
 

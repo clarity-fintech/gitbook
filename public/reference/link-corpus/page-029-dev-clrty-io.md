@@ -10,5 +10,5 @@ url_count: 1
 | [https://dev.clrty.io/labs](https://dev.clrty.io/labs) | `dev.clrty.io` |
 
 {% expandable title="About this page" %}
-Part of the **405-URL** Clarity data corpus. Host `dev.clrty.io` · batch 1.
+Part of the **411-URL** Clarity data corpus. Host `dev.clrty.io` · batch 1.
 {% endexpandable %}

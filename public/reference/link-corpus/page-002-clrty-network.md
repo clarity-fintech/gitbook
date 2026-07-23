@@ -49,5 +49,5 @@ url_count: 40
 | [https://clrty.network/network/research/artemis/view.html?p=06-not-a-layer-1](https://clrty.network/network/research/artemis/view.html?p=06-not-a-layer-1) | `clrty.network` |
 
 {% expandable title="About this page" %}
-Part of the **405-URL** Clarity data corpus. Host `clrty.network` · batch 2.
+Part of the **411-URL** Clarity data corpus. Host `clrty.network` · batch 2.
 {% endexpandable %}

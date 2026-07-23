@@ -6,7 +6,7 @@ page: 26
 
 # Backlinks CLI — seo.clarity-fintech.com (1–2 of 2)
 
-> **405 indexed URLs** · Host `seo.clarity-fintech.com` · Page 1 of 1
+> **411 indexed URLs** · Host `seo.clarity-fintech.com` · Page 1 of 1
 
 [← Previous](page-025-clrty-data-chandlerferguson319-workers-dev.md) · [Next →](page-027-t-me.md)
 

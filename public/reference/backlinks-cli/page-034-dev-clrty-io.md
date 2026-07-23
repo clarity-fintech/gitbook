@@ -6,7 +6,7 @@ page: 34
 
 # Backlinks CLI — dev.clrty.io (1–1 of 1)
 
-> **405 indexed URLs** · Host `dev.clrty.io` · Page 1 of 1
+> **411 indexed URLs** · Host `dev.clrty.io` · Page 1 of 1
 
 [← Previous](page-033-clrty-fintauo-chandlerferguson319-workers-dev.md) · [Next →](page-035-explorer-clarity-fintech-com.md)
 

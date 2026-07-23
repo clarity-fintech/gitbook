@@ -6,7 +6,7 @@ page: 45
 
 # Backlinks CLI — williamferguson.gumroad.com (1–1 of 1)
 
-> **405 indexed URLs** · Host `williamferguson.gumroad.com` · Page 1 of 1
+> **411 indexed URLs** · Host `williamferguson.gumroad.com` · Page 1 of 1
 
 [← Previous](page-044-unmarred-failing-e60-notion-site.md) · [Next →](page-046-instagram-com.md)
 

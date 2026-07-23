@@ -49,5 +49,5 @@ url_count: 40
 | [https://www.clarity-fintech.com/early-investment-access#pricing-model](https://www.clarity-fintech.com/early-investment-access#pricing-model) | `clarity-fintech.com` |
 
 {% expandable title="About this page" %}
-Part of the **405-URL** Clarity data corpus. Host `clarity-fintech.com` · batch 1.
+Part of the **411-URL** Clarity data corpus. Host `clarity-fintech.com` · batch 1.
 {% endexpandable %}

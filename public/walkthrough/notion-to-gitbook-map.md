@@ -51,12 +51,12 @@ All PDFs/HTML from the CLRTY Downloads pack are extracted to full chapter pages:
 | Institutional | [Vol II/III](../../institutional/whitepaper/) · [Compliance](../../institutional/compliance/) |
 | Investor | [PPM / Term sheet / Warrant](../../investor-private/offering/) |
 
-## Link corpus (405+ URLs)
+## Link corpus (411+ URLs)
 
 {% hint style="success" %}
 **320+ indexed URLs**
 
-This guide is indexed in the **405+ URL link corpus**. Browse all Clarity surfaces: [Link corpus index](../reference/link-corpus/README.md). Query programmatically via [GitBook Ask API](../reference/gitbook-ask-api.md).
+This guide is indexed in the **411+ URL link corpus**. Browse all Clarity surfaces: [Link corpus index](../reference/link-corpus/README.md). Query programmatically via [GitBook Ask API](../reference/gitbook-ask-api.md).
 {% endhint %}
 
 ## GitBook Ask

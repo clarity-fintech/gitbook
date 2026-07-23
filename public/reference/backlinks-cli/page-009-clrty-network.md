@@ -6,7 +6,7 @@ page: 9
 
 # Backlinks CLI — clrty.network (201–206 of 206)
 
-> **405 indexed URLs** · Host `clrty.network` · Page 9 of 9
+> **411 indexed URLs** · Host `clrty.network` · Page 9 of 9
 
 [← Previous](page-008-clrty-network.md) · [Next →](page-010-clarity-fintech-com.md)
 
