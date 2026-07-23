@@ -143,7 +143,7 @@ curl -X POST "https://api.gitbook.com/v1/orgs/6MCNfiz1cpjlR5LX4kWw/sites/site_xT
 {% endtab %}
 {% endtabs %}
 
-## Harvested from docs (233 lines) + Rust CLI (173 lines)
+## Harvested from docs (234 lines) + Rust CLI (173 lines)
 
 {% expandable title="Full harvested command list" %}
 ```bash
@@ -250,7 +250,7 @@ clrty id calibrate --plain
 clrty id capability --plain
 clrty id create --plain
 clrty id profile --plain
-# … 306 more (docs/clarity + clarity-cli/src/main.rs + handlers)
+# … 307 more (docs/clarity + clarity-cli/src/main.rs + handlers)
 ```
 {% endexpandable %}
 
