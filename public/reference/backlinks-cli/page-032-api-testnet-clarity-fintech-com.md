@@ -6,7 +6,7 @@ page: 32
 
 # Backlinks CLI — api.testnet.clarity-fintech.com (1–1 of 1)
 
-> **398 indexed URLs** · Host `api.testnet.clarity-fintech.com` · Page 1 of 1
+> **405 indexed URLs** · Host `api.testnet.clarity-fintech.com` · Page 1 of 1
 
 [← Previous](page-031-api-devnet-clarity-fintech-com.md) · [Next →](page-033-clrty-fintauo-chandlerferguson319-workers-dev.md)
 

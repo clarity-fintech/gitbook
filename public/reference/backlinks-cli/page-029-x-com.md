@@ -6,7 +6,7 @@ page: 29
 
 # Backlinks CLI — x.com (1–2 of 2)
 
-> **398 indexed URLs** · Host `x.com` · Page 1 of 1
+> **405 indexed URLs** · Host `x.com` · Page 1 of 1
 
 [← Previous](page-028-artemis-ai.md) · [Next →](page-030-api-clarity-fintech-com.md)
 

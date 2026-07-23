@@ -1,12 +1,12 @@
 ---
 host: "clrty.network"
-url_count: 5
+url_count: 6
 page: 9
 ---
 
-# Backlinks CLI — clrty.network (201–205 of 205)
+# Backlinks CLI — clrty.network (201–206 of 206)
 
-> **398 indexed URLs** · Host `clrty.network` · Page 9 of 9
+> **405 indexed URLs** · Host `clrty.network` · Page 9 of 9
 
 [← Previous](page-008-clrty-network.md) · [Next →](page-010-clarity-fintech-com.md)
 
@@ -40,6 +40,16 @@ curl -sS -I "https://clrty.network/tools/rpc-providers.html" | head -3
 
 ---
 
+### https://clrty.network/tools/spark-pay.html
+
+**URL:** [https://clrty.network/tools/spark-pay.html](https://clrty.network/tools/spark-pay.html)
+
+```bash
+curl -sS -I "https://clrty.network/tools/spark-pay.html" | head -3
+```
+
+---
+
 ### https://clrty.network/tools/token-extensions.html
 
 **URL:** [https://clrty.network/tools/token-extensions.html](https://clrty.network/tools/token-extensions.html)
@@ -64,6 +74,7 @@ curl -sS -I "https://clrty.network/web3-ui/index.html" | head -3
 curl -sS -I "https://clrty.network/tools/digital-assets.html" | head -3
 curl -sS -I "https://clrty.network/tools/payments-tooling.html" | head -3
 curl -sS -I "https://clrty.network/tools/rpc-providers.html" | head -3
+curl -sS -I "https://clrty.network/tools/spark-pay.html" | head -3
 curl -sS -I "https://clrty.network/tools/token-extensions.html" | head -3
 curl -sS -I "https://clrty.network/web3-ui/index.html" | head -3
 ```

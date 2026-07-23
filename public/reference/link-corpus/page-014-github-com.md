@@ -16,5 +16,5 @@ url_count: 7
 | [https://github.com/theangelofwill/-CLRTY/blob/main/docs/chain/wallet-chainlist.m](https://github.com/theangelofwill/-CLRTY/blob/main/docs/chain/wallet-chainlist.md) | `github.com` |
 
 {% expandable title="About this page" %}
-Part of the **398-URL** Clarity data corpus. Host `github.com` · batch 1.
+Part of the **405-URL** Clarity data corpus. Host `github.com` · batch 1.
 {% endexpandable %}

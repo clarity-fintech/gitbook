@@ -4,9 +4,9 @@ url_count: 25
 page: 1
 ---
 
-# Backlinks CLI — clrty.network (1–25 of 205)
+# Backlinks CLI — clrty.network (1–25 of 206)
 
-> **398 indexed URLs** · Host `clrty.network` · Page 1 of 9
+> **405 indexed URLs** · Host `clrty.network` · Page 1 of 9
 
 [Next →](page-002-clrty-network.md)
 

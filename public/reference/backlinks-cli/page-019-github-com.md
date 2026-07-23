@@ -6,9 +6,9 @@ page: 19
 
 # Backlinks CLI — github.com (1–7 of 7)
 
-> **398 indexed URLs** · Host `github.com` · Page 1 of 1
+> **405 indexed URLs** · Host `github.com` · Page 1 of 1
 
-[← Previous](page-018-sitemap-clarity-fintech-com.md) · [Next →](page-020-status-clarity-fintech-com.md)
+[← Previous](page-018-sitemap-clarity-fintech-com.md) · [Next →](page-020-network-monitor-d1g-pages-dev.md)
 
 ### https://github.com/clarity-fintech
 

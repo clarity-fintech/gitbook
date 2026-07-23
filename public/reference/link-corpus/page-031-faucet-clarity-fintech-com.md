@@ -10,5 +10,5 @@ url_count: 1
 | [https://faucet.clarity-fintech.com/](https://faucet.clarity-fintech.com/) | `faucet.clarity-fintech.com` |
 
 {% expandable title="About this page" %}
-Part of the **398-URL** Clarity data corpus. Host `faucet.clarity-fintech.com` · batch 1.
+Part of the **405-URL** Clarity data corpus. Host `faucet.clarity-fintech.com` · batch 1.
 {% endexpandable %}

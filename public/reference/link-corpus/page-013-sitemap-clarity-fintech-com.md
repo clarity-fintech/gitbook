@@ -17,5 +17,5 @@ url_count: 8
 | [https://sitemap.clarity-fintech.com/sitemap.xml](https://sitemap.clarity-fintech.com/sitemap.xml) | `sitemap.clarity-fintech.com` |
 
 {% expandable title="About this page" %}
-Part of the **398-URL** Clarity data corpus. Host `sitemap.clarity-fintech.com` · batch 1.
+Part of the **405-URL** Clarity data corpus. Host `sitemap.clarity-fintech.com` · batch 1.
 {% endexpandable %}

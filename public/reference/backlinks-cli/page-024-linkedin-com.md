@@ -6,7 +6,7 @@ page: 24
 
 # Backlinks CLI — linkedin.com (1–3 of 3)
 
-> **398 indexed URLs** · Host `linkedin.com` · Page 1 of 1
+> **405 indexed URLs** · Host `linkedin.com` · Page 1 of 1
 
 [← Previous](page-023-dune-com.md) · [Next →](page-025-clrty-data-chandlerferguson319-workers-dev.md)
 

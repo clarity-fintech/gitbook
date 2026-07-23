@@ -12,5 +12,5 @@ url_count: 3
 | [https://www.linkedin.com/in/c-william-ferguson/](https://www.linkedin.com/in/c-william-ferguson/) | `linkedin.com` |
 
 {% expandable title="About this page" %}
-Part of the **398-URL** Clarity data corpus. Host `linkedin.com` · batch 1.
+Part of the **405-URL** Clarity data corpus. Host `linkedin.com` · batch 1.
 {% endexpandable %}

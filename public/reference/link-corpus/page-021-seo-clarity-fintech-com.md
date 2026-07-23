@@ -11,5 +11,5 @@ url_count: 2
 | [https://seo.clarity-fintech.com/health](https://seo.clarity-fintech.com/health) | `seo.clarity-fintech.com` |
 
 {% expandable title="About this page" %}
-Part of the **398-URL** Clarity data corpus. Host `seo.clarity-fintech.com` · batch 1.
+Part of the **405-URL** Clarity data corpus. Host `seo.clarity-fintech.com` · batch 1.
 {% endexpandable %}

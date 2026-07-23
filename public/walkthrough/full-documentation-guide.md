@@ -1,6 +1,6 @@
 # Full documentation guide & walkthrough
 
-This walkthrough covers **every tier**, **all whitepaper volumes**, the **398 URL link corpus**, and **access controls**.
+This walkthrough covers **every tier**, **all whitepaper volumes**, the **405 URL link corpus**, and **access controls**.
 
 ## Step 1 — Choose your tier
 

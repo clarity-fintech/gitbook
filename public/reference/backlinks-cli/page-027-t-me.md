@@ -6,7 +6,7 @@ page: 27
 
 # Backlinks CLI — t.me (1–2 of 2)
 
-> **398 indexed URLs** · Host `t.me` · Page 1 of 1
+> **405 indexed URLs** · Host `t.me` · Page 1 of 1
 
 [← Previous](page-026-seo-clarity-fintech-com.md) · [Next →](page-028-artemis-ai.md)
 

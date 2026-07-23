@@ -31,5 +31,5 @@ url_count: 22
 | [https://www.clarity-fintech.com/tasks/](https://www.clarity-fintech.com/tasks/) | `clarity-fintech.com` |
 
 {% expandable title="About this page" %}
-Part of the **398-URL** Clarity data corpus. Host `clarity-fintech.com` · batch 2.
+Part of the **405-URL** Clarity data corpus. Host `clarity-fintech.com` · batch 2.
 {% endexpandable %}

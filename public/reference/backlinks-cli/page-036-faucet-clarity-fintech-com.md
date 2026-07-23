@@ -6,7 +6,7 @@ page: 36
 
 # Backlinks CLI — faucet.clarity-fintech.com (1–1 of 1)
 
-> **398 indexed URLs** · Host `faucet.clarity-fintech.com` · Page 1 of 1
+> **405 indexed URLs** · Host `faucet.clarity-fintech.com` · Page 1 of 1
 
 [← Previous](page-035-explorer-clarity-fintech-com.md) · [Next →](page-037-invest-clrty-network.md)
 

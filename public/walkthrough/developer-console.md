@@ -5,7 +5,7 @@
 {% hint style="success" %}
 **320+ indexed URLs**
 
-This guide is indexed in the **398+ URL link corpus**. Browse all Clarity surfaces: [Link corpus index](../reference/link-corpus/README.md). Query programmatically via [GitBook Ask API](../reference/gitbook-ask-api.md).
+This guide is indexed in the **405+ URL link corpus**. Browse all Clarity surfaces: [Link corpus index](../reference/link-corpus/README.md). Query programmatically via [GitBook Ask API](../reference/gitbook-ask-api.md).
 {% endhint %}
 
 ## Sidebar menu (Account)

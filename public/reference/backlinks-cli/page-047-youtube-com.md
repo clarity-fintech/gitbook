@@ -6,7 +6,7 @@ page: 47
 
 # Backlinks CLI — youtube.com (1–1 of 1)
 
-> **398 indexed URLs** · Host `youtube.com` · Page 1 of 1
+> **405 indexed URLs** · Host `youtube.com` · Page 1 of 1
 
 [← Previous](page-046-instagram-com.md)
 

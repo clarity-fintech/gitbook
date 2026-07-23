@@ -1,14 +1,14 @@
 ---
 host: "clrty-status.pages.dev"
-url_count: 4
+url_count: 5
 page: 22
 ---
 
-# Backlinks CLI — clrty-status.pages.dev (1–4 of 4)
+# Backlinks CLI — clrty-status.pages.dev (1–5 of 5)
 
-> **398 indexed URLs** · Host `clrty-status.pages.dev` · Page 1 of 1
+> **405 indexed URLs** · Host `clrty-status.pages.dev` · Page 1 of 1
 
-[← Previous](page-021-network-monitor-d1g-pages-dev.md) · [Next →](page-023-dune-com.md)
+[← Previous](page-021-status-clarity-fintech-com.md) · [Next →](page-023-dune-com.md)
 
 ### https://clrty-status.pages.dev/
 
@@ -26,6 +26,16 @@ curl -sS -I "https://clrty-status.pages.dev/" | head -5
 
 ```bash
 curl -sS -I "https://clrty-status.pages.dev/?view=browser" | head -5
+```
+
+---
+
+### https://clrty-status.pages.dev/?view=explorer&amp;amp;portal=rpc&amp;amp;q=CLRTY
+
+**URL:** [https://clrty-status.pages.dev/?view=explorer&amp;amp;portal=rpc&amp;amp;q=CLRTY](https://clrty-status.pages.dev/?view=explorer&amp;amp;portal=rpc&amp;amp;q=CLRTY)
+
+```bash
+curl -sS -I "https://clrty-status.pages.dev/?view=explorer&amp;amp;portal=rpc&amp;amp;q=CLRTY" | head -5
 ```
 
 ---
@@ -53,6 +63,7 @@ curl -sS -I "https://clrty-status.pages.dev/?view=explorer&portal=rpc&q=CLRTY" |
 ```bash
 curl -sS -I "https://clrty-status.pages.dev/" | head -5
 curl -sS -I "https://clrty-status.pages.dev/?view=browser" | head -5
+curl -sS -I "https://clrty-status.pages.dev/?view=explorer&amp;amp;portal=rpc&amp;amp;q=CLRTY" | head -5
 curl -sS -I "https://clrty-status.pages.dev/?view=explorer&amp;portal=rpc&amp;q=CLRTY" | head -5
 curl -sS -I "https://clrty-status.pages.dev/?view=explorer&portal=rpc&q=CLRTY" | head -5
 ```

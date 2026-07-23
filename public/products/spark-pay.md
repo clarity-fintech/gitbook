@@ -5,27 +5,22 @@ tier: public
 
 # Spark Pay
 
-Universal payment layer for CLRTY — URL checkout, wallet deep links, and decentralized off-ramp routing.
+Universal payment layer for CLRTY — merchant dashboard, customer checkout, wallet deep links, card/crypto/bank rails.
 
 ## Links
 
 | Resource | URL |
 |----------|-----|
+| Merchant app | [spark.clarity-fintech.com](https://spark.clarity-fintech.com) |
+| Customer checkout | [pay.clarity-fintech.com](https://pay.clarity-fintech.com) |
 | Product page | [clarity-fintech.com/tools/spark-pay.html](https://www.clarity-fintech.com/tools/spark-pay.html) |
 | Developer docs | [GitBook — Spark Pay overview](../developer/payments/spark-pay-overview.md) |
+| Command matrix | [Tasks 1601–2600](../developer/payments/spark-command-matrix.md) |
 | SDK | [github.com/clarity-fintech/clarity_spark](https://github.com/clarity-fintech/clarity_spark) |
-| Exchange | [exchange.clarity-fintech.com/spark-pay](https://exchange.clarity-fintech.com/spark-pay) |
 
 ## Related products
 
 - [CLARITY PAY settlement](../../frontend/tools/clarity-pay.html) — L1 validate / route / settle
 - [CortexPay](../../frontend/products/commerce/cortexpay.html) — programmable commerce
-- [7 RPC Gate architecture](../architecture/realms.md) — gated ecosystem access
-
-## All sections
-
-Full cross-link hub: [Developer → Payments → All sections](https://clarity-7.gitbook.io/clarity-docs/developer/payments/all-sections)
-
-See [Segment map](https://clarity-7.gitbook.io/clarity-docs/developer/payments/segment-map) for GitBook ↔ website ↔ GitHub wiring.
 
 See [Segment map](../developer/payments/segment-map.md) for full GitBook ↔ website ↔ GitHub wiring.

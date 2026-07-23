@@ -10,5 +10,5 @@ url_count: 1
 | [https://promptbase.com/profile/cwilliamferguson](https://promptbase.com/profile/cwilliamferguson) | `promptbase.com` |
 
 {% expandable title="About this page" %}
-Part of the **398-URL** Clarity data corpus. Host `promptbase.com` · batch 1.
+Part of the **405-URL** Clarity data corpus. Host `promptbase.com` · batch 1.
 {% endexpandable %}

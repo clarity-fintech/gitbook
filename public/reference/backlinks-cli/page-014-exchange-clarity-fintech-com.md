@@ -6,7 +6,7 @@ page: 14
 
 # Backlinks CLI — exchange.clarity-fintech.com (26–27 of 27)
 
-> **398 indexed URLs** · Host `exchange.clarity-fintech.com` · Page 2 of 2
+> **405 indexed URLs** · Host `exchange.clarity-fintech.com` · Page 2 of 2
 
 [← Previous](page-013-exchange-clarity-fintech-com.md) · [Next →](page-015-app-notion-com.md)
 

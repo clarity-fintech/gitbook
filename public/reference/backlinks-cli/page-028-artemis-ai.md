@@ -6,7 +6,7 @@ page: 28
 
 # Backlinks CLI — artemis.ai (1–2 of 2)
 
-> **398 indexed URLs** · Host `artemis.ai` · Page 1 of 1
+> **405 indexed URLs** · Host `artemis.ai` · Page 1 of 1
 
 [← Previous](page-027-t-me.md) · [Next →](page-029-x-com.md)
 

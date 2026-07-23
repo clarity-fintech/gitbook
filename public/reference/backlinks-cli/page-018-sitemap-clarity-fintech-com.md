@@ -6,9 +6,9 @@ page: 18
 
 # Backlinks CLI — sitemap.clarity-fintech.com (1–8 of 8)
 
-> **398 indexed URLs** · Host `sitemap.clarity-fintech.com` · Page 1 of 1
+> **405 indexed URLs** · Host `sitemap.clarity-fintech.com` · Page 1 of 1
 
-[← Previous](page-017-monitor-clarity-fintech-com.md) · [Next →](page-019-github-com.md)
+[← Previous](page-017-seo-kit-second-clarity-fintech-com.md) · [Next →](page-019-github-com.md)
 
 ### https://sitemap.clarity-fintech.com/
 

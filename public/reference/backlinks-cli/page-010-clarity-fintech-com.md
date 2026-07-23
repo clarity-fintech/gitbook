@@ -6,7 +6,7 @@ page: 10
 
 # Backlinks CLI — clarity-fintech.com (1–25 of 62)
 
-> **398 indexed URLs** · Host `clarity-fintech.com` · Page 1 of 3
+> **405 indexed URLs** · Host `clarity-fintech.com` · Page 1 of 3
 
 [← Previous](page-009-clrty-network.md) · [Next →](page-011-clarity-fintech-com.md)
 

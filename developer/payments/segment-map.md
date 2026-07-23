@@ -43,6 +43,8 @@ make gitbook-publish
 |---------|-----|
 | Portal | [www.clarity-fintech.com](https://www.clarity-fintech.com/) |
 | Spark Pay tool | [/tools/spark-pay.html](https://www.clarity-fintech.com/tools/spark-pay.html) |
+| **Spark merchant app** | [spark.clarity-fintech.com](https://spark.clarity-fintech.com/) |
+| **Spark checkout** | [pay.clarity-fintech.com](https://pay.clarity-fintech.com/) |
 | Clarity Pay | [/tools/clarity-pay.html](https://www.clarity-fintech.com/tools/clarity-pay.html) |
 | Exchange | [exchange.clarity-fintech.com](https://exchange.clarity-fintech.com/) |
 | Sell / off-ramp | [exchange.clarity-fintech.com/sell](https://exchange.clarity-fintech.com/sell) |

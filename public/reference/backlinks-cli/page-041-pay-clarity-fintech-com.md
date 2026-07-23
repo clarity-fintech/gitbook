@@ -6,7 +6,7 @@ page: 41
 
 # Backlinks CLI — pay.clarity-fintech.com (1–1 of 1)
 
-> **398 indexed URLs** · Host `pay.clarity-fintech.com` · Page 1 of 1
+> **405 indexed URLs** · Host `pay.clarity-fintech.com` · Page 1 of 1
 
 [← Previous](page-040-openletter-svangel-com.md) · [Next →](page-042-promptbase-com.md)
 
