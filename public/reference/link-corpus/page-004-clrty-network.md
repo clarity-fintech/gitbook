@@ -49,5 +49,5 @@ url_count: 40
 | [https://clrty.network/products/stablecoin/index.html](https://clrty.network/products/stablecoin/index.html) | `clrty.network` |
 
 {% expandable title="About this page" %}
-Part of the **320-URL** Clarity data corpus. Host `clrty.network` · batch 4.
+Part of the **398-URL** Clarity data corpus. Host `clrty.network` · batch 4.
 {% endexpandable %}

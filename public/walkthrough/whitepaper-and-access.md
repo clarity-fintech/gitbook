@@ -44,6 +44,17 @@ Native GitBook blocks + `clrty-whitepaper-blocks` integration: gate-matrix, real
 Investor-private content must remain **Private** in GitBook space settings. Never mirror PPM numbers to public spaces.
 {% endhint %}
 
+## Code walkthroughs
+
+| Guide | Link |
+| --- | --- |
+| Developer console | [developer-console.md](developer-console.md) |
+| RPC setup | [rpc-setup-guide.md](rpc-setup-guide.md) |
+| Staking | [staking-network-guide.md](staking-network-guide.md) |
+| Wallet install | [wallet-installation-guide.md](wallet-installation-guide.md) |
+| Chrome extension | [chrome-extension-guide.md](chrome-extension-guide.md) |
+| Full hub | [code-walkthrough-hub.md](code-walkthrough-hub.md) |
+
 
 <!-- clrty-blocks:v1 -->
 

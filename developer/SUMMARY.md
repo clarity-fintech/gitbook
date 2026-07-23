@@ -14,6 +14,11 @@
   * [clrty_* namespace](methods/clrty-namespace.md)
 * [SDKs & nodes](sdks/nodes-and-sdks.md)
 * [Investor edition bridge](whitepaper/investor-edition-bridge.md)
+* CLI
+  * [Master command reference](cli/master-command-reference.md)
+* Nano Spec 100
+  * [Index](nano-spec/README.md)
+  * [CLI verification](nano-spec/cli-verification.md)
 * Full whitepaper chapters
   * [Investor Edition (3 ch)](investor-edition/README.md)
   * [Whitepaper EXT (3 ch)](investor-ext/README.md)

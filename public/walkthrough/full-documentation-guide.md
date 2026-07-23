@@ -1,6 +1,6 @@
 # Full documentation guide & walkthrough
 
-This walkthrough covers **every tier**, **all whitepaper volumes**, the **320 URL link corpus**, and **access controls**.
+This walkthrough covers **every tier**, **all whitepaper volumes**, the **398 URL link corpus**, and **access controls**.
 
 ## Step 1 — Choose your tier
 
@@ -67,6 +67,16 @@ Use [GitBook Ask API](../reference/gitbook-ask-api.md) or the Ask widget on the 
 ## Step 5 — Link corpus
 
 Browse all indexed URLs: [Link corpus index](../reference/link-corpus/README.md).
+
+## Step 6 — Code walkthroughs (multi-tab console)
+
+Every major Notion section has a GitBook walkthrough with **API · MCP · CLI · Client library** tabs and copy-paste terminal blocks:
+
+- [Code walkthrough hub](../walkthrough/code-walkthrough-hub.md)
+- [Developer console](../walkthrough/developer-console.md)
+- [RPC setup](../walkthrough/rpc-setup-guide.md)
+- [Wallet + Chrome extension](../walkthrough/wallet-installation-guide.md)
+- [Notion → GitBook map](../walkthrough/notion-to-gitbook-map.md)
 
 
 <!-- clrty-blocks:v1 -->

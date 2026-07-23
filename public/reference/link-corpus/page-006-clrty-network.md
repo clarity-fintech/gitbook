@@ -14,5 +14,5 @@ url_count: 5
 | [https://clrty.network/web3-ui/index.html](https://clrty.network/web3-ui/index.html) | `clrty.network` |
 
 {% expandable title="About this page" %}
-Part of the **320-URL** Clarity data corpus. Host `clrty.network` · batch 6.
+Part of the **398-URL** Clarity data corpus. Host `clrty.network` · batch 6.
 {% endexpandable %}

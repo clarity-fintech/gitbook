@@ -1,4 +1,15 @@
 # Walkthrough
 
+* [Code walkthrough hub](code-walkthrough-hub.md)
+* [Developer console (API/MCP/CLI/SDK)](developer-console.md)
+* [Getting started](getting-started-walkthrough.md)
+* [RPC setup guide](rpc-setup-guide.md)
+* [Staking & network](staking-network-guide.md)
+* [Validators & nodes](validators-and-nodes.md)
+* [HELIX & MIRRA integration](helix-mirra-integration.md)
+* [CLI reference](cli-reference-walkthrough.md)
+* [Wallet installation](wallet-installation-guide.md)
+* [Chrome extension](chrome-extension-guide.md)
+* [Notion → GitBook map](notion-to-gitbook-map.md)
 * [Full documentation guide](full-documentation-guide.md)
 * [Whitepaper & access](whitepaper-and-access.md)

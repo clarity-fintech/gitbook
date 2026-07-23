@@ -1,6 +1,6 @@
 ---
 host: "github.com"
-url_count: 7
+url_count: 9
 ---
 
 # Link corpus — github.com (1–7)
@@ -8,6 +8,8 @@ url_count: 7
 | URL | Host |
 | --- | --- |
 | [https://github.com/clarity-fintech](https://github.com/clarity-fintech) | `github.com` |
+| [https://github.com/clarity-fintech/clarity_spark](https://github.com/clarity-fintech/clarity_spark) | `github.com` |
+| [https://github.com/clarity-fintech/gitbook](https://github.com/clarity-fintech/gitbook) | `github.com` |
 | [https://github.com/clarity-fintech/data](https://github.com/clarity-fintech/data) | `github.com` |
 | [https://github.com/clarity-fintech/fintauo](https://github.com/clarity-fintech/fintauo) | `github.com` |
 | [https://github.com/theangelofwill](https://github.com/theangelofwill) | `github.com` |

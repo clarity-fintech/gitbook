@@ -49,5 +49,5 @@ url_count: 40
 | [https://clrty.network/ecosystem/vis.html](https://clrty.network/ecosystem/vis.html) | `clrty.network` |
 
 {% expandable title="About this page" %}
-Part of the **320-URL** Clarity data corpus. Host `clrty.network` · batch 1.
+Part of the **398-URL** Clarity data corpus. Host `clrty.network` · batch 1.
 {% endexpandable %}

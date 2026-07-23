@@ -49,5 +49,5 @@ url_count: 40
 | [https://clrty.network/tools/commerce-kit.html](https://clrty.network/tools/commerce-kit.html) | `clrty.network` |
 
 {% expandable title="About this page" %}
-Part of the **320-URL** Clarity data corpus. Host `clrty.network` · batch 5.
+Part of the **398-URL** Clarity data corpus. Host `clrty.network` · batch 5.
 {% endexpandable %}
