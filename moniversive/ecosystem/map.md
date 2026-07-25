@@ -15,7 +15,11 @@ RPC gateway  →  clrty-1 / 1202
 | Rules | `.cursor/rules/moniversive-clrty.mdc`, `mis-code-index.mdc` |
 | Code index | `CLRTY_SUBSTRATE/boot/mis_code_index.json` · `clrty_getMisCodeIndex` |
 | Language root | `CLRTY_SUBSTRATE/boot/moniversive_language_root.json` |
-| GitBook | `docs/gitbook/moniversive/` |
+| Ecosystem repos (40) | `CLRTY_SUBSTRATE/boot/mis_ecosystem_repos_manifest.json` |
+| Static ML kernel | [moniversive_invariant_static_ML](https://github.com/clarity-fintech/moniversive_invariant_static_ML) |
+| Full backlinks | [guides/static-ml-backlinks.md](../guides/static-ml-backlinks.md) |
+| Learning path | [learn/static-ml-learning-path.md](../learn/static-ml-learning-path.md) |
+| GitBook | `docs/gitbook/moniversive/` → [clarity-fintech/gitbook](https://github.com/clarity-fintech/gitbook) |
 | Beginners | [BeginnersGuide](../BeginnersGuide/README.md) |
 
 

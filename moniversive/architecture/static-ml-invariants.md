@@ -2,6 +2,10 @@
 
 Full Moniversive static-ML catalog for CLRTY-1.
 
+**Live kernel (Clarity-Fintech):** [moniversive_invariant_static_ML](https://github.com/clarity-fintech/moniversive_invariant_static_ML) — `mis/kernel` · 60 packs · `mis/sections` · 1025 invariants.
+
+**All repo + learning backlinks:** [guides/static-ml-backlinks.md](../guides/static-ml-backlinks.md) · [learn/static-ml-learning-path.md](../learn/static-ml-learning-path.md)
+
 | Band | Focus | Module |
 |------|-------|--------|
 | **1–200** | Model registry, inference, fees | `StaticMlInvariants.clrty` |

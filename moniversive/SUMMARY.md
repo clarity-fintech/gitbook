@@ -27,6 +27,7 @@
 
 ## Learn
 
+* [Static ML learning path](learn/static-ml-learning-path.md)
 * [Quizzes](learn/quizzes.md)
 * [AI prompting](learn/ai-prompting.md)
 * [Cheatsheets](learn/cheatsheets.md)
@@ -132,4 +133,5 @@
 ## Guides
 
 * [Coding guide](guides/coding-guide.md)
+* [Static ML backlinks (all repos)](guides/static-ml-backlinks.md)
 * [Ownership — Clarity-Fintech](guides/ownership-clarity-fintech.md)

@@ -18,6 +18,7 @@
   * [MIS coding](guides/mis-coding.md)
   * [Repo command suites](guides/repo-commands.md)
   * [Wallet backend routing](guides/wallet-backend-routing.md)
+  * [Wallet 1-tap auto-node](guides/wallet-auto-node.md)
 * CLI
   * [Master command reference](cli/master-command-reference.md)
 * Nano Spec 100

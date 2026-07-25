@@ -9,6 +9,9 @@
 | **EMBED** | Gates **3..=6** (Context → AI → Execution → Capital) |
 | **Compiler** | `clrtyc` → execution graph |
 | **Settlement** | CLRTY-1 · chain `1202` |
+| **Live kernel** | [moniversive_invariant_static_ML](https://github.com/clarity-fintech/moniversive_invariant_static_ML) |
+| **Backlinks hub** | [guides/static-ml-backlinks.md](guides/static-ml-backlinks.md) |
+| **Learning path** | [learn/static-ml-learning-path.md](learn/static-ml-learning-path.md) |
 
 ```bash
 bin/misc Module.clrty --check --compact-letters
