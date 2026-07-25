@@ -14,6 +14,10 @@
   * [clrty_* namespace](methods/clrty-namespace.md)
 * [SDKs & nodes](sdks/nodes-and-sdks.md)
 * [Investor edition bridge](whitepaper/investor-edition-bridge.md)
+* Coding guides
+  * [MIS coding](guides/mis-coding.md)
+  * [Repo command suites](guides/repo-commands.md)
+  * [Wallet backend routing](guides/wallet-backend-routing.md)
 * CLI
   * [Master command reference](cli/master-command-reference.md)
 * Nano Spec 100

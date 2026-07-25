@@ -1,0 +1,10 @@
+root: ./
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+
+variables:
+  tier: L1-moniversive
+  language: mis-ml
+  extension: .clrty

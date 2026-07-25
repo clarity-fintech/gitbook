@@ -11,14 +11,10 @@
 | Field | Value |
 | --- | --- |
 | **Display name** | Clarity |
-| **Organization ID** | `6MCNfiz1cpjlR5LX4kWw` |
-| **Site ID** | `site_xTRE6` |
-| **Live site** | https://clarity-7.gitbook.io/clarity-docs/ |
-| **Preview** | https://app.gitbook.com/o/6MCNfiz1cpjlR5LX4kWw/sites/site_xTRE6/preview |
+| **Organization ID** | `Yuash1ualCkP03YzJ8ts` |
 
 ```bash
-GITBOOK_ORG_ID=6MCNfiz1cpjlR5LX4kWw
-GITBOOK_SITE_ID=site_xTRE6
+GITBOOK_ORG_ID=Yuash1ualCkP03YzJ8ts
 GITBOOK_ORG_NAME=Clarity
 ```
 
@@ -34,14 +30,12 @@ cp .env.gitbook.example .env.gitbook
 
 # 2. Edit .env.gitbook → GITBOOK_API_TOKEN=gbp_your_token_here
 
-# 3. Authenticate (browser) + upload via CLI API
-make gitbook-login
-make gitbook-site-publish
+# 3. Build + upload
+make gitbook-build
+make gitbook-upload
 ```
 
-Publish target repo: **https://github.com/clarity-fintech/gitbook** (HTTPS via `gh auth`, no SSH key needed).
-
-From `seo-kit-second/` all gitbook targets forward to root (`make gitbook-complete`, etc.).
+From `seo-kit-second/` you can also run `make gitbook-upload` (forwards to root).
 
 ### Common terminal mistakes
 
@@ -66,29 +60,25 @@ npx gitbook spaces list --organization Yuash1ualCkP03YzJ8ts --extended --pretty
 npx gitbook spaces create Yuash1ualCkP03YzJ8ts --body '{"title":"Clarity — Public Documentation"}'
 ```
 
-## Four tiers (different depth vs public repo)
+## Five spaces (different depth vs public repo)
 
 | Space folder | Audience | Visibility |
 | --- | --- | --- |
 | `public/` | Community, builders | Public site |
 | `developer/` | Engineers | Public |
+| `moniversive/` | MIS / language | Public |
 | `institutional/` | Funds, exchanges | **Private** |
 | `investor-private/` | Accredited / NDA | **Invite-only** |
 
 After upload, set **Institutional** and **Investor** spaces to Private in GitBook → Space settings → Visibility.
 
-## Git sync (connect in GitBook UI)
+## Git sync (required ownership: Clarity-Fintech)
 
-Published source: **https://github.com/clarity-fintech/gitbook** on branch `main`.
-
-1. [Clarity org](https://app.gitbook.com/o/Yuash1ualCkP03YzJ8ts) → each Space → **Integrations → Git Sync**
-2. Repository: `clarity-fintech/gitbook`
-3. Root folder per space: `public` | `developer` | `institutional` | `investor-private`
-4. Enable **Pull on push**
-
-Re-publish after edits: `make gitbook-publish` (from repo root or `seo-kit-second/`).
-
-See [GIT_SYNC.md](./GIT_SYNC.md) for full wiring.
+1. Publish target: **https://github.com/clarity-fintech/gitbook**
+2. GitBook → Space → Integrations → Git Sync → `clarity-fintech/gitbook`
+3. Root folder per space: `public` · `developer` · `moniversive` · `institutional` · `investor-private`
+4. `SUMMARY.md` in each folder drives sidebar hierarchy
+5. From monorepo: `make gitbook-publish`
 
 ## API (Ask endpoint example)
 

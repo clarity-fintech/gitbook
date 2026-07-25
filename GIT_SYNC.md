@@ -1,60 +1,64 @@
-# GitBook Git Sync — Clarity org
+# GitBook Git Sync — Clarity-Fintech
 
-Dedicated Git repo for GitBook **Git Sync** (pull on push).
+Canonical Git Sync source is the **Clarity-Fintech** docs repo (not personal GitHub accounts).
 
-## Git repo (Pull URL) — live
+## Repository pull URL (same for all spaces)
 
-| | |
+```
+https://github.com/clarity-fintech/gitbook.git
+```
+
+| Field | Value |
 | --- | --- |
 | **HTTPS** | `https://github.com/clarity-fintech/gitbook.git` |
 | **SSH** | `git@github.com:clarity-fintech/gitbook.git` |
 | **Branch** | `main` |
+| **Provider** | GitHub → `clarity-fintech/gitbook` |
 | **GitHub** | https://github.com/clarity-fintech/gitbook |
 
-> **Personal repo:** To use `williamsnameiswill/gitbook` instead, create an empty repo on that account and set `GITBOOK_GIT_REPO_HTTPS` in `.env.gitbook`, then run `make gitbook-publish`.
+> Personal accounts (`theangelofwill`, `williamsnameiswill`, etc.) are **retired** for GitBook. Do not reconnect spaces to personal monorepos.
 
-## GitBook UI — connect each space
+## Organization (GitBook)
 
-1. **Clarity** org → Space → **Integrations** → **Git Sync**
-2. Repository: **`clarity-fintech/gitbook`**
-3. Pull URL: `https://github.com/clarity-fintech/gitbook.git`
-4. Branch: `main`
-5. **Root folder** (one per space):
-
-| Space | Root folder |
+| Field | Value |
 | --- | --- |
-| Clarity — Public Documentation | `public` |
-| Clarity — Developer Docs | `developer` |
-| Clarity — Institutional | `institutional` |
-| Clarity — Investor Data Room | `investor-private` |
+| Org name | **Clarity** |
+| Org ID | `Yuash1ualCkP03YzJ8ts` |
+| Dashboard | https://app.gitbook.com/o/Yuash1ualCkP03YzJ8ts |
 
+## Per-space root folder
+
+On `clarity-fintech/gitbook`, each space uses a **root folder** (not a nested monorepo path):
+
+| Space | Root folder | Tree |
+| --- | --- | --- |
+| **Clarity — Public Documentation** | `public` | https://github.com/clarity-fintech/gitbook/tree/main/public |
+| **Clarity — Developer Docs** | `developer` | https://github.com/clarity-fintech/gitbook/tree/main/developer |
+| **Clarity — Moniversive (MIS)** | `moniversive` | https://github.com/clarity-fintech/gitbook/tree/main/moniversive |
+| **Clarity — Institutional** | `institutional` | https://github.com/clarity-fintech/gitbook/tree/main/institutional |
+| **Clarity — Investor Data Room** | `investor-private` | https://github.com/clarity-fintech/gitbook/tree/main/investor-private |
+
+Each folder contains `README.md` + `SUMMARY.md`.
+
+## GitBook UI steps
+
+1. **Clarity** org → open space → **Integrations** → **Git Sync**
+2. Connect GitHub → select **`clarity-fintech/gitbook`**
+3. **Pull URL:** `https://github.com/clarity-fintech/gitbook.git`
+4. **Branch:** `main`
+5. **Root folder:** one row from the table above (repeat per space)
 6. Enable **Pull on push**
 
-## Automatic publish (monorepo → gitbook repo)
+If a space still points at a personal repo, disconnect and reconnect to `clarity-fintech/gitbook`.
 
-### One-shot full completion
-
-```bash
-make gitbook-complete
-```
-
-Builds all 4 tiers, pushes to GitHub, and optionally uploads via GitBook API if `GITBOOK_API_TOKEN` is set.
-
-### GitHub Actions
-
-On push to `main` when `docs/gitbook/**` changes, CI mirrors into `clarity-fintech/gitbook`.
+## Publish from the monorepo
 
 ```bash
-gh secret set GITBOOK_REPO_TOKEN --body "$(gh auth token)"
+cd ~/\$CLRTY_PROJECT
+make gitbook-publish    # mirror docs → clarity-fintech/gitbook + push
 ```
 
-### Local
-
-```bash
-make gitbook-publish    # build + push to clarity-fintech/gitbook
-```
-
-Env (optional, in `.env.gitbook`):
+Optional env (`.env.gitbook`):
 
 ```
 GITBOOK_GIT_REPO_HTTPS=https://github.com/clarity-fintech/gitbook.git
@@ -64,26 +68,18 @@ GITBOOK_GIT_BRANCH=main
 ## Flow
 
 ```text
-CLRTY monorepo (docs/gitbook/)
-        ↓  make gitbook-publish  OR  GitHub Action
-clarity-fintech/gitbook  (public/, developer/, …)
+CLRTY monorepo  docs/gitbook/  (+ var/gitbook-publish enrichments)
+        ↓  make gitbook-publish
+clarity-fintech/gitbook  (public/, developer/, moniversive/, …)
         ↓  Git Sync pull on push
 Clarity GitBook spaces
 ```
 
-## Optional API push
+## Related coding surfaces
 
-If `GITBOOK_API_TOKEN` is set, CI also pushes via GitBook API (redundant when Git Sync is active).
-
-```bash
-gh secret set GITBOOK_API_TOKEN --body "gbp_..."
-make gitbook-sync
-```
-
-## Organization
-
-| Field | Value |
+| Surface | Clarity-Fintech home |
 | --- | --- |
-| Display name | **Clarity** |
-| Org ID | `Yuash1ualCkP03YzJ8ts` |
-| Dashboard | https://app.gitbook.com/o/Yuash1ualCkP03YzJ8ts |
+| MIS kernel | https://github.com/clarity-fintech/CLRTY-MIS-Kernel |
+| Developer kit | https://github.com/clarity-fintech/developer_kit |
+| Compiler bridge | https://github.com/clarity-fintech/CLRTY-Compiler-Bridge |
+| GitBook source | https://github.com/clarity-fintech/gitbook |
