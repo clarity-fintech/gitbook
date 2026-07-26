@@ -1,6 +1,6 @@
 # LangChain + MIS prompt engineering
 
-> Generated 2026-07-26T18:43:46Z · combine LLM chains with **indexed `.mis`** surfaces
+> Generated 2026-07-26T18:58:16Z · combine LLM chains with **indexed `.mis`** surfaces
 
 ## Workflow
 
@@ -27,7 +27,7 @@ You write Moniversive Invariant Static (.mis) for clrty-1/1202.
 Resolve symbols via mis_code_index.json first.
 Target band: 876-975 architecture primitive {name}.
 Emit module + letter_hash_bound invariant + outcomes only.
-No Python app code. No .sol. Verify: bin/misc {path} --check --compact-letters
+No Python app code. No legacy Solidity. Verify: bin/misc {path} --check --compact-letters
 ```
 
 ## Host Python (bootstrap only)

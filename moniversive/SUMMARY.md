@@ -2,10 +2,15 @@
 
 * [Introduction](README.md)
 
+## Education (`.mis` showcase)
+
+* [Education hub](education/README.md)
+* [MIS showcase — all education sources](education/mis-showcase.md)
+* [`.clrty` legacy surfaces](language/clrty-legacy-surfaces.md)
+
 ## Language & coding breakdown
 
 * [Full language breakdown](language/full-language-breakdown.md)
-* [Build from session inputs](language/build-from-session-inputs.md)
 * [Overview](language/overview.md)
 * [Syntax rules](language/syntax.md)
 * [Letter-hash](language/letter-hash.md)
@@ -29,20 +34,13 @@
 * [Hardware vectors 761–775](architecture/hardware-vector-invariants-761-775.md)
 * [Native kernels 776–875](architecture/native-kernels-776-875.md)
 * [fn / call / embed / method / dev](architecture/fn-call-embed-method-dev-876-975.md)
-* [Chain intake 101–150](architecture/chains-101-150-intake.md)
 
 ## Learn
 
 * [Language learning path](learn/language-learning-path.md)
-* [Session prompts — 48h](learn/session-prompts-48h.md)
-* [Chat code breakdowns — 48h](learn/chat-code-breakdowns-48h.md)
 * [AI prompting](learn/ai-prompting.md)
 * [LangChain + MIS](learn/langchain-prompt-engineering.md)
 * [Cheatsheets](learn/cheatsheets.md)
-
-## Ecosystem
-
-* [Native ecosystem map](ecosystem/map.md)
 
 ## MIS Taxonomy
 
@@ -94,9 +92,9 @@
 ## Catalog (generated)
 
 * [Catalog hub](catalog/README.md)
+* [Full `.mis` index (database)](catalog/mis-sources-full-index.md)
 * [Symbol catalog](catalog/symbols-full.md)
 * [Per-file reference](catalog/sources/README.md)
-* [Full `.mis` index](catalog/mis-sources-full-index.md)
 * [Commands & Make](catalog/commands-and-make-targets.md)
 * [Static ML bands (1025)](catalog/static-ml-invariant-bands.md)
 
