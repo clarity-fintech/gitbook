@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/sections/generate_section_manifests.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsSectionsGenerateSectionManifests`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsSectionsGenerateSectionManifests`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/sections/generate_section_manifests.mis --check --compact-letters

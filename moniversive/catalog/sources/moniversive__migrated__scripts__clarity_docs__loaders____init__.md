@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/clarity_docs/loaders/__init__.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsClarityDocsLoadersInit`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsClarityDocsLoadersInit`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/clarity_docs/loaders/__init__.mis --check --compact-letters

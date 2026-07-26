@@ -22,3 +22,7 @@ Separate **192-model** MCP companion for VIA engineering. Not part of `seo-kit-s
 See `via-mcp/mcp.json.example` (stdio via `npx tsx src/stdio.ts`).
 
 Remote MCP path after deploy: `/mcp` on the `clrty-via-mcp` Worker.
+
+## Clarity version separation
+
+See `CLRTY_SUBSTRATE/boot/clarity_version_separation.json`. SEO kit versions stay off-chain and separate from MIS-ML / Clarity product lanes. Reindex: `make reindex-dx-repos`.

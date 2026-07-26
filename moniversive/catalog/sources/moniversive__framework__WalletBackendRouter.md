@@ -1,6 +1,6 @@
 # `moniversive/framework/WalletBackendRouter.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`WalletBackendRouter`** · 67 lines
+> Generated 2026-07-26T17:24:53Z · module **`WalletBackendRouter`** · 67 lines
 
 ```bash
 bin/misc moniversive/framework/WalletBackendRouter.mis --check --compact-letters

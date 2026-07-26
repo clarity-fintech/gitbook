@@ -1,6 +1,6 @@
 # `moniversive/migrated/monetization-layers/scripts/create_stripe_payment_links.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`MonetizationLayersScriptsCreateStripePaymentLinks`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`MonetizationLayersScriptsCreateStripePaymentLinks`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/monetization-layers/scripts/create_stripe_payment_links.mis --check --compact-letters

@@ -40,6 +40,7 @@
 ## Ecosystem
 
 * [Ecosystem map](ecosystem/map.md)
+* [All Git repos](ecosystem/all-git-repos.md)
 * [VIA Super MCP](ecosystem/via-mcp.md)
 * [Contribute](contribute/README.md)
 
@@ -166,6 +167,7 @@
 ## Downloads
 
 * [Kernel & repos](downloads/README.md)
+* [All Git repos](ecosystem/all-git-repos.md)
 
 ## Math bridge
 

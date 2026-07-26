@@ -1,6 +1,6 @@
 # `moniversive/framework/MisRecursion.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`MisRecursion`** · 33 lines
+> Generated 2026-07-26T17:24:53Z · module **`MisRecursion`** · 33 lines
 
 ```bash
 bin/misc moniversive/framework/MisRecursion.mis --check --compact-letters

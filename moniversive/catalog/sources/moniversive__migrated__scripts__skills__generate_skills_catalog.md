@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/skills/generate_skills_catalog.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsSkillsGenerateSkillsCatalog`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsSkillsGenerateSkillsCatalog`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/skills/generate_skills_catalog.mis --check --compact-letters

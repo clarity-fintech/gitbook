@@ -1,6 +1,6 @@
 # Database & boot indexes (language filter)
 
-> Generated 2026-07-26T17:14:13Z · MIS surface: `languages/mis-ml/surfaces/DatabaseIndex.clrty` · canonical **`.mis`** authoring
+> Generated 2026-07-26T17:24:53Z · MIS surface: `languages/mis-ml/surfaces/DatabaseIndex.clrty` · canonical **`.mis`** authoring
 
 Moniversive indexes boot manifests and link registries under **deep-root** policy (no Solidity paths in the language tree).
 

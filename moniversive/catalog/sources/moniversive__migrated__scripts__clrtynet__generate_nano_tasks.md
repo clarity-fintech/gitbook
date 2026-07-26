@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/clrtynet/generate_nano_tasks.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsClrtynetGenerateNanoTasks`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsClrtynetGenerateNanoTasks`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/clrtynet/generate_nano_tasks.mis --check --compact-letters

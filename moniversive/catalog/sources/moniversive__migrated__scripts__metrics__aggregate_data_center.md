@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/metrics/aggregate_data_center.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsMetricsAggregateDataCenter`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsMetricsAggregateDataCenter`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/metrics/aggregate_data_center.mis --check --compact-letters

@@ -1,6 +1,6 @@
 # `moniversive/framework/Clrty1WalletSecurityPolicy.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`Clrty1WalletSecurityPolicy`** · 75 lines
+> Generated 2026-07-26T17:24:53Z · module **`Clrty1WalletSecurityPolicy`** · 75 lines
 
 ```bash
 bin/misc moniversive/framework/Clrty1WalletSecurityPolicy.mis --check --compact-letters

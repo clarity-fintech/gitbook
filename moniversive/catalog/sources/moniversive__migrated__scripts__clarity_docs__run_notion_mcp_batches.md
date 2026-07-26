@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/clarity_docs/run_notion_mcp_batches.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsClarityDocsRunNotionMcpBatches`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsClarityDocsRunNotionMcpBatches`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/clarity_docs/run_notion_mcp_batches.mis --check --compact-letters

@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/clrty_chain/_json.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsClrtyChainJson`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsClrtyChainJson`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/clrty_chain/_json.mis --check --compact-letters

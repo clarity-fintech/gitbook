@@ -1,5 +1,8 @@
 # Moniversive — MIS-ML
 
+> **Scope:** Moniversive **language only** (`.mis`, `bin/misc`). CLRTY-1 chain, wallet, and institutional docs live in other GitBook spaces.
+
+
 **Moniversive Invariant Static ML** is CLRTY’s **deep-root** programming language for the entire database and execution stack.
 
 | | |
@@ -14,10 +17,10 @@
 | **Learning path** | [learn/static-ml-learning-path.md](learn/static-ml-learning-path.md) |
 
 ```bash
-bin/misc Module.clrty --check --compact-letters
+bin/misc path.mis --check --compact-letters
 ```
 
-Full taxonomy: [MIS Framework Taxonomy](taxonomy/README.md).
+Full taxonomy: [MIS Framework Taxonomy](taxonomy/README.md) · [Unique traits](language/unique-traits.md) · [Downloads](downloads/README.md) · [Symbol catalog](catalog/symbols-full.md).
 
 Start with [Language overview](language/overview.md) · [Letter-hash](language/letter-hash.md) · [EMBED 3..=6](language/embed-gates.md).
 

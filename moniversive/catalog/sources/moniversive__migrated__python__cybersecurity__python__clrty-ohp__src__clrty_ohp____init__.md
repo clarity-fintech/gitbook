@@ -1,6 +1,6 @@
 # `moniversive/migrated/python/cybersecurity/python/clrty-ohp/src/clrty_ohp/__init__.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`PythonCybersecurityPythonClrtyOhpSrcClrtyOhpInit`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`PythonCybersecurityPythonClrtyOhpSrcClrtyOhpInit`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/python/cybersecurity/python/clrty-ohp/src/clrty_ohp/__init__.mis --check --compact-letters

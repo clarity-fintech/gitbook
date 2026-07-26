@@ -1,6 +1,6 @@
 # `moniversive/migrated/vis_intelligence/inference_local.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`VisIntelligenceInferenceLocal`** · 30 lines
+> Generated 2026-07-26T17:24:54Z · module **`VisIntelligenceInferenceLocal`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/vis_intelligence/inference_local.mis --check --compact-letters

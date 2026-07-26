@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/website/apply_round_funnel_shell.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsWebsiteApplyRoundFunnelShell`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsWebsiteApplyRoundFunnelShell`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/website/apply_round_funnel_shell.mis --check --compact-letters

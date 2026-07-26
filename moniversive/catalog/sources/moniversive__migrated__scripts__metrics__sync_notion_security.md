@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/metrics/sync_notion_security.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsMetricsSyncNotionSecurity`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsMetricsSyncNotionSecurity`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/metrics/sync_notion_security.mis --check --compact-letters

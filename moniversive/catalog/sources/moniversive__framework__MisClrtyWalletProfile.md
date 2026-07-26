@@ -1,6 +1,6 @@
 # `moniversive/framework/MisClrtyWalletProfile.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`MisClrtyWalletProfile`** · 50 lines
+> Generated 2026-07-26T17:24:53Z · module **`MisClrtyWalletProfile`** · 50 lines
 
 ```bash
 bin/misc moniversive/framework/MisClrtyWalletProfile.mis --check --compact-letters

@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/clarity_docs/record_group_hub_ids.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsClarityDocsRecordGroupHubIds`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsClarityDocsRecordGroupHubIds`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/clarity_docs/record_group_hub_ids.mis --check --compact-letters

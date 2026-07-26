@@ -1,6 +1,6 @@
 # `moniversive/migrated/python/clrty-sanity/src/clrty_sanity/cli.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`PythonClrtySanitySrcClrtySanityCli`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`PythonClrtySanitySrcClrtySanityCli`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/python/clrty-sanity/src/clrty_sanity/cli.mis --check --compact-letters

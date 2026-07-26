@@ -1,6 +1,6 @@
 # MIS language catalog
 
-> Generated 2026-07-26T17:14:13Z
+> Generated 2026-07-26T17:24:54Z
 
 Machine index: **`CLRTY_SUBSTRATE/boot/mis_code_index.json`** (556 entries, 260 `.mis` sources).
 
@@ -14,5 +14,6 @@ Machine index: **`CLRTY_SUBSTRATE/boot/mis_code_index.json`** (556 entries, 260 
 | [Symbols (full)](symbols-full.md) | Every module · fn · outcome · invariant |
 | [Per-file `.mis`](sources/README.md) | One page per indexed source |
 | [Ecosystem repos](ecosystem-repos-index.md) | clarity-fintech `.mis` repos |
+| [All Git repos](../ecosystem/all-git-repos.md) | Full org inventory + Static ML kernel |
 
 Cursor rules: `.cursor/rules/mis-code-index.mdc` · `.cursor/rules/moniversive-clrty.mdc`

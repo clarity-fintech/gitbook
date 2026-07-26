@@ -1,6 +1,6 @@
 # `moniversive/migrated/frontend/CLRTY-WALLET-INTEGRATION/sdk/python/clrty_client.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`FrontendCLRTYWALLETINTEGRATIONSdkPythonClrtyClient`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`FrontendCLRTYWALLETINTEGRATIONSdkPythonClrtyClient`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/frontend/CLRTY-WALLET-INTEGRATION/sdk/python/clrty_client.mis --check --compact-letters

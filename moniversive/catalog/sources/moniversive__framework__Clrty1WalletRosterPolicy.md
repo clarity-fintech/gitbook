@@ -1,6 +1,6 @@
 # `moniversive/framework/Clrty1WalletRosterPolicy.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`Clrty1WalletRosterPolicy`** · 74 lines
+> Generated 2026-07-26T17:24:53Z · module **`Clrty1WalletRosterPolicy`** · 74 lines
 
 ```bash
 bin/misc moniversive/framework/Clrty1WalletRosterPolicy.mis --check --compact-letters

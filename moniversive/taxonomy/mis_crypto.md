@@ -18,3 +18,10 @@ ZK, post-quantum, and zero-overhead cryptographic primitives.
 
 Module: `moniversive/framework/mis_crypto.mis`  
 Settlement: clrty-1 / 1202 · Extension: `.mis`
+
+## CLRTY-1 wallet cybersecurity policy (`mis_ec`)
+
+`moniversive/framework/Clrty1WalletSecurityPolicy.mis` is the SSOT for CLRTY-1 wallet
+cybersecurity constraints: no Wasm/external-connector seed exposure, mandatory session
+idle lockdown, and opaque-only KMS/MPC envelopes (never raw keys). Index entry:
+`idx-mis-Clrty1WalletSecurityPolicy` in `CLRTY_SUBSTRATE/boot/mis_code_index.json`.

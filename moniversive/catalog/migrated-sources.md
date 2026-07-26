@@ -1,6 +1,6 @@
 # Catalog — migrated `.mis` tree
 
-> Generated 2026-07-26T17:14:13Z · **232** modules under `moniversive/migrated/`
+> Generated 2026-07-26T17:24:54Z · **232** modules under `moniversive/migrated/`
 
 Python application code is legacy; these `.mis` modules are the authoritative MIS migration targets.
 

@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/clarity_docs/cli_inventory.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsClarityDocsCliInventory`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsClarityDocsCliInventory`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/clarity_docs/cli_inventory.mis --check --compact-letters

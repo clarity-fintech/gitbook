@@ -2,14 +2,16 @@
 
 Canonical GitHub ownership: **[clarity-fintech](https://github.com/clarity-fintech)**. Settlement: **clrty-1 / chain 1202**. Embed gates **3..=6**.
 
+**Full org repo list:** [All Git repos](../ecosystem/all-git-repos.md)
+
 ## Kernel (full Static ML)
 
 | | |
 | --- | --- |
 | **Repo** | [moniversive_invariant_static_ML](https://github.com/clarity-fintech/moniversive_invariant_static_ML) |
 | **Contents** | Kernel + 60 packs / **1025** invariants · `mis/kernel` · `mis/packs/static_ml` · `mis/sections` · manifests |
-| **Check** | `bin/misc` on `.mis` (`--check --compact-letters`) |
-| **Boot SSOT** | `CLRTY_SUBSTRATE/boot/clrty1_static_ml_invariants.json` |
+| **`.mis` files** | **85** (kernel tree) · `bin/misc --check` clean |
+| **Check** | `bin/misc path.mis --check --compact-letters` |
 | **Ecosystem index** | `CLRTY_SUBSTRATE/boot/mis_ecosystem_repos_manifest.json` → `static_ml_kernel` |
 | **MIS kernel (compiler)** | [CLRTY-MIS-Kernel](https://github.com/clarity-fintech/CLRTY-MIS-Kernel) |
 

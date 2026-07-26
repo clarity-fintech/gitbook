@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/compliance/clrty1_coding_commands_chain_verify.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsComplianceClrty1CodingCommandsChainVerify`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsComplianceClrty1CodingCommandsChainVerify`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/compliance/clrty1_coding_commands_chain_verify.mis --check --compact-letters

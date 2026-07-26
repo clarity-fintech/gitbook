@@ -1,6 +1,6 @@
 # `moniversive/migrated/python/clrty-site/src/clrty_site/__init__.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`PythonClrtySiteSrcClrtySiteInit`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`PythonClrtySiteSrcClrtySiteInit`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/python/clrty-site/src/clrty_site/__init__.mis --check --compact-letters

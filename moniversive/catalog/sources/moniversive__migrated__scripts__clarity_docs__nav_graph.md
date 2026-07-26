@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/clarity_docs/nav_graph.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsClarityDocsNavGraph`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsClarityDocsNavGraph`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/clarity_docs/nav_graph.mis --check --compact-letters

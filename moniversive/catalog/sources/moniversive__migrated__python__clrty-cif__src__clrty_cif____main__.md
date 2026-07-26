@@ -1,6 +1,6 @@
 # `moniversive/migrated/python/clrty-cif/src/clrty_cif/__main__.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`PythonClrtyCifSrcClrtyCifMain`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`PythonClrtyCifSrcClrtyCifMain`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/python/clrty-cif/src/clrty_cif/__main__.mis --check --compact-letters

@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/mis-ml/sol_to_clrty.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsMisMlSolToClrty`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsMisMlSolToClrty`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/mis-ml/sol_to_clrty.mis --check --compact-letters

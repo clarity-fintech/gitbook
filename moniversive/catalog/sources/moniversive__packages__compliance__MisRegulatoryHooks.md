@@ -1,6 +1,6 @@
 # `moniversive/packages/compliance/MisRegulatoryHooks.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`MisRegulatoryHooks`** · 31 lines
+> Generated 2026-07-26T17:24:54Z · module **`MisRegulatoryHooks`** · 31 lines
 
 ```bash
 bin/misc moniversive/packages/compliance/MisRegulatoryHooks.mis --check --compact-letters

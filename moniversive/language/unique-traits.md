@@ -1,6 +1,6 @@
 # Unique traits — Moniversive Invariant Static (MIS)
 
-> Generated 2026-07-26T17:14:13Z · language space only (not CLRTY-1 chain ops)
+> Generated 2026-07-26T17:24:53Z · language space only (not CLRTY-1 chain ops)
 
 | Trait | MIS behavior |
 | --- | --- |

@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/clrty_chain/tokenomics.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsClrtyChainTokenomics`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsClrtyChainTokenomics`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/clrty_chain/tokenomics.mis --check --compact-letters

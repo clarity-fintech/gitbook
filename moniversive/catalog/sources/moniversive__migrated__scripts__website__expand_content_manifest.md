@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/website/expand_content_manifest.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsWebsiteExpandContentManifest`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsWebsiteExpandContentManifest`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/website/expand_content_manifest.mis --check --compact-letters

@@ -1,6 +1,6 @@
 # `moniversive/framework/ClrtySovereignLineageFence.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ClrtySovereignLineageFence`** · 60 lines
+> Generated 2026-07-26T17:24:53Z · module **`ClrtySovereignLineageFence`** · 60 lines
 
 ```bash
 bin/misc moniversive/framework/ClrtySovereignLineageFence.mis --check --compact-letters

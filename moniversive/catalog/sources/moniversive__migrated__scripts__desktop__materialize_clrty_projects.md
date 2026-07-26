@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/desktop/materialize_clrty_projects.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsDesktopMaterializeClrtyProjects`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsDesktopMaterializeClrtyProjects`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/desktop/materialize_clrty_projects.mis --check --compact-letters

@@ -1,6 +1,6 @@
 # `moniversive/migrated/monetization-layers/webhooks/handler.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`MonetizationLayersWebhooksHandler`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`MonetizationLayersWebhooksHandler`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/monetization-layers/webhooks/handler.mis --check --compact-letters

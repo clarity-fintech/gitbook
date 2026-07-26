@@ -1,6 +1,6 @@
 # `moniversive/migrated/vis_intelligence/feature_pipeline.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`VisIntelligenceFeaturePipeline`** · 30 lines
+> Generated 2026-07-26T17:24:54Z · module **`VisIntelligenceFeaturePipeline`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/vis_intelligence/feature_pipeline.mis --check --compact-letters

@@ -1,6 +1,6 @@
 # `moniversive/migrated/simulators/clrty_mirror/telemetry.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`SimulatorsClrtyMirrorTelemetry`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`SimulatorsClrtyMirrorTelemetry`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/simulators/clrty_mirror/telemetry.mis --check --compact-letters

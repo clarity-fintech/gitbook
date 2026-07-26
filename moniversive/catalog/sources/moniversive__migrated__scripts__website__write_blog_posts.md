@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/website/write_blog_posts.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsWebsiteWriteBlogPosts`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsWebsiteWriteBlogPosts`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/website/write_blog_posts.mis --check --compact-letters

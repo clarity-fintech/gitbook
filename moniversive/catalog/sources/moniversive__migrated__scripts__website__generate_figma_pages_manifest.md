@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/website/generate_figma_pages_manifest.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsWebsiteGenerateFigmaPagesManifest`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsWebsiteGenerateFigmaPagesManifest`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/website/generate_figma_pages_manifest.mis --check --compact-letters

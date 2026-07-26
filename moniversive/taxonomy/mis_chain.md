@@ -18,3 +18,10 @@ Consensus, bridge, and VM execution adapters.
 
 Module: `moniversive/framework/mis_chain.mis`  
 Settlement: clrty-1 / 1202 · Extension: `.mis`
+
+## CLRTY-1 wallet roster policy (`mis_evm`)
+
+`moniversive/framework/Clrty1WalletRosterPolicy.mis` is the SSOT for the CLRTY-1 wallet
+roster: one INTERNAL_HD sovereign signer plus N EXTERNAL_PROVIDER probe-only chain
+connectors, bound to the exchange RPC (chain 1202). Index entry:
+`idx-mis-Clrty1WalletRosterPolicy` in `CLRTY_SUBSTRATE/boot/mis_code_index.json`.

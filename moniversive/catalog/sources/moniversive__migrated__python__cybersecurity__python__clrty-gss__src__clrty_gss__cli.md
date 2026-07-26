@@ -1,6 +1,6 @@
 # `moniversive/migrated/python/cybersecurity/python/clrty-gss/src/clrty_gss/cli.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`PythonCybersecurityPythonClrtyGssSrcClrtyGssCli`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`PythonCybersecurityPythonClrtyGssSrcClrtyGssCli`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/python/cybersecurity/python/clrty-gss/src/clrty_gss/cli.mis --check --compact-letters

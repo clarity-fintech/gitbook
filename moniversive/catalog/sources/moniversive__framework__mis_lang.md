@@ -1,6 +1,6 @@
 # `moniversive/framework/mis_lang.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`MisLang`** · 39 lines
+> Generated 2026-07-26T17:24:53Z · module **`MisLang`** · 39 lines
 
 ```bash
 bin/misc moniversive/framework/mis_lang.mis --check --compact-letters

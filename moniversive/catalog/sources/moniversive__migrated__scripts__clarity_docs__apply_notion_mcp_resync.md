@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/clarity_docs/apply_notion_mcp_resync.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsClarityDocsApplyNotionMcpResync`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsClarityDocsApplyNotionMcpResync`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/clarity_docs/apply_notion_mcp_resync.mis --check --compact-letters

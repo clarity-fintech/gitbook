@@ -1,6 +1,6 @@
 # `moniversive/migrated/python/cybersecurity/python/clrty-nis/src/clrty_nis/cli.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`PythonCybersecurityPythonClrtyNisSrcClrtyNisCli`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`PythonCybersecurityPythonClrtyNisSrcClrtyNisCli`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/python/cybersecurity/python/clrty-nis/src/clrty_nis/cli.mis --check --compact-letters

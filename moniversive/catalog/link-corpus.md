@@ -1,6 +1,6 @@
 # Link corpus (DX registry + session)
 
-> Generated 2026-07-26T17:14:13Z · merged unique URLs: **186** · `clrty_link_index` reports **186**
+> Generated 2026-07-26T17:24:53Z · merged unique URLs: **186** · `clrty_link_index` reports **186**
 
 Registries: `CLRTY_SUBSTRATE/boot/clrty_link_index.json` · `session_links_2026_07_25.json` · `dx_live_links_manifest.json`.
 

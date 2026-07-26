@@ -1,6 +1,6 @@
 # `moniversive/migrated/python/clrty-hud/src/clrty_hud/languages_master.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`PythonClrtyHudSrcClrtyHudLanguagesMaster`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`PythonClrtyHudSrcClrtyHudLanguagesMaster`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/python/clrty-hud/src/clrty_hud/languages_master.mis --check --compact-letters

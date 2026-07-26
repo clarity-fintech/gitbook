@@ -1,6 +1,6 @@
 # `moniversive/migrated/first_access_pack/02_terminal_vector/inference/bench_throughput.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`FirstAccessPack02TerminalVectorInferenceBenchThroughput`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`FirstAccessPack02TerminalVectorInferenceBenchThroughput`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/first_access_pack/02_terminal_vector/inference/bench_throughput.mis --check --compact-letters

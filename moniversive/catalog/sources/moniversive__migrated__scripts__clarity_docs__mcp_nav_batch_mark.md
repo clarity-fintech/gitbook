@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/clarity_docs/mcp_nav_batch_mark.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsClarityDocsMcpNavBatchMark`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsClarityDocsMcpNavBatchMark`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/clarity_docs/mcp_nav_batch_mark.mis --check --compact-letters

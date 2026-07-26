@@ -1,6 +1,6 @@
 # Ecosystem repos (`.mis` strict)
 
-> Generated 2026-07-26T17:14:13Z · **23** unique ecosystem URLs · **10** cross-chain
+> Generated 2026-07-26T17:24:54Z · **23** unique ecosystem URLs · **10** cross-chain
 
 Manifests: `mis_ecosystem_repos_manifest.json` · `mis_cross_chain_repos_manifest.json`
 

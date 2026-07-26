@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/investor/generate_sovereign_protocols.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsInvestorGenerateSovereignProtocols`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsInvestorGenerateSovereignProtocols`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/investor/generate_sovereign_protocols.mis --check --compact-letters

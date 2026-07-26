@@ -3,17 +3,19 @@
 ```
 Cursor MIS rules  →  mis_code_index (tip of spear)
         ↓
-Boot catalogs 1..=1025  →  .clrty surfaces
+Boot catalogs + `.mis` corpus  →  bin/misc verify
         ↓
 mis_ml_filter + structure verify
         ↓
-RPC gateway  →  clrty-1 / 1202
+Language GitBook  →  docs/gitbook/moniversive/
 ```
 
 | Layer | Entry |
 |-------|-------|
-| Rules | `.cursor/rules/moniversive-clrty.mdc`, `mis-code-index.mdc` |
+| Rules | `.cursor/rules/moniversive-clrty.mdc`, `mis-code-index.mdc`, `gitbook-moniversive-language.mdc` |
 | Code index | `CLRTY_SUBSTRATE/boot/mis_code_index.json` · `clrty_getMisCodeIndex` |
+| Generated catalog | [catalog/README.md](../catalog/README.md) · `make gitbook-moniversive-build` |
+| Language boundary | [language/boundary-clrty-vs-mis.md](../language/boundary-clrty-vs-mis.md) |
 | Language root | `CLRTY_SUBSTRATE/boot/moniversive_language_root.json` |
 | Ecosystem repos (40) | `CLRTY_SUBSTRATE/boot/mis_ecosystem_repos_manifest.json` |
 | Static ML kernel | [moniversive_invariant_static_ML](https://github.com/clarity-fintech/moniversive_invariant_static_ML) |

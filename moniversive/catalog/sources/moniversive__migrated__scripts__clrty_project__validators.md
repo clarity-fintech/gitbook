@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/clrty_project/validators.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsClrtyProjectValidators`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsClrtyProjectValidators`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/clrty_project/validators.mis --check --compact-letters

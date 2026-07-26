@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/mis-ml/rewrite_embed_gates.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsMisMlRewriteEmbedGates`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsMisMlRewriteEmbedGates`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/mis-ml/rewrite_embed_gates.mis --check --compact-letters

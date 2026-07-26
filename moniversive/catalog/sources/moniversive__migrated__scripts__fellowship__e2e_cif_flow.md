@@ -1,6 +1,6 @@
 # `moniversive/migrated/scripts/fellowship/e2e_cif_flow.mis`
 
-> Generated 2026-07-26T17:14:13Z · module **`ScriptsFellowshipE2eCifFlow`** · 30 lines
+> Generated 2026-07-26T17:24:53Z · module **`ScriptsFellowshipE2eCifFlow`** · 30 lines
 
 ```bash
 bin/misc moniversive/migrated/scripts/fellowship/e2e_cif_flow.mis --check --compact-letters
