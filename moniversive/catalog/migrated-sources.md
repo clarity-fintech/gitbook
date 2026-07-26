@@ -1,6 +1,6 @@
 # Migrated `.mis` tree — out of language book
 
-> Generated 2026-07-26T17:42:35Z
+> Generated 2026-07-26T17:48:55Z
 
 Legacy Python→MIS migration modules under `moniversive/migrated/` are **not** part of the Moniversive language GitBook. They remain in the monorepo and `mis_code_index.json` for engineering traceability only.
 

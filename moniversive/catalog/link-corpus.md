@@ -1,6 +1,6 @@
 # Links — language scope only
 
-> Generated 2026-07-26T17:42:34Z
+> Generated 2026-07-26T17:48:54Z
 
 This GitBook space documents **`.mis` code and the coding breakdown** only. External product URL registries are out of scope.
 

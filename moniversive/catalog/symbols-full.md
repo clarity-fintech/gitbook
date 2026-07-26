@@ -1,6 +1,6 @@
 # Full symbol catalog (modules · fn · outcomes · invariants)
 
-> Generated 2026-07-26T17:42:34Z · **12** `.mis` files · check any file with `bin/misc PATH --check --compact-letters`
+> Generated 2026-07-26T17:48:54Z · **12** `.mis` files · check any file with `bin/misc PATH --check --compact-letters`
 
 ## module
 

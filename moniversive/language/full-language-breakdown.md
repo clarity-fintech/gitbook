@@ -1,6 +1,6 @@
 # Full language breakdown — Moniversive Invariant Static (`.mis`)
 
-> Generated 2026-07-26T17:42:35Z · **15** language modules · **60** outcomes · **84** invariants · **0** `fn` declarations
+> Generated 2026-07-26T17:48:55Z · **15** language modules · **60** outcomes · **84** invariants · **0** `fn` declarations
 
 Moniversive Invariant Static (MIS) is the **deep-root replacement** for legacy **Solidity** (contracts) and **Python** (application logic) in the Clarity-Fintech authoring model. You write **`.mis`**; you check with **`bin/misc`**; host Python is bootstrap/verify only.
 
@@ -375,6 +375,8 @@ Authoring requests that drove this corpus (API tokens and secrets redacted):
 - **Sunday, Jul 26, 2026, 11:26 AM (UTC-6)** — Seperate any usage for the crypto, and keep ONLY .mis, the language itself, not anyting to do with CLRTY-1, crypto or the blockchain
 - **Sunday, Jul 26, 2026, 11:30 AM (UTC-6)** — Fully breakdown the language all functions, pull all data from the last 48 hours on moniversive inariant static and breakdown the full language, all prompts that had been on input and other, also can mention that it replaces solidity, and python
 - **Sunday, Jul 26, 2026, 11:39 AM (UTC-6)** — PUsh this live and fully edited within  using the api key and account  https://app.gitbook.com/o/lU2onmCPX2rTApapPYHB/home
+- **Sunday, Jul 26, 2026, 11:44 AM (UTC-6)** — Gitbook -- Clarity Fintech  API [REDACTED]  MCP  ## Server URL  Point your client at the GitBook MCP endpoint. You can authenticate with OAuth (a browser sign-in with nothing to configure) or with a personal access token.  https://mcp.gitbook.com/mcp  ## Connect your client  Claude CodeCodex  CursorVS CodeOther  Add the server to `~/.cursor/mcp.json` (or a project's `.cursor/mcp.json`), then sign in when Cursor prompts you.  {  "mcpServers": {  "gitbook": {  "url": "https://mcp.gitbook.com/mcp"  }  }  }  ## Explore MCP  ## Access tokens  GitBook uses personal access tokens to authenticate requ
+- **Sunday, Jul 26, 2026, 11:48 AM (UTC-6)** — PUSH INTO GIT  [REDACTED]  Make your first request The example below shows how to make an API call that asks GitBook Assistant a question in a site within your organization. # The Ask endpoint requires an Organization ID and Site ID POST /v1/orgs/6MCNfiz1cpjlR5LX4kWw/sites/site_xTRE6/ask HTTP/1.1 Host: api.gitbook.com # Generate a personal access token in Developer settings first. Authorization: Bearer YOUR_ACCESS_TOKEN Content-Type: application/json Accept: */* {   "question": "How do I get started?",   "scope": {     "mode": "default"   } } API requests are authenticated using the Bearer Aut
 
 ## Commands
 

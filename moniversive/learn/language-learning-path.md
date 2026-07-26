@@ -1,6 +1,6 @@
 # Language learning path (`.mis` only)
 
-> Generated 2026-07-26T17:42:35Z · code and compiler only
+> Generated 2026-07-26T17:48:54Z · code and compiler only
 
 1. [Full language breakdown](../language/full-language-breakdown.md)
 2. [Language overview](../language/overview.md)
