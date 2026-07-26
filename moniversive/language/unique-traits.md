@@ -1,6 +1,6 @@
 # Unique traits — Moniversive Invariant Static (MIS)
 
-> Generated 2026-07-26T18:58:58Z · language space only (not CLRTY-1 chain ops)
+> Generated 2026-07-26T19:01:28Z · language space only (not CLRTY-1 chain ops)
 
 | Trait | MIS behavior |
 | --- | --- |
@@ -10,17 +10,17 @@
 | **EMBED** | Gates **3..=6** — Context → AI → Execution → Capital ([embed-gates](embed-gates.md)) |
 | **Execution model** | Code = intent · Execution = optimized outcomes · State = invariants |
 | **Taxonomy** | Five families · twenty branches ([taxonomy/README.md](../taxonomy/README.md)) |
-| **Index** | `mis_code_index.json` — Cursor tip-of-spear (14 `.mis` sources) |
+| **Index** | `mis_code_index.json` — Cursor tip-of-spear (16 `.mis` sources) |
 | **Foreign kernels** | Hard error exit **3** ([boundary](boundary-clrty-vs-mis.md)) |
 
 ## Symbol scale (indexed corpus)
 
 | Kind | Count |
 | --- | --- |
-| Modules | 14 |
+| Modules | 16 |
 | `fn` | 0 |
-| Outcomes | 57 |
-| Invariants | 77 |
+| Outcomes | 85 |
+| Invariants | 118 |
 | EMBED 3..=6 files | 0 |
 
 Dialect: `mis-ml` · Author with **`bin/misc`** only (see [misc](../framework/misc.md)).

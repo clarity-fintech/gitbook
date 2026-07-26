@@ -1,6 +1,6 @@
 # Hardware-accelerated vector math invariants (761–775)
 
-> Generated 2026-07-26T18:59:10Z · SIMD / AVX-512 / Neon · RPC `clrty_getHardwareVectorInvariants`
+> Generated 2026-07-26T19:01:33Z · SIMD / AVX-512 / Neon · RPC `clrty_getHardwareVectorInvariants`
 
 Deterministic dot products, FMA rounding, vector shifts, cache prefetch, register spill guards, and hardware exception traps — all **Static ML** catalog entries.
 

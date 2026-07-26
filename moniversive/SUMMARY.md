@@ -4,6 +4,8 @@
 
 ## Education (`.mis` showcase)
 
+* [**How to code in MIS**](education/how-to-code-in-mis.md)
+* [Coding exercises](education/coding-exercises.md)
 * [Education hub](education/README.md)
 * [MIS showcase — all education sources](education/mis-showcase.md)
 * [`.clrty` legacy surfaces](language/clrty-legacy-surfaces.md)

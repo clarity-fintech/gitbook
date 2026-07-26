@@ -1,6 +1,6 @@
 # Moniversive Invariant Static — language & code
 
-> Generated 2026-07-26T18:59:11Z · **`.mis` sources**, **`bin/misc`**, and the **full coding breakdown** only. No institutional, investor, chain, or product docs in this space.
+> Generated 2026-07-26T19:01:33Z · **`.mis` sources**, **`bin/misc`**, and the **full coding breakdown** only. No institutional, investor, chain, or product docs in this space.
 
 **Moniversive Invariant Static (MIS)** replaces Solidity and Python application authoring for CLRTY coding surfaces.
 
@@ -17,4 +17,4 @@
 bin/misc path.mis --check --compact-letters
 ```
 
-Start: [Education hub](education/README.md) · [Core protocol specs — `gitbook.moniversive.mis`](protocol/gitbook-moniversive-mis-core-specs.md) · [MIS showcase](education/mis-showcase.md) · [`.clrty` surfaces](language/clrty-legacy-surfaces.md).
+Start: **[How to code in MIS](education/how-to-code-in-mis.md)** · [Education hub](education/README.md) · [Core protocol specs — `gitbook.moniversive.mis`](protocol/gitbook-moniversive-mis-core-specs.md) · [MIS showcase](education/mis-showcase.md).

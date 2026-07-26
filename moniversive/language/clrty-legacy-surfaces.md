@@ -1,6 +1,6 @@
 # `.clrty` legacy surfaces (Moniversive ML)
 
-> Generated 2026-07-26T18:59:11Z · **48** files · primary tree: `languages/mis-ml/surfaces/`
+> Generated 2026-07-26T19:01:33Z · **48** files · primary tree: `languages/mis-ml/surfaces/`
 
 **`.clrty`** holds Static ML / protocol **surface modules** (invariants, outcomes, kernel catalogs). Author new logic in **`.mis`**; check surfaces with:
 

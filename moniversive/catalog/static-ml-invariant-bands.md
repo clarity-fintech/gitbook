@@ -1,6 +1,6 @@
 # Static ML invariant catalog — **1025** entries
 
-> Generated 2026-07-26T18:59:10Z · SSOT: `CLRTY_SUBSTRATE/boot/clrty1_static_ml_invariants.json`
+> Generated 2026-07-26T19:01:33Z · SSOT: `CLRTY_SUBSTRATE/boot/clrty1_static_ml_invariants.json`
 
 Every band is indexed for RPC (`clrty_getStaticMlRoot`, `clrty_getMisNativeKernels`, `clrty_getMisArchitecturePrimitives`, `clrty_getMisChainIntake`, `clrty_getCrossShardStateBounds`, `clrty_getHardwareVectorInvariants`).
 

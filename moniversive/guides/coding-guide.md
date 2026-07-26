@@ -1,26 +1,40 @@
 # Coding guide — Moniversive / MIS
 
-Canonical language docs for Clarity-Fintech. Source repo: [clarity-fintech/gitbook](https://github.com/clarity-fintech/gitbook) → `moniversive/`.
+> Generated 2026-07-26T19:01:33Z · canonical teach-yourself entry
 
-## Quick path
+## Start here (teach-yourself)
 
-1. Read [BeginnersGuide](../BeginnersGuide/README.md)
-2. Learn [syntax](../language/syntax.md) + [EMBED gates](../language/embed-gates.md)
-3. Run `bin/misc` checks (see [compiler](../execution/compiler.md))
-4. Migrate Python stubs via [Python → MIS](../migration/py-to-mis.md)
-5. Prefer [hand-coding outcomes](../taxonomy/hand-coding.md)
+1. **[How to code in MIS](../education/how-to-code-in-mis.md)** — full lesson track (read → write → check)
+2. **[Coding exercises](../education/coding-exercises.md)** — hands-on checklist
+3. [Syntax](../language/syntax.md) · [Invariants](../language/invariants.md) · [Outcomes](../language/outcomes.md)
+4. [Compiler (`misc`)](../execution/compiler.md) · [Cheatsheets](../learn/cheatsheets.md)
 
-## Org repos
+## Daily commands
+
+```bash
+bin/misc path.mis --check --compact-letters
+make misc-build
+make mis-ml-check
+```
+
+## Study corpus
+
+| Resource | Purpose |
+| --- | --- |
+| [Education showcase](../education/mis-showcase.md) | **16** runnable `.mis` files |
+| [Per-file sources](../catalog/sources/README.md) | Excerpts + symbol lists |
+| [Full index](../catalog/mis-sources-full-index.md) | All **260** indexed `.mis` rows |
+| [Taxonomy](../taxonomy/README.md) | Where new modules belong |
+
+## Org repos (kernels & kits)
 
 | Need | Repo |
 | --- | --- |
 | Kernel | [CLRTY-MIS-Kernel](https://github.com/clarity-fintech/CLRTY-MIS-Kernel) |
 | Static ML | [moniversive_invariant_static_ML](https://github.com/clarity-fintech/moniversive_invariant_static_ML) |
 | Developer kit | [developer_kit](https://github.com/clarity-fintech/developer_kit) |
-| Quality gate | [CLRTY-Quality-Gate](https://github.com/clarity-fintech/CLRTY-Quality-Gate) |
-| Compiler bridge | [CLRTY-Compiler-Bridge](https://github.com/clarity-fintech/CLRTY-Compiler-Bridge) |
-| Full `.mis` catalog | [catalog/mis-sources-full-index.md](../catalog/mis-sources-full-index.md) |
+| GitBook source | [clarity-fintech/gitbook](https://github.com/clarity-fintech/gitbook) → `moniversive/` |
 
-Regenerate language docs: `make gitbook-moniversive-build`
+Regenerate language docs: `make gitbook-moniversive-build` · publish: `make gitbook-publish`
 
-Do **not** clone or sync language docs from personal GitHub accounts.
+Author **`.mis` only** for application logic; host Python is verify/bootstrap, not new product code.

@@ -1,6 +1,6 @@
 # Showcase — `moniversive/framework/` modules
 
-> Generated 2026-07-26T18:59:10Z · **12** indexed framework modules
+> Generated 2026-07-26T19:01:33Z · **14** indexed framework modules
 
 Check any module:
 
@@ -15,6 +15,8 @@ bin/misc moniversive/framework/MisRecursion.mis --check --compact-letters
 | `MisRecursion.mis` | MisRecursion | 4 | 3 | no |
 | `MisRouter.mis` | MisRouter | 4 | 4 | no |
 | `MisSuperdynamic.mis` | MisSuperdynamic | 4 | 4 | no |
+| `DashboardTypes.mis` | DashboardTypes | 30 | 8 | no |
+| `dashboard_telemetry_p1.mis` | DashboardTelemetryP1 | 11 | 20 | no |
 | `mis_chain.mis` | MisChain | 5 | 4 | no |
 | `mis_core.mis` | MisCore | 5 | 5 | no |
 | `mis_crypto.mis` | MisCrypto | 5 | 4 | no |
@@ -41,6 +43,12 @@ Outcomes: `spsc_ingest`, `bitwise_dispatch`, `zero_copy_emit`, `zk_attest_route`
 ### `moniversive/framework/MisSuperdynamic.mis`
 
 Outcomes: `morph_kernel`, `ring_swap`, `ivc_accumulate`, `select_mode`
+### `moniversive/framework/dashboard/DashboardTypes.mis`
+
+Outcomes: `assert_balance_source_kind`, `assert_drift_status`, `assert_wallet_kind`, `assert_position_kind`, `assert_denom_kind`, `assert_miusd_peg`, `assert_clrty_supply_cap`, `settle_clrty1`
+### `moniversive/framework/dashboard/dashboard_telemetry_p1.mis`
+
+Outcomes: `fetch_rpc_balance`, `fetch_rpc_multi_asset`, `fetch_rpc_block_height`, `compute_drift_ppm`, `assert_zero_drift`, `fetch_indexer_balance`, `fetch_indexer_multi_asset`, `fetch_indexer_block_height`
 ### `moniversive/framework/mis_chain.mis`
 
 Outcomes: `assert_mis_evm`, `assert_mis_ibc`, `assert_mis_substrate`, `assert_mis_depin`

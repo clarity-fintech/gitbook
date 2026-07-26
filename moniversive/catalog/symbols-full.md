@@ -1,11 +1,13 @@
 # Full symbol catalog (modules · fn · outcomes · invariants)
 
-> Generated 2026-07-26T18:58:58Z · **14** `.mis` files · check any file with `bin/misc PATH --check --compact-letters`
+> Generated 2026-07-26T19:01:28Z · **16** `.mis` files · check any file with `bin/misc PATH --check --compact-letters`
 
 ## module
 
 | Symbol | File |
 | --- | --- |
+| DashboardTelemetryP1 | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
+| DashboardTypes | `moniversive/framework/dashboard/DashboardTypes.mis` |
 | HighLevelErgonomics | `languages/mis-ml/mis/HighLevelErgonomics.mis` |
 | KernelSwapToMis | `examples/mis/kernel_swap_to_mis.mis` |
 | MisAllCodeIndex | `moniversive/framework/MisAllCodeIndex.mis` |
@@ -29,6 +31,11 @@ _No entries._
 
 | Symbol | File |
 | --- | --- |
+| alert_on_repeated_mismatch | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
+| assert_balance_source_kind | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| assert_clrty_supply_cap | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| assert_denom_kind | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| assert_drift_status | `moniversive/framework/dashboard/DashboardTypes.mis` |
 | assert_extension_mis | `examples/mis/kernel_swap_to_mis.mis` |
 | assert_kernel_misc | `examples/mis/kernel_swap_to_mis.mis` |
 | assert_kernel_misc | `moniversive/framework/MisEngineRoot.mis` |
@@ -55,15 +62,31 @@ _No entries._
 | assert_mis_tree | `moniversive/framework/mis_crypto.mis` |
 | assert_mis_zk | `moniversive/framework/mis_crypto.mis` |
 | assert_misc | `moniversive/framework/mis_lang.mis` |
+| assert_miusd_peg | `moniversive/framework/dashboard/DashboardTypes.mis` |
 | assert_pack_crypto | `moniversive/framework/mis_kernel.mis` |
 | assert_pack_math | `moniversive/framework/mis_kernel.mis` |
 | assert_pack_sys | `moniversive/framework/mis_kernel.mis` |
+| assert_position_kind | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| assert_wallet_kind | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| assert_zero_drift | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
 | bitwise_dispatch | `moniversive/framework/MisRouter.mis` |
 | bounded_recurse_fold | `moniversive/framework/MisRecursion.mis` |
 | branchless_select | `languages/mis-ml/mis/HighLevelErgonomics.mis` |
 | check_module | `languages/mis-ml/mis/HighLevelErgonomics.mis` |
 | compile_check | `moniversive/framework/misc.mis` |
+| compute_drift_ppm | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
+| dual_endpoint_phase_settle | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
+| dual_endpoint_quorum_bind | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
+| emit_drift_telemetry | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
 | emit_graph | `moniversive/framework/misc.mis` |
+| endpoint_health_check | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
+| fetch_indexer_balance | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
+| fetch_indexer_block_height | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
+| fetch_indexer_multi_asset | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
+| fetch_rpc_balance | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
+| fetch_rpc_block_height | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
+| fetch_rpc_multi_asset | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
+| flag_stale_endpoint | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
 | ivc_accumulate | `moniversive/framework/MisSuperdynamic.mis` |
 | ivc_recurse_step | `moniversive/framework/MisRecursion.mis` |
 | kernel_dispatch | `moniversive/framework/mis_kernel.mis` |
@@ -73,16 +96,23 @@ _No entries._
 | load_root_engine | `moniversive/framework/MisEngineRoot.mis` |
 | mare_pipeline | `moniversive/framework/MisEngineRoot.mis` |
 | morph_kernel | `moniversive/framework/MisSuperdynamic.mis` |
+| nonce_sequence_cross_check | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
+| quarantine_mismatched_balance | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
+| reconcile_drift | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
+| reconciliation_log_append | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
 | refuse_foreign | `examples/mis/kernel_swap_to_mis.mis` |
 | refuse_python_authoring | `moniversive/framework/MisAllCodeIndex.mis` |
 | reject_foreign_kernel | `moniversive/framework/misc.mis` |
 | resolve_by_id | `moniversive/framework/MisAllCodeIndex.mis` |
 | resolve_code_index | `languages/mis-ml/mis/HighLevelErgonomics.mis` |
+| retry_backoff_on_mismatch | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
 | ring_swap | `moniversive/framework/MisSuperdynamic.mis` |
 | select_mode | `moniversive/framework/MisSuperdynamic.mis` |
 | settle_clrty1 | `examples/mis/kernel_swap_to_mis.mis` |
+| settle_clrty1 | `moniversive/framework/dashboard/DashboardTypes.mis` |
 | spsc_ingest | `moniversive/framework/MisRouter.mis` |
 | swap_file_type | `examples/mis/kernel_swap_to_mis.mis` |
+| telemetry_harness_bind | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
 | transfer_clrty1 | `languages/mis-ml/mis/HighLevelErgonomics.mis` |
 | zero_copy_emit | `moniversive/framework/MisRouter.mis` |
 | zk_attest_route | `moniversive/framework/MisRouter.mis` |
@@ -93,9 +123,16 @@ _No entries._
 | --- | --- |
 | active_kernel_only: | `examples/mis/kernel_swap_to_mis.mis` |
 | active_kernel_only: | `moniversive/framework/misc.mis` |
+| balance_source_indexer: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| balance_source_rpc: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| branch_mis_substrate: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| branch_mis_substrate: | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
 | catalog_band: | `moniversive/framework/mis_kernel.mis` |
 | catalog_band_end: | `moniversive/framework/mis_kernel.mis` |
+| clrty_hard_cap_tokens: | `moniversive/framework/dashboard/DashboardTypes.mis` |
 | compiler_misc: | `moniversive/framework/mis_kernel.mis` |
+| creator_bound: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| creator_bound: | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
 | deep_root_moniversive: | `examples/mis/kernel_swap_to_mis.mis` |
 | deep_root_moniversive: | `languages/mis-ml/mis/HighLevelErgonomics.mis` |
 | deep_root_moniversive: | `moniversive/framework/MisAllCodeIndex.mis` |
@@ -103,6 +140,8 @@ _No entries._
 | deep_root_moniversive: | `moniversive/framework/MisRecursion.mis` |
 | deep_root_moniversive: | `moniversive/framework/MisRouter.mis` |
 | deep_root_moniversive: | `moniversive/framework/MisSuperdynamic.mis` |
+| deep_root_moniversive: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| deep_root_moniversive: | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
 | deep_root_moniversive: | `moniversive/framework/mis_chain.mis` |
 | deep_root_moniversive: | `moniversive/framework/mis_core.mis` |
 | deep_root_moniversive: | `moniversive/framework/mis_crypto.mis` |
@@ -110,6 +149,13 @@ _No entries._
 | deep_root_moniversive: | `moniversive/framework/mis_lang.mis` |
 | deep_root_moniversive: | `moniversive/framework/mis_ml.mis` |
 | deep_root_moniversive: | `moniversive/framework/misc.mis` |
+| denom_miusd: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| denom_uclrty: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| denom_usd_display: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| drift_status_matched: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| drift_status_mismatched: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| drift_status_stale: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| dual_endpoint_required: | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
 | extension_mis: | `examples/mis/kernel_swap_to_mis.mis` |
 | extension_mis: | `languages/mis-ml/mis/HighLevelErgonomics.mis` |
 | extension_mis: | `moniversive/framework/MisAllCodeIndex.mis` |
@@ -123,6 +169,9 @@ _No entries._
 | extension_mis: | `moniversive/framework/mis_lang.mis` |
 | extension_mis: | `moniversive/framework/mis_ml.mis` |
 | extension_mis: | `moniversive/framework/misc.mis` |
+| extension_mis_or_clrty: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| family_mis_chain: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| family_mis_chain: | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
 | family_mis_chain: | `moniversive/framework/mis_chain.mis` |
 | family_mis_core: | `moniversive/framework/MisEngineRoot.mis` |
 | family_mis_core: | `moniversive/framework/mis_core.mis` |
@@ -133,6 +182,8 @@ _No entries._
 | kernel_count: | `moniversive/framework/mis_kernel.mis` |
 | kernel_is_misc: | `examples/mis/kernel_swap_to_mis.mis` |
 | kernel_is_misc: | `moniversive/framework/MisEngineRoot.mis` |
+| kernel_is_misc: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| kernel_is_misc: | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
 | kernel_is_misc: | `moniversive/framework/misc.mis` |
 | letter_hash_bound: | `examples/mis/kernel_swap_to_mis.mis` |
 | letter_hash_bound: | `languages/mis-ml/mis/HighLevelErgonomics.mis` |
@@ -141,6 +192,8 @@ _No entries._
 | letter_hash_bound: | `moniversive/framework/MisRecursion.mis` |
 | letter_hash_bound: | `moniversive/framework/MisRouter.mis` |
 | letter_hash_bound: | `moniversive/framework/MisSuperdynamic.mis` |
+| letter_hash_bound: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| letter_hash_bound: | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
 | letter_hash_bound: | `moniversive/framework/mis_chain.mis` |
 | letter_hash_bound: | `moniversive/framework/mis_core.mis` |
 | letter_hash_bound: | `moniversive/framework/mis_crypto.mis` |
@@ -148,12 +201,22 @@ _No entries._
 | letter_hash_bound: | `moniversive/framework/mis_lang.mis` |
 | letter_hash_bound: | `moniversive/framework/mis_ml.mis` |
 | letter_hash_bound: | `moniversive/framework/misc.mis` |
+| max_drift_tolerance_ppm_strict: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| max_drift_tolerance_ppm_strict: | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
 | mis_first: | `moniversive/framework/MisAllCodeIndex.mis` |
+| miusd_peg_micros: | `moniversive/framework/dashboard/DashboardTypes.mis` |
 | no_foreign_kernel: | `examples/mis/kernel_swap_to_mis.mis` |
 | no_foreign_kernel: | `moniversive/framework/misc.mis` |
 | no_python_authoring: | `languages/mis-ml/mis/HighLevelErgonomics.mis` |
 | no_python_host: | `examples/mis/kernel_swap_to_mis.mis` |
 | no_python_host: | `moniversive/framework/misc.mis` |
+| no_python_kernel: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| no_python_kernel: | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
+| position_kind_lend: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| position_kind_lp: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| position_kind_perp: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| position_kind_spot: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| position_kind_staked: | `moniversive/framework/dashboard/DashboardTypes.mis` |
 | settlement_chain: | `examples/mis/kernel_swap_to_mis.mis` |
 | settlement_chain: | `languages/mis-ml/mis/HighLevelErgonomics.mis` |
 | settlement_chain: | `moniversive/framework/MisAllCodeIndex.mis` |
@@ -161,6 +224,8 @@ _No entries._
 | settlement_chain: | `moniversive/framework/MisRecursion.mis` |
 | settlement_chain: | `moniversive/framework/MisRouter.mis` |
 | settlement_chain: | `moniversive/framework/MisSuperdynamic.mis` |
+| settlement_chain: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| settlement_chain: | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
 | settlement_chain: | `moniversive/framework/mis_chain.mis` |
 | settlement_chain: | `moniversive/framework/mis_core.mis` |
 | settlement_chain: | `moniversive/framework/mis_crypto.mis` |
@@ -168,3 +233,9 @@ _No entries._
 | settlement_chain: | `moniversive/framework/mis_lang.mis` |
 | settlement_chain: | `moniversive/framework/mis_ml.mis` |
 | settlement_chain: | `moniversive/framework/misc.mis` |
+| settlement_network_clrty1: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| settlement_network_clrty1: | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` |
+| wallet_kind_external_probe: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| wallet_kind_hardware: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| wallet_kind_hd_internal: | `moniversive/framework/dashboard/DashboardTypes.mis` |
+| wallet_kind_watch_only: | `moniversive/framework/dashboard/DashboardTypes.mis` |
