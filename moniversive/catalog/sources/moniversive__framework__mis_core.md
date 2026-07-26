@@ -1,6 +1,6 @@
 # `moniversive/framework/mis_core.mis`
 
-> Generated 2026-07-26T18:05:12Z · module **`MisCore`** · 38 lines
+> Generated 2026-07-26T18:13:58Z · module **`MisCore`** · 38 lines
 
 ```bash
 bin/misc moniversive/framework/mis_core.mis --check --compact-letters

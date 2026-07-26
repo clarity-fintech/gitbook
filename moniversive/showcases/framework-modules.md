@@ -1,6 +1,6 @@
 # Showcase — `moniversive/framework/` modules
 
-> Generated 2026-07-26T18:05:15Z · **11** indexed framework modules
+> Generated 2026-07-26T18:14:22Z · **11** indexed framework modules
 
 Check any module:
 

@@ -1,6 +1,6 @@
 # Language build — driven by session inputs
 
-> Generated 2026-07-26T18:05:14Z · **52** MIS prompts · **11** GitBook/publish prompts (48h)
+> Generated 2026-07-26T18:14:13Z · **53** MIS prompts · **11** GitBook/publish prompts (48h)
 
 Moniversive Invariant Static documentation is built **from indexed `.mis` sources** plus **sanitized session prompts** (last 48 hours). The loop:
 
@@ -20,6 +20,7 @@ Moniversive Invariant Static documentation is built **from indexed `.mis` source
 | Taxonomy + MLX | [taxonomy/prompt-mlx-routing.md](../taxonomy/prompt-mlx-routing.md) |
 | Kernel / Static ML | [downloads/README.md](../downloads/README.md) · `moniversive_invariant_static_ML` |
 | Session prompt corpus (48h) | [session-prompts-48h.md](../learn/session-prompts-48h.md) |
+| Chat code breakdowns (48h) | [chat-code-breakdowns-48h.md](../learn/chat-code-breakdowns-48h.md) |
 | EMBED 3..=6 + letter-hash policy | [overview.md](overview.md) · `.cursor/rules/moniversive-clrty.mdc` |
 | Link registry / kernel repo list | [downloads/README.md](../downloads/README.md) · `session_links_2026_07_25.json` |
 | Remove EMBED banner from `.mis` sources | Regenerate catalog; keep per-module letter hashes |

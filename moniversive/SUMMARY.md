@@ -20,6 +20,7 @@
 
 * [Language learning path](learn/language-learning-path.md)
 * [Session prompts — 48h](learn/session-prompts-48h.md)
+* [Chat code breakdowns — 48h](learn/chat-code-breakdowns-48h.md)
 * [AI prompting](learn/ai-prompting.md)
 * [Cheatsheets](learn/cheatsheets.md)
 

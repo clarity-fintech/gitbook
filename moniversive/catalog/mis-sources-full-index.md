@@ -1,6 +1,6 @@
 # Full index — all `.mis` sources in `mis_code_index`
 
-> Generated 2026-07-26T18:05:15Z · **12** entries · tip-of-spear: `CLRTY_SUBSTRATE/boot/mis_code_index.json`
+> Generated 2026-07-26T18:14:22Z · **12** entries · tip-of-spear: `CLRTY_SUBSTRATE/boot/mis_code_index.json`
 
 Companion module: `moniversive/framework/MisAllCodeIndex.mis`
 
