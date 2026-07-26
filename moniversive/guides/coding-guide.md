@@ -1,6 +1,6 @@
 # Coding guide — Moniversive / MIS
 
-> Generated 2026-07-26T19:01:33Z · canonical teach-yourself entry
+> Generated 2026-07-26T19:03:01Z · canonical teach-yourself entry
 
 ## Start here (teach-yourself)
 
@@ -21,7 +21,7 @@ make mis-ml-check
 
 | Resource | Purpose |
 | --- | --- |
-| [Education showcase](../education/mis-showcase.md) | **16** runnable `.mis` files |
+| [Education showcase](../education/mis-showcase.md) | **17** runnable `.mis` files |
 | [Per-file sources](../catalog/sources/README.md) | Excerpts + symbol lists |
 | [Full index](../catalog/mis-sources-full-index.md) | All **260** indexed `.mis` rows |
 | [Taxonomy](../taxonomy/README.md) | Where new modules belong |

@@ -1,6 +1,6 @@
 # Language vs CLRTY-1 vs legacy `.clrty`
 
-> Generated 2026-07-26T19:01:28Z · scope: **Moniversive GitBook space only**
+> Generated 2026-07-26T19:02:58Z · scope: **Moniversive GitBook space only**
 
 This GitBook space documents **Moniversive Invariant Static (MIS)** — the deep-root language (`.mis`).
 

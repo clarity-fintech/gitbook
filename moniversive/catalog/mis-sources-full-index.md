@@ -1,6 +1,6 @@
 # Full index — all `.mis` in `mis_code_index`
 
-> Generated 2026-07-26T19:01:33Z · **260** indexed · **22** education (non-migrated) · showcase: [education/mis-showcase.md](../education/mis-showcase.md)
+> Generated 2026-07-26T19:03:02Z · **260** indexed · **22** education (non-migrated) · showcase: [education/mis-showcase.md](../education/mis-showcase.md)
 
 Companion: `moniversive/framework/MisAllCodeIndex.mis` · SSOT: `CLRTY_SUBSTRATE/boot/mis_code_index.json`
 

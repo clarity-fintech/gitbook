@@ -1,6 +1,6 @@
 # Definitions — variables, sets, strings, opcodes
 
-> Generated 2026-07-26T19:01:33Z · unique static symbols in MIS / `.clrty` surfaces
+> Generated 2026-07-26T19:03:01Z · unique static symbols in MIS / `.clrty` surfaces
 
 ## Symbol kinds
 

@@ -1,6 +1,6 @@
 # Showcase — `moniversive/framework/` modules
 
-> Generated 2026-07-26T19:01:33Z · **14** indexed framework modules
+> Generated 2026-07-26T19:03:01Z · **15** indexed framework modules
 
 Check any module:
 
@@ -17,6 +17,7 @@ bin/misc moniversive/framework/MisRecursion.mis --check --compact-letters
 | `MisSuperdynamic.mis` | MisSuperdynamic | 4 | 4 | no |
 | `DashboardTypes.mis` | DashboardTypes | 30 | 8 | no |
 | `dashboard_telemetry_p1.mis` | DashboardTelemetryP1 | 11 | 20 | no |
+| `dashboard_telemetry_p2.mis` | DashboardTelemetryP2 | 12 | 20 | no |
 | `mis_chain.mis` | MisChain | 5 | 4 | no |
 | `mis_core.mis` | MisCore | 5 | 5 | no |
 | `mis_crypto.mis` | MisCrypto | 5 | 4 | no |
@@ -49,6 +50,9 @@ Outcomes: `assert_balance_source_kind`, `assert_drift_status`, `assert_wallet_ki
 ### `moniversive/framework/dashboard/dashboard_telemetry_p1.mis`
 
 Outcomes: `fetch_rpc_balance`, `fetch_rpc_multi_asset`, `fetch_rpc_block_height`, `compute_drift_ppm`, `assert_zero_drift`, `fetch_indexer_balance`, `fetch_indexer_multi_asset`, `fetch_indexer_block_height`
+### `moniversive/framework/dashboard/dashboard_telemetry_p2.mis`
+
+Outcomes: `aggregate_spot_balances`, `aggregate_position_balances`, `aggregate_cross_wallet`, `price_asset_in_miusd`, `price_asset_in_uclrty`, `apply_miusd_peg`, `convert_to_usd_display`, `snapshot_net_worth`
 ### `moniversive/framework/mis_chain.mis`
 
 Outcomes: `assert_mis_evm`, `assert_mis_ibc`, `assert_mis_substrate`, `assert_mis_depin`

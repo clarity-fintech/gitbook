@@ -1,6 +1,6 @@
 # Per-file `.mis` reference
 
-> Generated 2026-07-26T19:01:28Z · **16** modules · language-only showcases
+> Generated 2026-07-26T19:02:58Z · **17** modules · language-only showcases
 
 | Path | Module | Inv | Out | Page |
 | --- | --- | --- | --- | --- |
@@ -13,6 +13,7 @@
 | `moniversive/framework/MisSuperdynamic.mis` | MisSuperdynamic | 4 | 4 | [open](sources/moniversive__framework__MisSuperdynamic.md) |
 | `moniversive/framework/dashboard/DashboardTypes.mis` | DashboardTypes | 30 | 8 | [open](sources/moniversive__framework__dashboard__DashboardTypes.md) |
 | `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` | DashboardTelemetryP1 | 11 | 20 | [open](sources/moniversive__framework__dashboard__dashboard_telemetry_p1.md) |
+| `moniversive/framework/dashboard/dashboard_telemetry_p2.mis` | DashboardTelemetryP2 | 12 | 20 | [open](sources/moniversive__framework__dashboard__dashboard_telemetry_p2.md) |
 | `moniversive/framework/mis_chain.mis` | MisChain | 5 | 4 | [open](sources/moniversive__framework__mis_chain.md) |
 | `moniversive/framework/mis_core.mis` | MisCore | 5 | 5 | [open](sources/moniversive__framework__mis_core.md) |
 | `moniversive/framework/mis_crypto.mis` | MisCrypto | 5 | 4 | [open](sources/moniversive__framework__mis_crypto.md) |

@@ -1,8 +1,8 @@
 # How to code in Moniversive Invariant Static (`.mis`)
 
-> Generated 2026-07-26T19:01:33Z · **teach-yourself** track · compiler **`bin/misc`** · settlement **clrty-1 / 1202**
+> Generated 2026-07-26T19:03:01Z · **teach-yourself** track · compiler **`bin/misc`** · settlement **clrty-1 / 1202**
 
-This page teaches you to **read, write, and check** MIS the way the monorepo expects — not Solidity, not Python application code. When you finish, run the [exercises](coding-exercises.md) against the **16** files in the [showcase](mis-showcase.md).
+This page teaches you to **read, write, and check** MIS the way the monorepo expects — not Solidity, not Python application code. When you finish, run the [exercises](coding-exercises.md) against the **17** files in the [showcase](mis-showcase.md).
 
 ## What you are learning
 
@@ -31,7 +31,7 @@ Open `examples/mis/kernel_swap_to_mis.mis`. It is the smallest **story** for the
 // Compile: bin/misc path.mis --check --compact-letters
 //       or bin/misc examples/mis/kernel_swap_to_mis.mis --check --compact-letters
 
-module KernelSwapToMis {{
+module KernelSwapToMis {
 
   
 
@@ -45,40 +45,40 @@ module KernelSwapToMis {{
   invariant no_foreign_kernel: foreign_kernel_active == false;
   invariant file_type_swapped: file_type == mis;
 
-  outcome assert_extension_mis(path: Bytes) {{
+  outcome assert_extension_mis(path: Bytes) {
     require path != @0;
     constraint source_extension == mis;
     constraint file_type == mis;
-  }}
+  }
 
-  outcome assert_kernel_misc() {{
+  outcome assert_kernel_misc() {
     constraint compiler_kernel == misc;
     constraint active_kernel == misc;
-  }}
+  }
 
-  outcome refuse_foreign(name: Bytes) {{
+  outcome refuse_foreign(name: Bytes) {
     require name != @0;
     constraint foreign_refused == true;
-  }}
+  }
 
-  outcome letter_hash(source: Bytes) {{
+  outcome letter_hash(source: Bytes) {
     require source != @0;
     constraint letter_root != @0;
-  }}
+  }
 
-  outcome settle_clrty1(intent: Bytes) {{
+  outcome settle_clrty1(intent: Bytes) {
     require intent != @0;
     constraint chain_id == 1202;
     constraint settlement_network == clrty_1;
-  }}
+  }
 
-  outcome swap_file_type(from_ext: Bytes, to_ext: Bytes) {{
+  outcome swap_file_type(from_ext: Bytes, to_ext: Bytes) {
     require from_ext != @0;
     require to_ext != @0;
     constraint file_type == mis;
     constraint source_extension == mis;
-  }}
-}}
+  }
+}
 ```
 
 **Read it in this order:**
@@ -117,7 +117,7 @@ Add domain invariants next (fee caps, depth bounds, tensor ranks). Then add outc
 // High-level MIS ergonomics (replaces languages/mis-ml/python)
 // Extension: .mis (canonical MIS authoring)
 
-module HighLevelErgonomics {{
+module HighLevelErgonomics {
 
   
 
@@ -127,26 +127,26 @@ module HighLevelErgonomics {{
   invariant extension_mis: source_extension == mis;
   invariant no_python_authoring: python_package_code == false;
 
-  outcome check_module(payload: Bytes) {{
+  outcome check_module(payload: Bytes) {
     require payload != @0;
     constraint check_module_ok == true;
-  }}
+  }
 
-  outcome resolve_code_index(payload: Bytes) {{
+  outcome resolve_code_index(payload: Bytes) {
     require payload != @0;
     constraint resolve_code_index_ok == true;
-  }}
+  }
 
-  outcome transfer_clrty1(payload: Bytes) {{
+  outcome transfer_clrty1(payload: Bytes) {
     require payload != @0;
     constraint transfer_clrty1_ok == true;
-  }}
+  }
 
-  outcome branchless_select(payload: Bytes) {{
+  outcome branchless_select(payload: Bytes) {
     require payload != @0;
     constraint branchless_select_ok == true;
-  }}
-}}
+  }
+}
 ```
 
 Notice: **no Python package authoring** (`no_python_authoring`). High-level ergonomics outcomes are thin **`check_module` / `resolve_code_index`** intents — good pattern for index-backed tooling.

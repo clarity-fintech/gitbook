@@ -1,6 +1,6 @@
 # Language learning path (`.mis` only)
 
-> Generated 2026-07-26T19:01:28Z · **teach-yourself** · code and compiler only
+> Generated 2026-07-26T19:02:58Z · **teach-yourself** · code and compiler only
 
 ## Phase 0 — Learn to code (do this first)
 

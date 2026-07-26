@@ -1,6 +1,6 @@
 # Coding exercises — `.mis`
 
-> Generated 2026-07-26T19:01:33Z · do these in order · verify with **`bin/misc`**
+> Generated 2026-07-26T19:03:01Z · do these in order · verify with **`bin/misc`**
 
 ## Exercise A — Trace the policy module
 

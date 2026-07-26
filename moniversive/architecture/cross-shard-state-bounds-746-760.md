@@ -1,6 +1,6 @@
 # Cross-shard Moniversive state bounds (746–760)
 
-> Generated 2026-07-26T19:01:33Z · module `languages/mis-ml/surfaces/CrossShardStateBounds.clrty`
+> Generated 2026-07-26T19:03:01Z · module `languages/mis-ml/surfaces/CrossShardStateBounds.clrty`
 
 Protocol invariants for multi-shard execution on **clrty-1 / 1202** — aggregated roots, divergence guards, cross-shard receipts, fee routing, and global solvency.
 

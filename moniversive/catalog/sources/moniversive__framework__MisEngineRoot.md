@@ -1,6 +1,6 @@
 # `moniversive/framework/MisEngineRoot.mis`
 
-> Generated 2026-07-26T19:01:28Z · module **`MisEngineRoot`** · 29 lines
+> Generated 2026-07-26T19:02:58Z · module **`MisEngineRoot`** · 29 lines
 
 ```bash
 bin/misc moniversive/framework/MisEngineRoot.mis --check --compact-letters
