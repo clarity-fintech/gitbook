@@ -1,6 +1,6 @@
 # Operational rulebook — Static ML (`.clrty` / `.mis`)
 
-> Generated 2026-07-26T18:58:16Z · Sections I–VI
+> Generated 2026-07-26T18:59:10Z · Sections I–VI
 
 ## I. Structural invariants
 

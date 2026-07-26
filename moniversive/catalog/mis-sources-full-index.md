@@ -1,6 +1,6 @@
 # Full index — all `.mis` in `mis_code_index`
 
-> Generated 2026-07-26T18:58:17Z · **260** indexed · **23** education (non-migrated) · showcase: [education/mis-showcase.md](../education/mis-showcase.md)
+> Generated 2026-07-26T18:59:11Z · **260** indexed · **22** education (non-migrated) · showcase: [education/mis-showcase.md](../education/mis-showcase.md)
 
 Companion: `moniversive/framework/MisAllCodeIndex.mis` · SSOT: `CLRTY_SUBSTRATE/boot/mis_code_index.json`
 
@@ -8,7 +8,7 @@ Companion: `moniversive/framework/MisAllCodeIndex.mis` · SSOT: `CLRTY_SUBSTRATE
 | --- | --- | ---: | ---: | --- | --- |
 | `languages/mis-ml/mis/HighLevelErgonomics.mis` | `HighLevelErgonomics` | 5 | 4 | yes | yes |
 | `moniversive/framework/CherryDataPlane.mis` | `CherryDataPlane` | 9 | 6 | yes | yes |
-| `moniversive/framework/ClarityFintechRepoCommandMesh.mis` | `ClarityFintechRepoCommandMesh` | 10 | 45 | yes | yes |
+| `moniversive/framework/ClarityFintechRepoCommandMesh.mis` | `ClarityFintechRepoCommandMesh` | 10 | 45 | no | yes |
 | `moniversive/framework/Clrty1WalletRosterPolicy.mis` | `Clrty1WalletRosterPolicy` | 14 | 6 | no | yes |
 | `moniversive/framework/Clrty1WalletSecurityPolicy.mis` | `Clrty1WalletSecurityPolicy` | 16 | 6 | no | yes |
 | `moniversive/framework/ClrtySovereignLineageFence.mis` | `ClrtySovereignLineageFence` | 13 | 5 | yes | yes |

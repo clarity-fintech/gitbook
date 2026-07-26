@@ -1,6 +1,6 @@
 # Education hub (`.mis`)
 
-> Generated 2026-07-26T18:58:17Z
+> Generated 2026-07-26T18:59:10Z
 
 | Page | Purpose |
 | --- | --- |

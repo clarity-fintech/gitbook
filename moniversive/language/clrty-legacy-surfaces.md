@@ -1,6 +1,6 @@
 # `.clrty` legacy surfaces (Moniversive ML)
 
-> Generated 2026-07-26T18:58:17Z · **49** files · primary tree: `languages/mis-ml/surfaces/`
+> Generated 2026-07-26T18:59:11Z · **48** files · primary tree: `languages/mis-ml/surfaces/`
 
 **`.clrty`** holds Static ML / protocol **surface modules** (invariants, outcomes, kernel catalogs). Author new logic in **`.mis`**; check surfaces with:
 
@@ -12,7 +12,6 @@ Settlement: **clrty-1 / 1202** · letter-hash on typed letters.
 
 | Path | Module | Invariants | Outcomes |
 | --- | --- | --- | --- |
-| `.clrty` | ClrtyMoniversiveRoot | 6 | 3 |
 | `languages/mis-ml/surfaces/AdvancedGradientOps.clrty` | AdvancedGradientOps | 8 | 3 |
 | `languages/mis-ml/surfaces/CherryDataPlane.clrty` | CherryDataPlane | 4 | 3 |
 | `languages/mis-ml/surfaces/ClrtyRpc.clrty` | ClrtyRpc | 8 | 5 |

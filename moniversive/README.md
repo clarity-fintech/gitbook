@@ -1,6 +1,6 @@
 # Moniversive Invariant Static — language & code
 
-> Generated 2026-07-26T18:58:18Z · **`.mis` sources**, **`bin/misc`**, and the **full coding breakdown** only. No institutional, investor, chain, or product docs in this space.
+> Generated 2026-07-26T18:59:11Z · **`.mis` sources**, **`bin/misc`**, and the **full coding breakdown** only. No institutional, investor, chain, or product docs in this space.
 
 **Moniversive Invariant Static (MIS)** replaces Solidity and Python application authoring for CLRTY coding surfaces.
 

@@ -1,6 +1,6 @@
 # `moniversive/framework/MisRouter.mis`
 
-> Generated 2026-07-26T18:58:01Z · module **`MisRouter`** · 32 lines
+> Generated 2026-07-26T18:58:58Z · module **`MisRouter`** · 32 lines
 
 ```bash
 bin/misc moniversive/framework/MisRouter.mis --check --compact-letters
