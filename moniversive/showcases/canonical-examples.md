@@ -1,6 +1,6 @@
 # Showcase — canonical `.mis` examples
 
-> Generated 2026-07-26T17:56:05Z
+> Generated 2026-07-26T18:05:15Z
 
 ## Kernel swap to `misc`
 

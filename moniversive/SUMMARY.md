@@ -5,6 +5,7 @@
 ## Language & coding breakdown
 
 * [Full language breakdown](language/full-language-breakdown.md)
+* [Build from session inputs](language/build-from-session-inputs.md)
 * [Overview](language/overview.md)
 * [Syntax rules](language/syntax.md)
 * [Letter-hash](language/letter-hash.md)
@@ -18,6 +19,7 @@
 ## Learn
 
 * [Language learning path](learn/language-learning-path.md)
+* [Session prompts — 48h](learn/session-prompts-48h.md)
 * [AI prompting](learn/ai-prompting.md)
 * [Cheatsheets](learn/cheatsheets.md)
 
