@@ -13,8 +13,19 @@
 * [Invariants](language/invariants.md)
 * [Outcomes & constraints](language/outcomes.md)
 * [High-level ergonomics](language/high-level-ergonomics.md)
+* [Definitions, variables & sets](language/definitions-variables-sets.md)
 * [Unique traits](language/unique-traits.md)
 * [Collections & concurrency](language/collections-concurrency.md)
+
+## Architecture (Static ML)
+
+* [EVM → MIS](architecture/evm-to-mis.md)
+* [Operational rulebook](architecture/operational-rulebook.md)
+* [Cross-shard bounds 746–760](architecture/cross-shard-state-bounds-746-760.md)
+* [Hardware vectors 761–775](architecture/hardware-vector-invariants-761-775.md)
+* [Native kernels 776–875](architecture/native-kernels-776-875.md)
+* [fn / call / embed / method / dev](architecture/fn-call-embed-method-dev-876-975.md)
+* [Chain intake 101–150](architecture/chains-101-150-intake.md)
 
 ## Learn
 
@@ -22,7 +33,12 @@
 * [Session prompts — 48h](learn/session-prompts-48h.md)
 * [Chat code breakdowns — 48h](learn/chat-code-breakdowns-48h.md)
 * [AI prompting](learn/ai-prompting.md)
+* [LangChain + MIS](learn/langchain-prompt-engineering.md)
 * [Cheatsheets](learn/cheatsheets.md)
+
+## Ecosystem
+
+* [Native ecosystem map](ecosystem/map.md)
 
 ## MIS Taxonomy
 
@@ -78,6 +94,7 @@
 * [Per-file reference](catalog/sources/README.md)
 * [Full `.mis` index](catalog/mis-sources-full-index.md)
 * [Commands & Make](catalog/commands-and-make-targets.md)
+* [Static ML bands (1025)](catalog/static-ml-invariant-bands.md)
 
 ## Showcases (`.mis`)
 

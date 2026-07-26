@@ -1,6 +1,6 @@
 # Mathematics — invariants, outcomes, and bands
 
-> Generated 2026-07-26T18:14:22Z
+> Generated 2026-07-26T18:24:57Z
 
 MIS treats **invariants** as statically checkable predicates and **outcomes** as named execution intents.
 

@@ -20,9 +20,13 @@ python3 scripts/mis-ml/verify_mis_code_index.py
 ## GitBook generation (this corpus)
 
 ```bash
-python3 scripts/gitbook/build_moniversive_language_gitbook.py
+make gitbook-moniversive-build
 make gitbook-publish
 ```
+
+## LangChain orchestration (bootstrap)
+
+Host Python may chain prompts against `mis_code_index.json` — see `learn/langchain-prompt-engineering.md`. Output must still pass `bin/misc --check`.
 
 ## Index RPC (when gateway live)
 

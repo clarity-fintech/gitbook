@@ -1,6 +1,6 @@
 # MIS language catalog
 
-> Generated 2026-07-26T18:14:22Z
+> Generated 2026-07-26T18:24:57Z
 
 Machine index: **`CLRTY_SUBSTRATE/boot/mis_code_index.json`** (556 entries, 12 `.mis` sources).
 
