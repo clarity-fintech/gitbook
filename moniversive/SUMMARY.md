@@ -11,6 +11,7 @@
 * [Invariants](language/invariants.md)
 * [Outcomes & constraints](language/outcomes.md)
 * [High-level ergonomics](language/high-level-ergonomics.md)
+* [Language vs CLRTY-1](language/boundary-clrty-vs-mis.md)
 * [Collections & concurrency](language/collections-concurrency.md)
 
 ## BeginnersGuide
@@ -31,6 +32,10 @@
 * [Quizzes](learn/quizzes.md)
 * [AI prompting](learn/ai-prompting.md)
 * [Cheatsheets](learn/cheatsheets.md)
+
+## Navigation
+
+* [Chat-derived index](navigation/chat-derived-index.md)
 
 ## Ecosystem
 
@@ -135,3 +140,34 @@
 * [Coding guide](guides/coding-guide.md)
 * [Static ML backlinks (all repos)](guides/static-ml-backlinks.md)
 * [Ownership — Clarity-Fintech](guides/ownership-clarity-fintech.md)
+
+## Catalog (generated)
+
+* [Catalog hub](catalog/README.md)
+* [Full `.mis` index](catalog/mis-sources-full-index.md)
+* [Symbol catalog](catalog/symbols-full.md)
+* [Per-file reference](catalog/sources/README.md)
+* [Migrated sources](catalog/migrated-sources.md)
+* [Commands & Make](catalog/commands-and-make-targets.md)
+* [Link corpus](catalog/link-corpus.md)
+* [Ecosystem repos index](catalog/ecosystem-repos-index.md)
+
+## Language traits
+
+* [Unique traits](language/unique-traits.md)
+* [Database & indexes](ecosystem/database-and-indexes.md)
+* [Language lineage](guides/language-lineage.md)
+
+## Showcases (`.mis`)
+
+* [Framework modules](showcases/framework-modules.md)
+* [Canonical examples](showcases/canonical-examples.md)
+
+## Downloads
+
+* [Kernel & repos](downloads/README.md)
+
+## Math bridge
+
+* [Invariant primer](math/invariant-primer.md)
+
