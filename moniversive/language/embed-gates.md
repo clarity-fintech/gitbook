@@ -1,23 +1,16 @@
-# EMBED — Gates 3..=6
+# EMBED gates 3..=6 (retired)
 
-Sequential gates **3–6** are the mandatory embedding spine for every Moniversive module:
+**Policy (2026-07):** The `embed gates 3..=6 { … }` block is **removed** from all `.mis` / legacy `.clrty` modules. Authoring still requires **letter-hash** (`invariant letter_hash_bound: letter_hash_root != @0;`) and settlement **clrty-1 / 1202**.
 
-| Gate | Name | Unlocks |
-|------|------|---------|
+Use `python3 scripts/mis-ml/strip_embed_gates_from_mis.py` to normalize older trees. Kernel: `bin/misc` only.
+
+### Historical gates (reference only)
+
+| Gate | Name | Former role |
+|------|------|-------------|
 | 3 | Context | Cohort + protocol context |
 | 4 | AI | Signals, prompt augmentation |
-| 5 | Execution | Route optimization, efficiency |
-| 6 | Capital | MIRRA, liquidity, institutional capital |
+| 5 | Execution | Route optimization |
+| 6 | Capital | MIRRA / liquidity |
 
-### Syntax (required)
-
-```clrty
-embed gates 3..=6 {
-  context: "…";
-  ai: "…";
-  execution: "…";
-  capital: "…";
-}
-```
-
-Write everything in this format from now on — `.clrty` only, with letter-hash + EMBED 3..=6.
+Do **not** add new `embed gates 3..=6` blocks. Keep outcomes and invariants under the MIS taxonomy instead.

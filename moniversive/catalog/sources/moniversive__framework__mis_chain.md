@@ -1,6 +1,6 @@
 # `moniversive/framework/mis_chain.mis`
 
-> Generated 2026-07-26T17:24:53Z · module **`MisChain`** · 39 lines
+> Generated 2026-07-26T17:42:34Z · module **`MisChain`** · 33 lines
 
 ```bash
 bin/misc moniversive/framework/mis_chain.mis --check --compact-letters
@@ -8,28 +8,22 @@ bin/misc moniversive/framework/mis_chain.mis --check --compact-letters
 
 | | |
 | --- | --- |
-| Invariants | `letter_hash_bound:`, `embed_gates_present:`, `deep_root_moniversive:`, `settlement_chain:`, `extension_mis:`, `family_mis_chain:` |
+| Invariants | `letter_hash_bound:`, `deep_root_moniversive:`, `settlement_chain:`, `extension_mis:`, `family_mis_chain:` |
 | Outcomes | `assert_mis_evm`, `assert_mis_ibc`, `assert_mis_substrate`, `assert_mis_depin` |
 | fn | — |
-| EMBED 3..=6 | yes |
+| EMBED 3..=6 | no |
 
 ## Source (excerpt)
 
 ```mis
-// Moniversive deep root — letter-hash + EMBED gates 3..=6
+// Moniversive deep root — letter-hash
 // Framework family mis_chain — Blockchain & Cross-Chain Interoperability
 
 module MisChain {
 
-  embed gates 3..=6 {
-    context: "Blockchain & Cross-Chain Interoperability on clrty-1";
-    ai: "Resolve via mis_code_index; stay inside taxonomy branch";
-    execution: "assert_mis_evm ; assert_mis_ibc ; assert_mis_substrate ; assert_mis_depin";
-    capital: "Settlement clrty-1 / 1202";
-  }
+  
 
   invariant letter_hash_bound: letter_hash_root != @0;
-  invariant embed_gates_present: embed_root != @0;
   invariant deep_root_moniversive: deep_root == moniversive;
   invariant settlement_chain: chain_id == 1202;
   invariant extension_mis: source_extension == mis;

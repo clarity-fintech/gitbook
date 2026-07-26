@@ -1,6 +1,6 @@
 # Full language breakdown — Moniversive Invariant Static (`.mis`)
 
-> Generated 2026-07-26T17:40:42Z · **20** language modules · **89** outcomes · **142** invariants · **0** `fn` declarations
+> Generated 2026-07-26T17:42:35Z · **15** language modules · **60** outcomes · **84** invariants · **0** `fn` declarations
 
 Moniversive Invariant Static (MIS) is the **deep-root replacement** for legacy **Solidity** (contracts) and **Python** (application logic) in the Clarity-Fintech authoring model. You write **`.mis`**; you check with **`bin/misc`**; host Python is bootstrap/verify only.
 
@@ -8,8 +8,8 @@ Moniversive Invariant Static (MIS) is the **deep-root replacement** for legacy *
 
 | Was | Now (MIS) |
 | --- | --- |
-| Solidity `.sol` / Foundry / OZ | **`.mis`** modules · `outcome` / `invariant` · [Solidity map (CLRTY-1)](../../clrty-1/migration/from-solidity.md) |
-| Python app code under `moniversive/` | **`.mis`** in `moniversive/framework/` + indexed migration targets (`232` mapped in `mis_py_to_mis_conversion_map.json`) |
+| Solidity `.sol` / Foundry / OZ | **`.mis`** · `module` / `outcome` / `invariant` / `signal` (see [Extension map](../migration/extensions.md)) |
+| Python app code under `moniversive/` | **`.mis`** in `moniversive/framework/` + **232** paths in `mis_py_to_mis_conversion_map.json` |
 | `python3 clrtyc.py` / `solc` / `forge` | **`bin/misc`** only (`misc.mis` · `reject_foreign_kernel`) |
 | Dynamic exceptions / hidden state | Named **`invariant`** predicates + **`outcome`** intents |
 
@@ -19,10 +19,10 @@ Execution model: **Code = intent · Execution = optimized outcomes · State = ve
 
 | Kind | Count | Role |
 | --- | --- | --- |
-| `module` | 20 | Namespace + EMBED block |
-| `outcome` | 89 | Callable execution intent (Sol `function` / Py `def` analogue) |
-| `invariant` | 142 | Static predicates (Sol `require` / assert analogue) |
-| `fn` | 0 | Native/architecture `fn` when declared (see [CLRTY-1 fn band 876–975](../../clrty-1/architecture/fn-call-embed-method-dev-100.md)) |
+| `module` | 15 | Namespace + EMBED block |
+| `outcome` | 60 | Callable execution intent (Sol `function` / Py `def` analogue) |
+| `invariant` | 84 | Static predicates (Sol `require` / assert analogue) |
+| `fn` | 0 | Native `fn` when declared in kernel/architecture packs |
 
 Indexed GitBook catalog: [symbols-full.md](../catalog/symbols-full.md) · [per-file sources](../catalog/sources/README.md).
 
@@ -59,33 +59,13 @@ Indexed GitBook catalog: [symbols-full.md](../catalog/symbols-full.md) · [per-f
 | assert_pack_crypto | `moniversive/framework/mis_kernel.mis` |
 | assert_pack_math | `moniversive/framework/mis_kernel.mis` |
 | assert_pack_sys | `moniversive/framework/mis_kernel.mis` |
-| async_flush | `moniversive/framework/StakingMeshP2.mis` |
-| auto_node_provision | `moniversive/framework/StakingMeshP1.mis` |
-| bind_codebook | `moniversive/framework/StakingTensorVectorizer.mis` |
 | bitwise_dispatch | `moniversive/framework/MisRouter.mis` |
 | bounded_recurse_fold | `moniversive/framework/MisRecursion.mis` |
 | branchless_select | `languages/mis-ml/mis/HighLevelErgonomics.mis` |
 | check_module | `languages/mis-ml/mis/HighLevelErgonomics.mis` |
-| claim_rewards | `moniversive/framework/StakingMeshP1.mis` |
-| classify_tier | `moniversive/framework/StakingPriorityMesh.mis` |
 | compile_check | `moniversive/framework/misc.mis` |
-| compute_apy | `moniversive/framework/StakingMeshP2.mis` |
-| critical_proof_sync | `moniversive/framework/StakingMeshP0.mis` |
-| delegation_sync | `moniversive/framework/StakingMeshP1.mis` |
-| dispatch_p0 | `moniversive/framework/StakingPriorityMesh.mis` |
-| dispatch_p1 | `moniversive/framework/StakingPriorityMesh.mis` |
-| dispatch_p2 | `moniversive/framework/StakingPriorityMesh.mis` |
-| edge_archive | `moniversive/framework/StakingMeshP2.mis` |
-| embed_gates | `moniversive/framework/misc.mis` |
-| emergency_unstake | `moniversive/framework/StakingMeshP0.mis` |
 | emit_graph | `moniversive/framework/misc.mis` |
 | emit_sitemap | `moniversive/framework/MisLinkIndex.mis` |
-| emit_telemetry | `moniversive/framework/StakingMeshP2.mis` |
-| emit_to_mesh | `moniversive/framework/StakingTensorVectorizer.mis` |
-| encode_tensor | `moniversive/framework/StakingTensorVectorizer.mis` |
-| flush_async | `moniversive/framework/StakingPriorityMesh.mis` |
-| gnn_batch_delegate | `moniversive/framework/StakingMeshP1.mis` |
-| ingest_rpc | `moniversive/framework/StakingTensorVectorizer.mis` |
 | ivc_accumulate | `moniversive/framework/MisSuperdynamic.mis` |
 | ivc_recurse_step | `moniversive/framework/MisRecursion.mis` |
 | kernel_dispatch | `moniversive/framework/mis_kernel.mis` |
@@ -96,11 +76,6 @@ Indexed GitBook catalog: [symbols-full.md](../catalog/symbols-full.md) · [per-f
 | load_root_engine | `moniversive/framework/MisEngineRoot.mis` |
 | mare_pipeline | `moniversive/framework/MisEngineRoot.mis` |
 | morph_kernel | `moniversive/framework/MisSuperdynamic.mis` |
-| multi_account_archive | `moniversive/framework/StakingMeshP2.mis` |
-| pqc_edge_relay | `moniversive/framework/StakingMeshP0.mis` |
-| queue_history | `moniversive/framework/StakingMeshP2.mis` |
-| rate_limit_health | `moniversive/framework/StakingMeshP1.mis` |
-| refuse_foreign | `moniversive/framework/StakingMeshP0.mis` |
 | refuse_foreign | `examples/mis/kernel_swap_to_mis.mis` |
 | refuse_python_authoring | `moniversive/framework/MisAllCodeIndex.mis` |
 | reject_foreign_kernel | `moniversive/framework/misc.mis` |
@@ -108,15 +83,11 @@ Indexed GitBook catalog: [symbols-full.md](../catalog/symbols-full.md) · [per-f
 | resolve_code_index | `languages/mis-ml/mis/HighLevelErgonomics.mis` |
 | ring_swap | `moniversive/framework/MisSuperdynamic.mis` |
 | select_mode | `moniversive/framework/MisSuperdynamic.mis` |
-| settle_clrty1 | `moniversive/framework/StakingPriorityMesh.mis` |
 | settle_clrty1 | `examples/mis/kernel_swap_to_mis.mis` |
-| slash_execute | `moniversive/framework/StakingMeshP0.mis` |
 | spsc_ingest | `moniversive/framework/MisRouter.mis` |
-| standard_rpc | `moniversive/framework/StakingMeshP1.mis` |
 | swap_file_type | `examples/mis/kernel_swap_to_mis.mis` |
 | transfer_clrty1 | `languages/mis-ml/mis/HighLevelErgonomics.mis` |
 | validate_count | `moniversive/framework/MisLinkIndex.mis` |
-| vectorize_stake | `moniversive/framework/StakingPriorityMesh.mis` |
 | zero_copy_emit | `moniversive/framework/MisRouter.mis` |
 | zk_attest_route | `moniversive/framework/MisRouter.mis` |
 
@@ -127,26 +98,15 @@ Indexed GitBook catalog: [symbols-full.md](../catalog/symbols-full.md) · [per-f
 | --- | --- |
 | active_kernel_only: | `moniversive/framework/misc.mis` |
 | active_kernel_only: | `examples/mis/kernel_swap_to_mis.mis` |
-| async_ring_buffer: | `moniversive/framework/StakingMeshP2.mis` |
-| auto_node_surface: | `moniversive/framework/StakingMeshP1.mis` |
 | catalog_band: | `moniversive/framework/mis_kernel.mis` |
 | catalog_band_end: | `moniversive/framework/mis_kernel.mis` |
-| codebook_bound: | `moniversive/framework/StakingPriorityMesh.mis` |
-| codebook_full: | `moniversive/framework/StakingTensorVectorizer.mis` |
-| collateral_invariant: | `moniversive/framework/StakingMeshP0.mis` |
 | compiler_misc: | `moniversive/framework/mis_kernel.mis` |
-| creator_bound: | `moniversive/framework/StakingPriorityMesh.mis` |
 | deep_root_moniversive: | `moniversive/framework/MisAllCodeIndex.mis` |
 | deep_root_moniversive: | `moniversive/framework/MisEngineRoot.mis` |
 | deep_root_moniversive: | `moniversive/framework/MisLinkIndex.mis` |
 | deep_root_moniversive: | `moniversive/framework/MisRecursion.mis` |
 | deep_root_moniversive: | `moniversive/framework/MisRouter.mis` |
 | deep_root_moniversive: | `moniversive/framework/MisSuperdynamic.mis` |
-| deep_root_moniversive: | `moniversive/framework/StakingMeshP0.mis` |
-| deep_root_moniversive: | `moniversive/framework/StakingMeshP1.mis` |
-| deep_root_moniversive: | `moniversive/framework/StakingMeshP2.mis` |
-| deep_root_moniversive: | `moniversive/framework/StakingPriorityMesh.mis` |
-| deep_root_moniversive: | `moniversive/framework/StakingTensorVectorizer.mis` |
 | deep_root_moniversive: | `moniversive/framework/mis_chain.mis` |
 | deep_root_moniversive: | `moniversive/framework/mis_core.mis` |
 | deep_root_moniversive: | `moniversive/framework/mis_crypto.mis` |
@@ -156,8 +116,6 @@ Indexed GitBook catalog: [symbols-full.md](../catalog/symbols-full.md) · [per-f
 | deep_root_moniversive: | `moniversive/framework/misc.mis` |
 | deep_root_moniversive: | `examples/mis/kernel_swap_to_mis.mis` |
 | deep_root_moniversive: | `languages/mis-ml/mis/HighLevelErgonomics.mis` |
-| edge_archive_bound: | `moniversive/framework/StakingMeshP2.mis` |
-| edge_workers_bound: | `moniversive/framework/StakingPriorityMesh.mis` |
 | extension_mis: | `moniversive/framework/MisAllCodeIndex.mis` |
 | extension_mis: | `moniversive/framework/MisEngineRoot.mis` |
 | extension_mis: | `moniversive/framework/MisRecursion.mis` |
@@ -171,7 +129,6 @@ Indexed GitBook catalog: [symbols-full.md](../catalog/symbols-full.md) · [per-f
 | extension_mis: | `moniversive/framework/misc.mis` |
 | extension_mis: | `examples/mis/kernel_swap_to_mis.mis` |
 | extension_mis: | `languages/mis-ml/mis/HighLevelErgonomics.mis` |
-| extension_mis_or_clrty: | `moniversive/framework/StakingPriorityMesh.mis` |
 | family_mis_chain: | `moniversive/framework/mis_chain.mis` |
 | family_mis_core: | `moniversive/framework/MisEngineRoot.mis` |
 | family_mis_core: | `moniversive/framework/mis_core.mis` |
@@ -179,35 +136,18 @@ Indexed GitBook catalog: [symbols-full.md](../catalog/symbols-full.md) · [per-f
 | family_mis_lang: | `moniversive/framework/mis_lang.mis` |
 | family_mis_ml: | `moniversive/framework/mis_ml.mis` |
 | file_type_swapped: | `examples/mis/kernel_swap_to_mis.mis` |
-| fixed_point_q64: | `moniversive/framework/StakingTensorVectorizer.mis` |
-| gnn_batch_bound: | `moniversive/framework/StakingMeshP1.mis` |
-| health_rate_limit: | `moniversive/framework/StakingMeshP1.mis` |
 | kernel_count: | `moniversive/framework/mis_kernel.mis` |
 | kernel_is_misc: | `moniversive/framework/MisEngineRoot.mis` |
 | kernel_is_misc: | `moniversive/framework/MisLinkIndex.mis` |
-| kernel_is_misc: | `moniversive/framework/StakingMeshP0.mis` |
-| kernel_is_misc: | `moniversive/framework/StakingMeshP1.mis` |
-| kernel_is_misc: | `moniversive/framework/StakingMeshP2.mis` |
-| kernel_is_misc: | `moniversive/framework/StakingPriorityMesh.mis` |
-| kernel_is_misc: | `moniversive/framework/StakingTensorVectorizer.mis` |
 | kernel_is_misc: | `moniversive/framework/misc.mis` |
 | kernel_is_misc: | `examples/mis/kernel_swap_to_mis.mis` |
 | l1_only: | `moniversive/framework/MisLinkIndex.mis` |
-| l1_only: | `moniversive/framework/StakingMeshP0.mis` |
-| l1_only: | `moniversive/framework/StakingMeshP1.mis` |
-| l1_only: | `moniversive/framework/StakingMeshP2.mis` |
-| l1_only: | `moniversive/framework/StakingPriorityMesh.mis` |
 | letter_hash_bound: | `moniversive/framework/MisAllCodeIndex.mis` |
 | letter_hash_bound: | `moniversive/framework/MisEngineRoot.mis` |
 | letter_hash_bound: | `moniversive/framework/MisLinkIndex.mis` |
 | letter_hash_bound: | `moniversive/framework/MisRecursion.mis` |
 | letter_hash_bound: | `moniversive/framework/MisRouter.mis` |
 | letter_hash_bound: | `moniversive/framework/MisSuperdynamic.mis` |
-| letter_hash_bound: | `moniversive/framework/StakingMeshP0.mis` |
-| letter_hash_bound: | `moniversive/framework/StakingMeshP1.mis` |
-| letter_hash_bound: | `moniversive/framework/StakingMeshP2.mis` |
-| letter_hash_bound: | `moniversive/framework/StakingPriorityMesh.mis` |
-| letter_hash_bound: | `moniversive/framework/StakingTensorVectorizer.mis` |
 | letter_hash_bound: | `moniversive/framework/mis_chain.mis` |
 | letter_hash_bound: | `moniversive/framework/mis_core.mis` |
 | letter_hash_bound: | `moniversive/framework/mis_crypto.mis` |
@@ -218,33 +158,18 @@ Indexed GitBook catalog: [symbols-full.md](../catalog/symbols-full.md) · [per-f
 | letter_hash_bound: | `examples/mis/kernel_swap_to_mis.mis` |
 | letter_hash_bound: | `languages/mis-ml/mis/HighLevelErgonomics.mis` |
 | link_count_floor: | `moniversive/framework/MisLinkIndex.mis` |
-| low_congestion_only: | `moniversive/framework/StakingMeshP2.mis` |
-| mempool_bypass: | `moniversive/framework/StakingMeshP0.mis` |
-| mesh_tiers_three: | `moniversive/framework/StakingPriorityMesh.mis` |
 | mis_first: | `moniversive/framework/MisAllCodeIndex.mis` |
 | no_foreign_kernel: | `moniversive/framework/misc.mis` |
 | no_foreign_kernel: | `examples/mis/kernel_swap_to_mis.mis` |
 | no_python_authoring: | `languages/mis-ml/mis/HighLevelErgonomics.mis` |
 | no_python_host: | `moniversive/framework/misc.mis` |
 | no_python_host: | `examples/mis/kernel_swap_to_mis.mis` |
-| p0_enclave_bound: | `moniversive/framework/StakingPriorityMesh.mis` |
-| p1_sparkvm_bound: | `moniversive/framework/StakingPriorityMesh.mis` |
-| p2_async_flush_bound: | `moniversive/framework/StakingPriorityMesh.mis` |
-| pqc_tunnel: | `moniversive/framework/StakingMeshP0.mis` |
-| priority_tier: | `moniversive/framework/StakingMeshP0.mis` |
-| priority_tier: | `moniversive/framework/StakingMeshP1.mis` |
-| priority_tier: | `moniversive/framework/StakingMeshP2.mis` |
 | settlement_chain: | `moniversive/framework/MisAllCodeIndex.mis` |
 | settlement_chain: | `moniversive/framework/MisEngineRoot.mis` |
 | settlement_chain: | `moniversive/framework/MisLinkIndex.mis` |
 | settlement_chain: | `moniversive/framework/MisRecursion.mis` |
 | settlement_chain: | `moniversive/framework/MisRouter.mis` |
 | settlement_chain: | `moniversive/framework/MisSuperdynamic.mis` |
-| settlement_chain: | `moniversive/framework/StakingMeshP0.mis` |
-| settlement_chain: | `moniversive/framework/StakingMeshP1.mis` |
-| settlement_chain: | `moniversive/framework/StakingMeshP2.mis` |
-| settlement_chain: | `moniversive/framework/StakingPriorityMesh.mis` |
-| settlement_chain: | `moniversive/framework/StakingTensorVectorizer.mis` |
 | settlement_chain: | `moniversive/framework/mis_chain.mis` |
 | settlement_chain: | `moniversive/framework/mis_core.mis` |
 | settlement_chain: | `moniversive/framework/mis_crypto.mis` |
@@ -255,18 +180,6 @@ Indexed GitBook catalog: [symbols-full.md](../catalog/symbols-full.md) · [per-f
 | settlement_chain: | `examples/mis/kernel_swap_to_mis.mis` |
 | settlement_chain: | `languages/mis-ml/mis/HighLevelErgonomics.mis` |
 | settlement_network_clrty1: | `moniversive/framework/MisLinkIndex.mis` |
-| settlement_network_clrty1: | `moniversive/framework/StakingMeshP0.mis` |
-| settlement_network_clrty1: | `moniversive/framework/StakingMeshP1.mis` |
-| settlement_network_clrty1: | `moniversive/framework/StakingMeshP2.mis` |
-| settlement_network_clrty1: | `moniversive/framework/StakingPriorityMesh.mis` |
-| settlement_network_clrty1: | `moniversive/framework/StakingTensorVectorizer.mis` |
-| slash_burn_pct: | `moniversive/framework/StakingMeshP0.mis` |
-| spark_vm_pipeline: | `moniversive/framework/StakingMeshP1.mis` |
-| staking_band: | `moniversive/framework/StakingTensorVectorizer.mis` |
-| staking_rpc_bound: | `moniversive/framework/StakingPriorityMesh.mis` |
-| sub_ms_finality_bound: | `moniversive/framework/StakingMeshP0.mis` |
-| zero_entropy_map: | `moniversive/framework/StakingTensorVectorizer.mis` |
-| zero_loss_compress: | `moniversive/framework/StakingMeshP2.mis` |
 
 
 ## All `fn` (alphabetical)
@@ -332,51 +245,6 @@ bin/misc moniversive/framework/MisRouter.mis --check --compact-letters
 ```bash
 bin/misc moniversive/framework/MisSuperdynamic.mis --check --compact-letters
 ```
-### `moniversive/framework/StakingMeshP0.mis` · module `StakingMeshP0`
-
-| Outcomes (5) | `slash_execute`, `emergency_unstake`, `critical_proof_sync`, `pqc_edge_relay`, `refuse_foreign` |
-| Invariants (12) | `letter_hash_bound:`, `deep_root_moniversive:`, `settlement_chain:`, `settlement_network_clrty1:`, `l1_only:`, `priority_tier:`, `mempool_bypass:`, `pqc_tunnel:`, `sub_ms_finality_bound:`, `collateral_invariant:`, `slash_burn_pct:`, `kernel_is_misc:` |
-| fn (0) | — |
-
-```bash
-bin/misc moniversive/framework/StakingMeshP0.mis --check --compact-letters
-```
-### `moniversive/framework/StakingMeshP1.mis` · module `StakingMeshP1`
-
-| Outcomes (6) | `auto_node_provision`, `delegation_sync`, `claim_rewards`, `standard_rpc`, `rate_limit_health`, `gnn_batch_delegate` |
-| Invariants (11) | `letter_hash_bound:`, `deep_root_moniversive:`, `settlement_chain:`, `settlement_network_clrty1:`, `l1_only:`, `priority_tier:`, `spark_vm_pipeline:`, `gnn_batch_bound:`, `health_rate_limit:`, `auto_node_surface:`, `kernel_is_misc:` |
-| fn (0) | — |
-
-```bash
-bin/misc moniversive/framework/StakingMeshP1.mis --check --compact-letters
-```
-### `moniversive/framework/StakingMeshP2.mis` · module `StakingMeshP2`
-
-| Outcomes (6) | `queue_history`, `compute_apy`, `emit_telemetry`, `async_flush`, `edge_archive`, `multi_account_archive` |
-| Invariants (11) | `letter_hash_bound:`, `deep_root_moniversive:`, `settlement_chain:`, `settlement_network_clrty1:`, `l1_only:`, `priority_tier:`, `async_ring_buffer:`, `zero_loss_compress:`, `low_congestion_only:`, `edge_archive_bound:`, `kernel_is_misc:` |
-| fn (0) | — |
-
-```bash
-bin/misc moniversive/framework/StakingMeshP2.mis --check --compact-letters
-```
-### `moniversive/framework/StakingPriorityMesh.mis` · module `StakingPriorityMesh`
-
-| Outcomes (7) | `vectorize_stake`, `classify_tier`, `dispatch_p0`, `dispatch_p1`, `dispatch_p2`, `flush_async`, `settle_clrty1` |
-| Invariants (15) | `letter_hash_bound:`, `deep_root_moniversive:`, `settlement_chain:`, `settlement_network_clrty1:`, `l1_only:`, `kernel_is_misc:`, `extension_mis_or_clrty:`, `codebook_bound:`, `staking_rpc_bound:`, `mesh_tiers_three:`, `p0_enclave_bound:`, `p1_sparkvm_bound:`, `p2_async_flush_bound:`, `edge_workers_bound:`, `creator_bound:` |
-| fn (0) | — |
-
-```bash
-bin/misc moniversive/framework/StakingPriorityMesh.mis --check --compact-letters
-```
-### `moniversive/framework/StakingTensorVectorizer.mis` · module `StakingTensorVectorizer`
-
-| Outcomes (4) | `ingest_rpc`, `encode_tensor`, `bind_codebook`, `emit_to_mesh` |
-| Invariants (9) | `letter_hash_bound:`, `deep_root_moniversive:`, `settlement_chain:`, `settlement_network_clrty1:`, `codebook_full:`, `staking_band:`, `fixed_point_q64:`, `zero_entropy_map:`, `kernel_is_misc:` |
-| fn (0) | — |
-
-```bash
-bin/misc moniversive/framework/StakingTensorVectorizer.mis --check --compact-letters
-```
 ### `moniversive/framework/mis_chain.mis` · module `MisChain`
 
 | Outcomes (4) | `assert_mis_evm`, `assert_mis_ibc`, `assert_mis_substrate`, `assert_mis_depin` |
@@ -433,7 +301,7 @@ bin/misc moniversive/framework/mis_ml.mis --check --compact-letters
 ```
 ### `moniversive/framework/misc.mis` · module `Misc`
 
-| Outcomes (6) | `kernel_dispatch`, `letter_hash`, `embed_gates`, `compile_check`, `emit_graph`, `reject_foreign_kernel` |
+| Outcomes (5) | `kernel_dispatch`, `letter_hash`, `compile_check`, `emit_graph`, `reject_foreign_kernel` |
 | Invariants (8) | `letter_hash_bound:`, `deep_root_moniversive:`, `settlement_chain:`, `extension_mis:`, `kernel_is_misc:`, `active_kernel_only:`, `no_python_host:`, `no_foreign_kernel:` |
 | fn (0) | — |
 
@@ -476,7 +344,7 @@ Cursor + GitBook authoring inputs should follow:
 | 7 | Bound recursion: `@mis_kernel(max_depth=…)` / `@mis.inductive` (see [prompt-mlx-routing](../taxonomy/prompt-mlx-routing.md)) |
 | 8 | Use **`mis.select(mask, a, b)`** over deep if/else for LLM-stable codegen |
 | 9 | Index new `.mis` in `mis_code_index.json` (Cursor tip-of-spear) |
-| 10 | Chain / wallet / repo product docs → **`clrty-1/`** GitBook, not language chapters |
+| 10 | This space is **language + code only** — no institutional, investor, chain, or wallet chapters |
 
 
 Hand guide: [AI prompting](../learn/ai-prompting.md) · [Prompt / MLX routing](../taxonomy/prompt-mlx-routing.md) · [Cheatsheets](../learn/cheatsheets.md).
@@ -490,11 +358,10 @@ Hand guide: [AI prompting](../learn/ai-prompting.md) · [Prompt / MLX routing](.
 
 Recent **Moniversive Invariant Static** work (48h window, repo + docs):
 
-- Full **GitBook** for MIS language: catalog, per-file `.mis` pages, downloads, taxonomy
-- **Split** language (`moniversive/`) from CLRTY-1 / blockchain / crypto product (`clrty-1/`)
-- **Solidity purge** → MIS-ML / `.mis` authoring (`d66a3f9` — contract surfaces → `.clrty` / `.mis` policy)
-- Kernel emphasis: **`moniversive_invariant_static_ML`** · **`bin/misc --check`**
-- Cursor **MIS filter** rules enforced in `.cursor/rules/moniversive-clrty.mdc`
+- **Full language breakdown** — outcomes, invariants, per-module `bin/misc --check`
+- **Solidity / Python → `.mis`** authoring policy and `mis_py_to_mis_conversion_map.json`
+- Kernel: **`moniversive_invariant_static_ML`** · **`bin/misc --check`**
+- Cursor **MIS filter** in `.cursor/rules/moniversive-clrty.mdc`
 
 
 ## Session user inputs (Cursor, sanitized)

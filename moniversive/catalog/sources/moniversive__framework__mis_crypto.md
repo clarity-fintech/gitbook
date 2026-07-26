@@ -1,6 +1,6 @@
 # `moniversive/framework/mis_crypto.mis`
 
-> Generated 2026-07-26T17:24:53Z · module **`MisCrypto`** · 39 lines
+> Generated 2026-07-26T17:42:34Z · module **`MisCrypto`** · 33 lines
 
 ```bash
 bin/misc moniversive/framework/mis_crypto.mis --check --compact-letters
@@ -8,28 +8,22 @@ bin/misc moniversive/framework/mis_crypto.mis --check --compact-letters
 
 | | |
 | --- | --- |
-| Invariants | `letter_hash_bound:`, `embed_gates_present:`, `deep_root_moniversive:`, `settlement_chain:`, `extension_mis:`, `family_mis_crypto:` |
+| Invariants | `letter_hash_bound:`, `deep_root_moniversive:`, `settlement_chain:`, `extension_mis:`, `family_mis_crypto:` |
 | Outcomes | `assert_mis_zk`, `assert_mis_ec`, `assert_mis_tree`, `assert_mis_fhe` |
 | fn | — |
-| EMBED 3..=6 | yes |
+| EMBED 3..=6 | no |
 
 ## Source (excerpt)
 
 ```mis
-// Moniversive deep root — letter-hash + EMBED gates 3..=6
+// Moniversive deep root — letter-hash
 // Framework family mis_crypto — Moniversive Cryptographic Primitives
 
 module MisCrypto {
 
-  embed gates 3..=6 {
-    context: "Moniversive Cryptographic Primitives on clrty-1";
-    ai: "Resolve via mis_code_index; stay inside taxonomy branch";
-    execution: "assert_mis_zk ; assert_mis_ec ; assert_mis_tree ; assert_mis_fhe";
-    capital: "Settlement clrty-1 / 1202";
-  }
+  
 
   invariant letter_hash_bound: letter_hash_root != @0;
-  invariant embed_gates_present: embed_root != @0;
   invariant deep_root_moniversive: deep_root == moniversive;
   invariant settlement_chain: chain_id == 1202;
   invariant extension_mis: source_extension == mis;

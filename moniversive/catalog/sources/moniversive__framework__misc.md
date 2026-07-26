@@ -1,6 +1,6 @@
 # `moniversive/framework/misc.mis`
 
-> Generated 2026-07-26T17:24:53Z · module **`Misc`** · 56 lines
+> Generated 2026-07-26T17:42:34Z · module **`Misc`** · 43 lines
 
 ```bash
 bin/misc moniversive/framework/misc.mis --check --compact-letters
@@ -8,28 +8,20 @@ bin/misc moniversive/framework/misc.mis --check --compact-letters
 
 | | |
 | --- | --- |
-| Invariants | `letter_hash_bound:`, `embed_gates_present:`, `deep_root_moniversive:`, `settlement_chain:`, `extension_mis:`, `kernel_is_misc:`, `active_kernel_only:`, `no_python_host:`, `no_foreign_kernel:` |
-| Outcomes | `kernel_dispatch`, `letter_hash`, `embed_gates`, `compile_check`, `emit_graph`, `reject_foreign_kernel` |
+| Invariants | `letter_hash_bound:`, `deep_root_moniversive:`, `settlement_chain:`, `extension_mis:`, `kernel_is_misc:`, `active_kernel_only:`, `no_python_host:`, `no_foreign_kernel:` |
+| Outcomes | `kernel_dispatch`, `letter_hash`, `compile_check`, `emit_graph`, `reject_foreign_kernel` |
 | fn | — |
-| EMBED 3..=6 | yes |
+| EMBED 3..=6 | no |
 
 ## Source (excerpt)
 
 ```mis
-// Moniversive deep root — letter-hash + EMBED gates 3..=6
+// Moniversive deep root — letter-hash
 // misc — sole active MIS kernel compiler (foreign kernels hard-error)
 
 module Misc {
 
-  embed gates 3..=6 {
-    context: "Sole active MIS kernel misc — prove invariants, letter-hash, emit graph on clrty-1";
-    ai: "Invoke bin/misc only; refuse python clrtyc, solc, forge, hardhat, or any other kernel";
-    execution: "kernel_dispatch; letter_hash; embed_gates; compile_check; emit_graph; reject_foreign_kernel";
-    capital: "Settlement clrty-1 / chain 1202";
-  }
-
   invariant letter_hash_bound: letter_hash_root != @0;
-  invariant embed_gates_present: embed_root != @0;
   invariant deep_root_moniversive: deep_root == moniversive;
   invariant settlement_chain: chain_id == 1202;
   invariant extension_mis: source_extension == mis;
@@ -48,11 +40,6 @@ module Misc {
   outcome letter_hash(source: Bytes) {
     require source != @0;
     constraint letter_root != @0;
-  }
-
-  outcome embed_gates(block: Bytes) {
-    require block != @0;
-    constraint embed_root != @0;
   }
 
   outcome compile_check(path: Bytes) {

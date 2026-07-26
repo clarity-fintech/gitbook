@@ -1,6 +1,6 @@
 # Downloads — MIS kernel and language repos
 
-> Generated 2026-07-26T17:24:53Z
+> Generated 2026-07-26T17:42:34Z
 
 ## Compiler kernel (`misc`)
 
@@ -22,7 +22,7 @@ bash scripts/download_misc_kernel.sh
 | --- | --- |
 | Repo | [moniversive_invariant_static_ML](https://github.com/clarity-fintech/moniversive_invariant_static_ML) |
 | Layout | `mis/kernel` · `mis/packs/static_ml` · `mis/sections` |
-| Full repo list | [All Git repos](../ecosystem/all-git-repos.md) |
+| Full repo list | [CLRTY-1 — All Git repos](../../clrty-1/ecosystem/all-git-repos.md) |
 
 ## Developer kit
 

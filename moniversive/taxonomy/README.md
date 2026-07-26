@@ -1,15 +1,14 @@
 # MIS Framework Taxonomy
 
-**Moniversive Invariant Static (MIS)** framework branches — categorized by execution target, cryptographic layer, static invariant engine, and language specs within the `.mis` / `.clrty` ecosystem.
+**Moniversive Invariant Static (MIS)** framework branches — language taxonomy for `.mis` modules (compiler, ML, core, lang). Chain / DePIN branches: **[clrty-1 taxonomy](../../clrty-1/taxonomy/mis_chain.md)**.
 
-Settlement: **clrty-1 / chain 1202**. Authoring: **`.mis` canonical**.
+Authoring: **`.mis` canonical** · check: **`bin/misc --check --compact-letters`**.
 
 ```
                           ┌── mis_core    (Kernels, State, Memory, HW)
-                          ├── mis_crypto  (ZK-SNARKs, Elliptic Curves, FHE)
-MONIVERSIVE INVARIANT     ├── mis_ml      (Tensors, Attention, SwiGLU, KAN)
-STATIC SYSTEM (MIS) ─────┼── mis_chain   (Parallel EVM, IBC, DePIN)
-                          └── mis_lang    (High-Level .mis, misc Compiler, Python DSL)
+                          ├── mis_ml      (Tensors, Attention, SwiGLU, KAN)
+MONIVERSIVE INVARIANT     └── mis_lang    (High-Level .mis, misc Compiler)
+STATIC SYSTEM (MIS) ─────┘
 ```
 
 | Family | Path |

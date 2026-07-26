@@ -1,6 +1,6 @@
 # Unique traits — Moniversive Invariant Static (MIS)
 
-> Generated 2026-07-26T17:24:53Z · language space only (not CLRTY-1 chain ops)
+> Generated 2026-07-26T17:42:34Z · language space only (not CLRTY-1 chain ops)
 
 | Trait | MIS behavior |
 | --- | --- |
@@ -10,17 +10,17 @@
 | **EMBED** | Gates **3..=6** — Context → AI → Execution → Capital ([embed-gates](embed-gates.md)) |
 | **Execution model** | Code = intent · Execution = optimized outcomes · State = invariants |
 | **Taxonomy** | Five families · twenty branches ([taxonomy/README.md](../taxonomy/README.md)) |
-| **Index** | `mis_code_index.json` — Cursor tip-of-spear (260 `.mis` sources) |
+| **Index** | `mis_code_index.json` — Cursor tip-of-spear (12 `.mis` sources) |
 | **Foreign kernels** | Hard error exit **3** ([boundary](boundary-clrty-vs-mis.md)) |
 
 ## Symbol scale (indexed corpus)
 
 | Kind | Count |
 | --- | --- |
-| Modules | 260 |
+| Modules | 12 |
 | `fn` | 0 |
-| Outcomes | 633 |
-| Invariants | 1629 |
-| EMBED 3..=6 files | 260 |
+| Outcomes | 48 |
+| Invariants | 63 |
+| EMBED 3..=6 files | 0 |
 
-Dialect: `mis-ml` · Settlement constants may appear in EMBED `capital` as **metadata only** (`clrty-1` / `1202`).
+Dialect: `mis-ml` · Author with **`bin/misc`** only (see [misc](../framework/misc.md)).

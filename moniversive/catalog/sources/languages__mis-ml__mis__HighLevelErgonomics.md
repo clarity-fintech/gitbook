@@ -1,6 +1,6 @@
 # `languages/mis-ml/mis/HighLevelErgonomics.mis`
 
-> Generated 2026-07-26T17:24:53Z · module **`HighLevelErgonomics`** · 40 lines
+> Generated 2026-07-26T17:42:34Z · module **`HighLevelErgonomics`** · 34 lines
 
 ```bash
 bin/misc languages/mis-ml/mis/HighLevelErgonomics.mis --check --compact-letters
@@ -8,29 +8,23 @@ bin/misc languages/mis-ml/mis/HighLevelErgonomics.mis --check --compact-letters
 
 | | |
 | --- | --- |
-| Invariants | `letter_hash_bound:`, `embed_gates_present:`, `deep_root_moniversive:`, `settlement_chain:`, `extension_mis:`, `no_python_authoring:` |
+| Invariants | `letter_hash_bound:`, `deep_root_moniversive:`, `settlement_chain:`, `extension_mis:`, `no_python_authoring:` |
 | Outcomes | `check_module`, `resolve_code_index`, `transfer_clrty1`, `branchless_select` |
 | fn | — |
-| EMBED 3..=6 | yes |
+| EMBED 3..=6 | no |
 
 ## Source (excerpt)
 
 ```mis
-// Moniversive deep root — letter-hash + EMBED gates 3..=6
+// Moniversive deep root — letter-hash
 // High-level MIS ergonomics (replaces languages/mis-ml/python)
 // Extension: .mis (canonical MIS authoring)
 
 module HighLevelErgonomics {
 
-  embed gates 3..=6 {
-    context: "High-level MIS ergonomics (replaces languages/mis-ml/python) authored as Moniversive MIS under clrty-1";
-    ai: "Resolve symbols via mis_code_index; no Python package authoring";
-    execution: "check_module; resolve_code_index; transfer_clrty1; branchless_select";
-    capital: "Settlement authority remains clrty-1 / chain 1202";
-  }
+  
 
   invariant letter_hash_bound: letter_hash_root != @0;
-  invariant embed_gates_present: embed_root != @0;
   invariant deep_root_moniversive: deep_root == moniversive;
   invariant settlement_chain: chain_id == 1202;
   invariant extension_mis: source_extension == mis;

@@ -1,6 +1,6 @@
 # `moniversive/framework/MisRecursion.mis`
 
-> Generated 2026-07-26T17:24:53Z · module **`MisRecursion`** · 33 lines
+> Generated 2026-07-26T17:42:34Z · module **`MisRecursion`** · 27 lines
 
 ```bash
 bin/misc moniversive/framework/MisRecursion.mis --check --compact-letters
@@ -8,28 +8,22 @@ bin/misc moniversive/framework/MisRecursion.mis --check --compact-letters
 
 | | |
 | --- | --- |
-| Invariants | `letter_hash_bound:`, `embed_gates_present:`, `deep_root_moniversive:`, `settlement_chain:`, `extension_mis:` |
+| Invariants | `letter_hash_bound:`, `deep_root_moniversive:`, `settlement_chain:`, `extension_mis:` |
 | Outcomes | `ivc_recurse_step`, `bounded_recurse_fold`, `assert_max_depth` |
 | fn | — |
-| EMBED 3..=6 | yes |
+| EMBED 3..=6 | no |
 
 ## Source (excerpt)
 
 ```mis
-// Moniversive deep root — letter-hash + EMBED gates 3..=6
+// Moniversive deep root — letter-hash
 // Moniversive Recursion — static tail-fold + ZK-IVC
 
 module MisRecursion {
 
-  embed gates 3..=6 {
-    context: "Moniversive Recursion — static tail-fold + ZK-IVC";
-    ai: "Push all new work into MIS taxonomy; no dynamic Python packages";
-    execution: "ivc_recurse_step ; bounded_recurse_fold ; assert_max_depth";
-    capital: "clrty-1 / 1202";
-  }
+  
 
   invariant letter_hash_bound: letter_hash_root != @0;
-  invariant embed_gates_present: embed_root != @0;
   invariant deep_root_moniversive: deep_root == moniversive;
   invariant settlement_chain: chain_id == 1202;
   invariant extension_mis: source_extension == mis;

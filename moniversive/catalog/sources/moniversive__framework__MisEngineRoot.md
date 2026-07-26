@@ -1,6 +1,6 @@
 # `moniversive/framework/MisEngineRoot.mis`
 
-> Generated 2026-07-26T17:24:53Z · module **`MisEngineRoot`** · 35 lines
+> Generated 2026-07-26T17:42:34Z · module **`MisEngineRoot`** · 29 lines
 
 ```bash
 bin/misc moniversive/framework/MisEngineRoot.mis --check --compact-letters
@@ -8,28 +8,22 @@ bin/misc moniversive/framework/MisEngineRoot.mis --check --compact-letters
 
 | | |
 | --- | --- |
-| Invariants | `letter_hash_bound:`, `embed_gates_present:`, `deep_root_moniversive:`, `settlement_chain:`, `extension_mis:`, `kernel_is_misc:`, `family_mis_core:` |
+| Invariants | `letter_hash_bound:`, `deep_root_moniversive:`, `settlement_chain:`, `extension_mis:`, `kernel_is_misc:`, `family_mis_core:` |
 | Outcomes | `load_root_engine`, `mare_pipeline`, `assert_kernel_misc` |
 | fn | — |
-| EMBED 3..=6 | yes |
+| EMBED 3..=6 | no |
 
 ## Source (excerpt)
 
 ```mis
-// Moniversive deep root — letter-hash + EMBED gates 3..=6
+// Moniversive deep root — letter-hash
 // Engine root loader — root `.mis` dotfile + MARE / opcode pipeline
 
 module MisEngineRoot {
 
-  embed gates 3..=6 {
-    context: "CLRTY-1 engine config — MARE, opcode pipeline, misc kernel";
-    ai: "Load root engine dotfile; assert active_kernel == misc only";
-    execution: "load_root_engine ; mare_pipeline ; assert_kernel_misc";
-    capital: "Settlement clrty-1 / 1202";
-  }
+  
 
   invariant letter_hash_bound: letter_hash_root != @0;
-  invariant embed_gates_present: embed_root != @0;
   invariant deep_root_moniversive: deep_root == moniversive;
   invariant settlement_chain: chain_id == 1202;
   invariant extension_mis: source_extension == mis;
