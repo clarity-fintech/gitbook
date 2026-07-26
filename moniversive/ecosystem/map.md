@@ -1,6 +1,6 @@
 # MIS native ecosystem map (language GitBook)
 
-> Generated 2026-07-26T18:24:57Z · deep root: **Moniversive Invariant Static** · settlement **clrty-1 / 1202**
+> Generated 2026-07-26T18:30:00Z · deep root: **Moniversive Invariant Static** · settlement **clrty-1 / 1202**
 
 ## Language repo (kernel + 1025 invariants)
 

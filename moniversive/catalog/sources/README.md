@@ -1,6 +1,6 @@
 # Per-file `.mis` reference
 
-> Generated 2026-07-26T18:24:17Z · **12** modules · language-only showcases
+> Generated 2026-07-26T18:26:17Z · **12** modules · language-only showcases
 
 | Path | Module | Inv | Out | Page |
 | --- | --- | --- | --- | --- |

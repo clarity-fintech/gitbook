@@ -1,6 +1,6 @@
 # Language build — driven by session inputs
 
-> Generated 2026-07-26T18:24:44Z · **53** MIS prompts · **11** GitBook/publish prompts (48h)
+> Generated 2026-07-26T18:28:42Z · **54** MIS prompts · **11** GitBook/publish prompts (48h)
 
 Moniversive Invariant Static documentation is built **from indexed `.mis` sources** plus **sanitized session prompts** (last 48 hours). The loop:
 
