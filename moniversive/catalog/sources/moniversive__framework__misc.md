@@ -1,0 +1,77 @@
+# `moniversive/framework/misc.mis`
+
+> Generated 2026-07-26T17:14:13Z · module **`Misc`** · 56 lines
+
+```bash
+bin/misc moniversive/framework/misc.mis --check --compact-letters
+```
+
+| | |
+| --- | --- |
+| Invariants | `letter_hash_bound:`, `embed_gates_present:`, `deep_root_moniversive:`, `settlement_chain:`, `extension_mis:`, `kernel_is_misc:`, `active_kernel_only:`, `no_python_host:`, `no_foreign_kernel:` |
+| Outcomes | `kernel_dispatch`, `letter_hash`, `embed_gates`, `compile_check`, `emit_graph`, `reject_foreign_kernel` |
+| fn | — |
+| EMBED 3..=6 | yes |
+
+## Source (excerpt)
+
+```mis
+// Moniversive deep root — letter-hash + EMBED gates 3..=6
+// misc — sole active MIS kernel compiler (foreign kernels hard-error)
+
+module Misc {
+
+  embed gates 3..=6 {
+    context: "Sole active MIS kernel misc — prove invariants, letter-hash, emit graph on clrty-1";
+    ai: "Invoke bin/misc only; refuse python clrtyc, solc, forge, hardhat, or any other kernel";
+    execution: "kernel_dispatch; letter_hash; embed_gates; compile_check; emit_graph; reject_foreign_kernel";
+    capital: "Settlement clrty-1 / chain 1202";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant extension_mis: source_extension == mis;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant active_kernel_only: active_kernel == misc;
+  invariant no_python_host: python3_compiler == false;
+  invariant no_foreign_kernel: foreign_kernel_active == false;
+
+  outcome kernel_dispatch(kernel_id: u32, payload: Bytes) {
+    require kernel_id >= 1;
+    require kernel_id <= 100;
+    require payload != @0;
+    constraint kernel_executed == true;
+  }
+
+  outcome letter_hash(source: Bytes) {
+    require source != @0;
+    constraint letter_root != @0;
+  }
+
+  outcome embed_gates(block: Bytes) {
+    require block != @0;
+    constraint embed_root != @0;
+  }
+
+  outcome compile_check(path: Bytes) {
+    require path != @0;
+    constraint check_ok == true;
+  }
+
+  outcome emit_graph(path: Bytes) {
+    require path != @0;
+    constraint graph_schema == clrty_mis_ml_execution_graph_v2;
+  }
+
+  outcome reject_foreign_kernel(name: Bytes, evidence: Bytes) {
+    require name != @0;
+    require evidence != @0;
+    constraint foreign_refused == true;
+    constraint active_kernel == misc;
+  }
+}
+```
+
+[Index hub](README.md) · [All symbols](../symbols-full.md)
