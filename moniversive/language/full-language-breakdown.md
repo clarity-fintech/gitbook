@@ -1,10 +1,16 @@
 # Full language breakdown — Moniversive Invariant Static (`.mis`)
 
-> Generated 2026-07-26T18:41:59Z · **15** language modules · **60** outcomes · **84** invariants · **0** `fn` declarations
+> Generated 2026-07-26T18:43:46Z · **15** language modules · **60** outcomes · **84** invariants · **0** `fn` declarations
 
 Moniversive Invariant Static (MIS) is the **deep-root replacement** for legacy **Solidity** (contracts) and **Python** (application logic) in the Clarity-Fintech authoring model. You write **`.mis`**; you check with **`bin/misc`**; host Python is bootstrap/verify only.
 
-**Where breakdowns live:** Indexed symbols and per-module tables are on **this page**. Prose walkthroughs from Cursor chat: [Chat code breakdowns — 48h](../learn/chat-code-breakdowns-48h.md). **Core protocol specs** (tensors, Q64.64, invariant state): [`gitbook.moniversive.mis`](../protocol/gitbook-moniversive-mis-core-specs.md).
+**Where breakdowns live:** Indexed symbols and per-module tables are on **this page**. Prose walkthroughs from Cursor chat: [Chat code breakdowns — 48h](../learn/chat-code-breakdowns-48h.md).
+
+## Core Protocol Specs — `gitbook.moniversive.mis`
+
+Mathematical **tensor definitions**, **Q64.64** fixed-point math rules, and **invariant state frameworks**:
+
+→ **[protocol/gitbook-moniversive-mis-core-specs.md](../protocol/gitbook-moniversive-mis-core-specs.md)** (also in `mis_code_index.json` as **`gitbook.moniversive.mis`**)
 
 ## Replaces Solidity and Python
 

@@ -1,6 +1,6 @@
 # Language repos — clone & check (`.mis` only)
 
-> Generated 2026-07-26T18:41:54Z · **No** CLRTY-1 chain, wallet, staking, or cross-chain repos here.
+> Generated 2026-07-26T18:43:43Z · **No** CLRTY-1 chain, wallet, staking, or cross-chain repos here.
 
 | Repo | Role |
 | --- | --- |

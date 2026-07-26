@@ -1,6 +1,6 @@
 # Language lineage & attribution
 
-> Generated 2026-07-26T18:41:54Z · Moniversive **language** GitBook space
+> Generated 2026-07-26T18:43:43Z · Moniversive **language** GitBook space
 
 | Field | Value |
 | --- | --- |

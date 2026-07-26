@@ -1,6 +1,6 @@
 # Language build — driven by session inputs
 
-> Generated 2026-07-26T18:41:58Z · **55** MIS prompts · **11** GitBook/publish prompts (48h)
+> Generated 2026-07-26T18:43:45Z · **55** MIS prompts · **11** GitBook/publish prompts (48h)
 
 Moniversive Invariant Static documentation is built **from indexed `.mis` sources** plus **sanitized session prompts** (last 48 hours). The loop:
 
@@ -15,13 +15,14 @@ Moniversive Invariant Static documentation is built **from indexed `.mis` source
 | Prompt theme | GitBook / repo artifact |
 | --- | --- |
 | Full language / all functions | [full-language-breakdown.md](full-language-breakdown.md) |
+| Core protocol (`gitbook.moniversive.mis`) | [protocol/gitbook-moniversive-mis-core-specs.md](../protocol/gitbook-moniversive-mis-core-specs.md) |
 | Separate language vs chain | Language-only SUMMARY; no institutional/investor nav |
 | Solidity / Python replacement | [migration/py-to-mis.md](../migration/py-to-mis.md) · [extensions.md](../migration/extensions.md) |
 | Taxonomy + MLX | [taxonomy/prompt-mlx-routing.md](../taxonomy/prompt-mlx-routing.md) |
 | Kernel / Static ML | [downloads/README.md](../downloads/README.md) · `moniversive_invariant_static_ML` |
 | Session prompt corpus (48h) | [session-prompts-48h.md](../learn/session-prompts-48h.md) |
 | Chat code breakdowns (48h) | [chat-code-breakdowns-48h.md](../learn/chat-code-breakdowns-48h.md) |
-| EMBED 3..=6 + letter-hash policy | [overview.md](overview.md) · `.cursor/rules/moniversive-clrty.mdc` |
+| Core protocol (`gitbook.moniversive.mis`) | [protocol/gitbook-moniversive-mis-core-specs.md](../protocol/gitbook-moniversive-mis-core-specs.md) |
 | Link registry / kernel repo list | [downloads/README.md](../downloads/README.md) · `session_links_2026_07_25.json` |
 | Remove EMBED banner from `.mis` sources | Regenerate catalog; keep per-module letter hashes |
 | 192-model / Static ML doc prompts | Taxonomy MLX routing · external kernel repo GitBook (not CLRTY-1 product nav) |

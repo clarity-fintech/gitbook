@@ -1,6 +1,6 @@
 # Session prompts — last 48 hours (sanitized)
 
-> Generated 2026-07-26T18:41:56Z · transcript scan · secrets redacted · counts: **gitbook_docs**: 7 · **gitbook_publish**: 4 · **mis_language**: 55 · **other**: 113 · **product_context**: 239
+> Generated 2026-07-26T18:43:43Z · transcript scan · secrets redacted · counts: **gitbook_docs**: 7 · **gitbook_publish**: 4 · **mis_language**: 55 · **other**: 113 · **product_context**: 239
 
 This page captures **Cursor user inputs** that shaped the Moniversive Invariant Static GitBook and language corpus. Product-only prompts (wallet/login) are listed for traceability but do **not** expand language chapters.
 

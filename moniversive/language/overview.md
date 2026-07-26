@@ -1,24 +1,33 @@
 # Language overview
 
-Moniversive is **not just a language**. It is a deterministic **execution + invariant intelligence** layer:
+> Generated 2026-07-26T18:43:46Z
+
+Moniversive is a deterministic **execution + invariant intelligence** layer:
 
 | Pillar | Meaning |
-|--------|---------|
-| **Code = Intent** | Sources declare truth and desired outcomes, not ad-hoc side effects |
-| **Execution = Optimized outcome** | Runtime selects a transition that satisfies outcomes under constraints |
-| **State = Continuously verified invariants** | Every commit re-checks the invariant set |
+| --- | --- |
+| **Code = intent** | Sources declare outcomes and invariants |
+| **Execution = optimized outcome** | Transitions satisfy constraints |
+| **State = verified invariants** | Every commit re-checks the invariant set |
 
-### File type
+## Core protocol specs
 
-```text
-example.clrty
+**[`gitbook.moniversive.mis`](../protocol/gitbook-moniversive-mis-core-specs.md)** — required reading:
+
+- Mathematical **tensor** definitions
+- **Q64.64** fixed-point math rules (+ Q8.24 / lane formats)
+- **Invariant state** frameworks
+
+## Authoring
+
+| | |
+| --- | --- |
+| Extension | **`.mis`** (`.clrty` legacy surfaces) |
+| Compiler | **`bin/misc`** |
+| Index | `mis_code_index.json` · id **`gitbook.moniversive.mis`** for core protocol doc |
+
+```bash
+bin/misc moniversive/framework/mis_ml.mis --check --compact-letters
 ```
 
-Legacy `.crty` is renamed to `.clrty`. Solidity `.clrty` is **removed** from the CLRTY monorepo after conversion.
-
-### Core loop
-
-1. Author invariants + outcomes in `.clrty`
-2. `clrtyc` emits an execution graph
-3. CLRTY-1 consensus validates invariants at inclusion
-4. Monetization / wallet / Spark / RPC companies call outcomes — never raw Solidity ABIs
+Next: [full language breakdown](full-language-breakdown.md) · [high-level ergonomics](high-level-ergonomics.md)

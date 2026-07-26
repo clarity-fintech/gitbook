@@ -1,8 +1,10 @@
 # Core protocol specs — `gitbook.moniversive.mis`
 
-> Generated 2026-07-26T18:41:59Z · mathematical tensors · **Q64.64** fixed-point · invariant state frameworks
+> Generated 2026-07-26T18:43:46Z · mathematical tensors · **Q64.64** fixed-point · invariant state frameworks
 
-Document id: **`gitbook.moniversive.mis`** — language GitBook core protocol layer (not chain product docs). SSOT companions: `CLRTY_SUBSTRATE/boot/clrty1_static_ml_invariants.json` · `moniversive/framework/mis_ml.mis` · surfaces under `languages/mis-ml/surfaces/`.
+**Core Protocol Specs (`gitbook.moniversive.mis`):** mathematical tensor definitions, **Q64.64** fixed-point math rules, and invariant state frameworks.
+
+Document id: **`gitbook.moniversive.mis`** — language GitBook core protocol layer (not chain product docs). SSOT companions: `CLRTY_SUBSTRATE/boot/clrty1_static_ml_invariants.json` · `moniversive/framework/mis_ml.mis` · surfaces under `languages/mis-ml/surfaces/`. Indexed as **`gitbook.moniversive.mis`** in `mis_code_index.json`.
 
 ## 1. Mathematical tensor definitions
 

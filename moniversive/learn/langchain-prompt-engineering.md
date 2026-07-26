@@ -1,6 +1,6 @@
 # LangChain + MIS prompt engineering
 
-> Generated 2026-07-26T18:41:59Z · combine LLM chains with **indexed `.mis`** surfaces
+> Generated 2026-07-26T18:43:46Z · combine LLM chains with **indexed `.mis`** surfaces
 
 ## Workflow
 

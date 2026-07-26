@@ -1,6 +1,6 @@
 # Chat code breakdowns — last 48 hours
 
-> Generated 2026-07-26T18:41:57Z · **35** excerpts from Cursor **assistant** replies (sanitized)
+> Generated 2026-07-26T18:43:44Z · **35** excerpts from Cursor **assistant** replies (sanitized)
 
 The **coding breakdowns** you authored in chat (tables, symbol maps, Solidity/Python replacement notes, `bin/misc` workflows) are the narrative layer on top of indexed `.mis` sources. This page materializes those replies into GitBook.
 

@@ -1,6 +1,6 @@
 # Python → MIS (language replaces Python app code)
 
-> Generated 2026-07-26T18:41:59Z · **232** conversion entries · compiler **`bin/misc`**
+> Generated 2026-07-26T18:43:46Z · **232** conversion entries · compiler **`bin/misc`**
 
 Moniversive **replaces Python application authoring** for CLRTY coding surfaces: canonical logic lives in **`.mis`**, not new `python/` packages.
 
