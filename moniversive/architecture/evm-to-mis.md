@@ -1,6 +1,6 @@
 # EVM → MIS execution model
 
-> Generated 2026-07-26T18:30:00Z
+> Generated 2026-07-26T18:41:59Z
 
 | Vector | EVM | Moniversive Invariant Static (MIS) |
 | --- | --- | --- |

@@ -17,6 +17,10 @@
 * [Unique traits](language/unique-traits.md)
 * [Collections & concurrency](language/collections-concurrency.md)
 
+## Core protocol specs
+
+* [`gitbook.moniversive.mis` — tensors, Q64.64, invariant state](protocol/gitbook-moniversive-mis-core-specs.md)
+
 ## Architecture (Static ML)
 
 * [EVM → MIS](architecture/evm-to-mis.md)
@@ -105,6 +109,7 @@
 ## Math
 
 * [Invariant primer](math/invariant-primer.md)
+* [Core protocol specs — `gitbook.moniversive.mis`](protocol/gitbook-moniversive-mis-core-specs.md)
 
 ## Downloads
 

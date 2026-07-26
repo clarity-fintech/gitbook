@@ -1,6 +1,6 @@
 # MIS native ecosystem map (language GitBook)
 
-> Generated 2026-07-26T18:30:00Z · deep root: **Moniversive Invariant Static** · settlement **clrty-1 / 1202**
+> Generated 2026-07-26T18:41:59Z · deep root: **Moniversive Invariant Static** · settlement **clrty-1 / 1202**
 
 ## Language repo (kernel + 1025 invariants)
 
@@ -16,7 +16,7 @@
 | --- | --- |
 | Download / kernel | [downloads/README.md](../downloads/README.md) |
 | Examples | [showcases/canonical-examples.md](../showcases/canonical-examples.md) |
-| Mathematics | [math/invariant-primer.md](../math/invariant-primer.md) |
+| Mathematics | [math/invariant-primer.md](../math/invariant-primer.md) · [Core protocol (`gitbook.moniversive.mis`)](../protocol/gitbook-moniversive-mis-core-specs.md) |
 | Programmers | [guides/coding-guide.md](../guides/coding-guide.md) · [high-level ergonomics](../language/high-level-ergonomics.md) |
 | Full breakdown | [language/full-language-breakdown.md](../language/full-language-breakdown.md) |
 

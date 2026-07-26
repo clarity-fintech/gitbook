@@ -1,6 +1,6 @@
 # `languages/mis-ml/mis/HighLevelErgonomics.mis`
 
-> Generated 2026-07-26T18:26:17Z · module **`HighLevelErgonomics`** · 34 lines
+> Generated 2026-07-26T18:41:54Z · module **`HighLevelErgonomics`** · 34 lines
 
 ```bash
 bin/misc languages/mis-ml/mis/HighLevelErgonomics.mis --check --compact-letters
