@@ -12,6 +12,26 @@ Mathematical **tensor definitions**, **Q64.64** fixed-point math rules, and **in
 
 → **[protocol/gitbook-moniversive-mis-core-specs.md](../protocol/gitbook-moniversive-mis-core-specs.md)** (also in `mis_code_index.json` as **`gitbook.moniversive.mis`**)
 
+## CLRTY-1 settlement modules (chain 1202)
+
+CLRTY-1 **smart contract** documentation is **`.mis` only** (no Solidity source of truth). Product narrative and fee/treasury/Spark policy live in the CLRTY-1 GitBook; this page indexes **authoring paths** and `bin/misc` checks.
+
+| Doc | Link |
+| --- | --- |
+| Smart contracts overview | [../../clrty-1/contracts/README.md](../../clrty-1/contracts/README.md) |
+| Module catalog | [../../clrty-1/contracts/catalog.md](../../clrty-1/contracts/catalog.md) |
+| Spec ↔ runtime hooks | [../../clrty-1/contracts/verification-hooks.md](../../clrty-1/contracts/verification-hooks.md) |
+| Moniversive module reference | [../contracts/clrty-1/README.md](../contracts/clrty-1/README.md) |
+
+| Kernel / policy | Path |
+| --- | --- |
+| Active compiler | `moniversive/framework/misc.mis` · `reject_foreign_kernel` |
+| Spark + treasury custom rules | `moniversive/framework/MisSparkCustomRules.mis` |
+| Contract catalog resolver | `moniversive/contracts/MisClrty1ContractsIndex.mis` · `no_solidity_authoring` |
+| FMA bridge catalog | `moniversive/contracts/bridge/MisFmaBridgePerimeterIndex.mis` · `CLRTY_SUBSTRATE/boot/clrty1_fma_bridge_mis_catalog.json` |
+
+Boot index band **`clrty1_contracts`**: ids `idx-mis-clrty1-contracts-*` in `CLRTY_SUBSTRATE/boot/mis_code_index.json`.
+
 ## Replaces Solidity and Python
 
 | Was | Now (MIS) |
@@ -275,6 +295,60 @@ bin/misc moniversive/framework/MisRouter.mis --check --compact-letters
 ```bash
 bin/misc moniversive/framework/MisSparkCustomRules.mis --check --compact-letters
 ```
+### `moniversive/contracts/MisClrty1ContractsIndex.mis` · module `MisClrty1ContractsIndex`
+
+| Outcomes (6) | `resolve_treasury_module`, `resolve_fee_collector`, `resolve_split_gateway`, `resolve_l01_tax_router`, `resolve_bridge_hooks`, `bind_spark_custom_rules` |
+| Invariants (6) | `letter_hash_bound:`, `deep_root_moniversive:`, `settlement_chain:`, `kernel_is_misc:`, `authoring_extension_mis:`, `no_solidity_authoring:` |
+| fn (0) | — |
+
+```bash
+bin/misc moniversive/contracts/MisClrty1ContractsIndex.mis --check --compact-letters
+```
+### `moniversive/contracts/MisClrty1Treasury.mis` · module `MisClrty1Treasury`
+
+| Outcomes (2) | `credit_operational_sink`, `attach_settle_route` |
+| Invariants (9) | `letter_hash_bound:`, `deep_root_moniversive:`, `settlement_chain:`, `settlement_network_clrty1:`, `kernel_is_misc:`, `treasury_label:`, `treasury_account_bound:`, `no_eth_safe_launch:`, `siwe_gate_treasury_api:` |
+| fn (0) | — |
+
+```bash
+bin/misc moniversive/contracts/MisClrty1Treasury.mis --check --compact-letters
+```
+### `moniversive/contracts/MisProtocolFeeCollector.mis` · module `MisProtocolFeeCollector`
+
+| Outcomes (2) | `deposit_product_fee`, `trigger_pool_route` |
+| Invariants (6) | `letter_hash_bound:`, `deep_root_moniversive:`, `settlement_chain:`, `kernel_is_misc:`, `pool_non_negative:`, `threshold_usdc_floor:` |
+| fn (0) | — |
+
+```bash
+bin/misc moniversive/contracts/MisProtocolFeeCollector.mis --check --compact-letters
+```
+### `moniversive/contracts/MisSplitGatewayRouter.mis` · module `MisSplitGatewayRouter`
+
+| Outcomes (2) | `quote_split`, `route_fees` |
+| Invariants (7) | `letter_hash_bound:`, `deep_root_moniversive:`, `settlement_chain:`, `kernel_is_misc:`, `split_bps_50_50:`, `shares_sum:`, `spark_not_foreign:` |
+| fn (0) | — |
+
+```bash
+bin/misc moniversive/contracts/MisSplitGatewayRouter.mis --check --compact-letters
+```
+### `moniversive/contracts/MisClrtFeeRouter.mis` · module `MisClrtFeeRouter`
+
+| Outcomes (2) | `collect_execution_tax`, `bind_tax_to_settle_post` |
+| Invariants (6) | `letter_hash_bound:`, `deep_root_moniversive:`, `settlement_chain:`, `kernel_is_misc:`, `l01_tax_bps:`, `tax_sink_clrty1:` |
+| fn (0) | — |
+
+```bash
+bin/misc moniversive/contracts/MisClrtFeeRouter.mis --check --compact-letters
+```
+### `moniversive/contracts/MisStrataBridgeHooks.mis` · module `MisStrataBridgeHooks`
+
+| Outcomes (3) | `ingest_bridge_receipt`, `finalize_clrty1_mint`, `verify_dual_endpoint_balance` |
+| Invariants (6) | `letter_hash_bound:`, `deep_root_moniversive:`, `settlement_chain:`, `kernel_is_misc:`, `foreign_chain_rejected:`, `receipt_dual_attest:` |
+| fn (0) | — |
+
+```bash
+bin/misc moniversive/contracts/MisStrataBridgeHooks.mis --check --compact-letters
+```
 ### `moniversive/framework/MisSuperdynamic.mis` · module `MisSuperdynamic`
 
 | Outcomes (4) | `morph_kernel`, `ring_swap`, `ivc_accumulate`, `select_mode` |
@@ -447,7 +521,7 @@ Highlights (48h window):
 - **Saturday, Jul 25, 2026, 4:58 PM (UTC-6)** — Full Repository Path: /Users/william/$CLRTY_PROJECT ## User request "Update the entire CLRTY-1 set (all)" — comprehensive refresh/integration pass across the monorepo and clarity-fintech fleet. ## Context from this conversation (do not redo blindly; verify and complete gaps) 1. **Superstructure**: `.beacon`/`.clrty`/`.mis`, `clrty_superstructure.json`, 67 org repos, `scripts/clarity_fintech_refresh_all_repos.sh` (58 refreshed, 9 need clone), `bin/misc` root dotfiles work after `make misc-build`. 2. **Wallet/fintauo**: ice UX, Spark, CLRTY-1 integration strip, exchange at exchange.clarity-fintech.com. 3. **Status + monitor**: User wanted united hub — status.clarity-fintech.com + network-monitor-d1g.pages.dev (monitor URL unchanged). Subagent c8939ede may have started; check transcript/output and finish if incomplete. 4. **PyCharm sync** required every turn end. 5. **MIS rules**: `.mis` authoring, `bin/misc --check`, update `mis_code_index.json` for new surfaces. No git commit unless user asked (they didn't). ## Scope — "entire CLRTY-1 set" Execute a coordinated update pass: ### A. Substrate / boot SSOT - Refresh `CLRTY_SUBSTRATE/boot/*.json` that define clrty-1/1202 (network.json...
 - **Saturday, Jul 25, 2026, 4:53 PM (UTC-6)** — Full Repository Path: /Users/william/$CLRTY_PROJECT ## User request (priority) Refresh **ALL git repos (60+)** for **Clarity-fintech** — united CLRTY-1 superstructure with `.beacon`, `.clrty`, `.mis` per repo (unique beacon identity each), cross-linked symlinks, working `bin/misc` checks, MIS-ML index updates. User said: "All has to be refreshed all of the git repos 60+ repos for git (Clarity-fintech)". ## Prior work (may exist — verify, don't duplicate blindly) Background task may have added root `.beacon`/`.clrty`/`.mis`, `clrty_superstructure.json`, framework MIS modules, sync scripts. **Complete and extend** for full Clarity-fintech fleet. ## Steps 1. **Discover repos**: Find all git remotes under `external/clarity-fintech/`, workspace maps, `scripts/sync_moniversive_workspace.sh`, any manifest listing clarity repos. Use `find`, `rg`, JSON catalogs. Target 60+ repos — document count found. 2. **Inventory script** (if missing): `scripts/clarity_fintech_refresh_all_repos.sh` or extend existing — loops repos, ensures each has: - `.beacon` (unique NODE_NAME / BEACON_ID) - `.clrty` (links parent superstructure, chain 1202) - `.mis` (MARE engine stub, settlement clrty-1) - Optiona...
 - **Saturday, Jul 25, 2026, 4:51 PM (UTC-6)** — Full Repository Path: /Users/william/$CLRTY_PROJECT ## Mission Implement CLRTY-1 "superstructure" with `.beacon`, `.clrty`, and `.mis` root manifests across the monorepo and connected git repos; cross-link/symlink united repo structure; wire MIS-ML resources IN USE; update indexes/catalogs; refresh Notion where MCP allows; ensure working CLI via `bin/misc`. ## Mandatory workspace rules 1. MIS kernel only: `bin/misc` for checks — not python app code for new surfaces. 2. Author `.mis` primarily; user explicitly requires `.clrty` manifest files too (legacy ecosystem manifest per spec). 3. Read `CLRTY_SUBSTRATE/boot/mis_code_index.json`, `mis_framework_taxonomy.json`, `mis_kernel_active_only.json` before adding entries. 4. Taxonomy: pick mis_core | mis_chain | mis_lang branches — e.g. `moniversive/framework/` for cross-cutting. 5. End turn with: `CLRTY_ROOT="/Users/william/\$CLRTY_PROJECT" bash scripts/sync_pycharm_workspace.sh` 6. Do NOT git commit unless you find explicit user commit request in this task (there isn't — no commits). ## User spec (adapt to repo reality) Create production-ready MIS-native root files per repo/beacon concept: - `/.beacon` — node signal & telemetry (CHA...
-- **Thursday, Jul 23, 2026, 2:18 PM (UTC-6)** — This needs to be intergrated: This is to collect the fees and complete routing and profit from the CLRTY wallet and also Clarity Spark Routed to a IN full Here is the technical specification for how the routing pipeline collects fees in the pool, splits them, and distributes funds to your bank account and **Ecstatic Multi-Chain Safe** (`0x91ba6194e3d48017f1fC002407ebF8796Ec72f8f`). --- ## 1. On-Chain Charge Pool $\rightarrow$ Split Gateway Contract All in-wallet swaps, purchases, and convenience markups are continuously deposited into `ProtocolFeeCollector.clrty` (the charge pool). When the pool threshold is reached (e.g., $\ge \$500 \text{ USDC}$ or on a daily cron), the `routeFees` execution call is triggered: ```solidity // SPDX-License-Identifier: MIT pragma solidity ^0.8.20; import "@openzeppelin/contracts/token/ERC20/IERC20.clrty"; contract SplitGatewayRouter { // Ecstatic Multi-Chain Safe address public constant SAFE_TREASURY = 0x91ba6194e3d48017f1fC002407ebF8796Ec72f8f; // Dedicated Server Off-Ramp Liquidity Address address public immutable bankOffRampPool; // 50% / 50% Basis Points uint256 public constant SPLIT_BASIS_POINTS = 5000; event FeeRouted(uint256 treasuryAmount...
+- **Thursday, Jul 23, 2026, 2:18 PM (UTC-6)** — Fee routing integrated as **`.mis` only** (we do not use Solidity): `MisProtocolFeeCollector.mis` (charge pool, ≥500 USDC threshold), `MisSplitGatewayRouter.mis` (50/50 bps default, Spark `onramp_provider == clarity_spark`), `MisClrty1Treasury.mis` (`treasury:clrty-1`, chain **1202**), `MisSparkCustomRules.mis` (**100%** operational treasury override). Catalog: `docs/gitbook/clrty-1/contracts/catalog.md`.
 
 Teaching track: [How to code in MIS](../education/how-to-code-in-mis.md).
 

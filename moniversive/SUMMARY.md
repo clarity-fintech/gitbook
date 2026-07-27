@@ -107,6 +107,11 @@
 * [Commands & Make](catalog/commands-and-make-targets.md)
 * [Static ML bands (1025)](catalog/static-ml-invariant-bands.md)
 
+## CLRTY-1 contracts (`.mis`)
+
+* [Contract catalog hub](contracts/README.md) — **MIS only; no Solidity SSOT**
+* [CLRTY-1 module reference](contracts/clrty-1/README.md)
+
 ## Showcases (`.mis`)
 
 * [Framework modules](showcases/framework-modules.md)

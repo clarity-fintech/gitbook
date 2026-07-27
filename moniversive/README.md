@@ -16,3 +16,5 @@ bin/misc path.mis --check --compact-letters
 ```
 
 Start: [Education hub](education/README.md) · [01 — Language mindset](education/01-language-mindset.md) · [MIS showcase](education/mis-showcase.md).
+
+**CLRTY-1 smart contracts** are documented separately: [CLRTY-1 contracts hub](../clrty-1/contracts/README.md) · [`.mis` module reference](contracts/clrty-1/README.md) — **Moniversive Invariant Static only; no Solidity source of truth.**
