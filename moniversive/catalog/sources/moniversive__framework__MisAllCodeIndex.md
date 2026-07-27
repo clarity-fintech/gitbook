@@ -1,6 +1,6 @@
 # `moniversive/framework/MisAllCodeIndex.mis`
 
-> Generated 2026-07-26T19:02:58Z · module **`MisAllCodeIndex`** · 28 lines
+> Generated 2026-07-27T00:56:43Z · module **`MisAllCodeIndex`** · 28 lines
 
 ```bash
 bin/misc moniversive/framework/MisAllCodeIndex.mis --check --compact-letters

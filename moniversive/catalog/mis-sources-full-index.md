@@ -1,14 +1,15 @@
 # Full index — all `.mis` in `mis_code_index`
 
-> Generated 2026-07-26T19:03:02Z · **260** indexed · **22** education (non-migrated) · showcase: [education/mis-showcase.md](../education/mis-showcase.md)
+> Generated 2026-07-27T00:56:55Z · **286** indexed · **48** education (non-migrated) · showcase: [education/mis-showcase.md](../education/mis-showcase.md)
 
 Companion: `moniversive/framework/MisAllCodeIndex.mis` · SSOT: `CLRTY_SUBSTRATE/boot/mis_code_index.json`
 
 | Path | Module | Inv | Out | Education | On disk |
 | --- | --- | ---: | ---: | --- | --- |
+| `examples/mis/kernel_swap_to_mis.mis` | `KernelSwapToMis` | 9 | 6 | yes | yes |
 | `languages/mis-ml/mis/HighLevelErgonomics.mis` | `HighLevelErgonomics` | 5 | 4 | yes | yes |
 | `moniversive/framework/CherryDataPlane.mis` | `CherryDataPlane` | 9 | 6 | yes | yes |
-| `moniversive/framework/ClarityFintechRepoCommandMesh.mis` | `ClarityFintechRepoCommandMesh` | 10 | 45 | no | yes |
+| `moniversive/framework/ClarityFintechRepoCommandMesh.mis` | `ClarityFintechRepoCommandMesh` | 10 | 60 | no | yes |
 | `moniversive/framework/Clrty1WalletRosterPolicy.mis` | `Clrty1WalletRosterPolicy` | 14 | 6 | no | yes |
 | `moniversive/framework/Clrty1WalletSecurityPolicy.mis` | `Clrty1WalletSecurityPolicy` | 16 | 6 | no | yes |
 | `moniversive/framework/ClrtySovereignLineageFence.mis` | `ClrtySovereignLineageFence` | 13 | 5 | yes | yes |
@@ -20,11 +21,27 @@ Companion: `moniversive/framework/MisAllCodeIndex.mis` · SSOT: `CLRTY_SUBSTRATE
 | `moniversive/framework/MisEngineRoot.mis` | `MisEngineRoot` | 6 | 3 | yes | yes |
 | `moniversive/framework/MisRecursion.mis` | `MisRecursion` | 4 | 3 | yes | yes |
 | `moniversive/framework/MisRouter.mis` | `MisRouter` | 4 | 4 | yes | yes |
+| `moniversive/framework/MisSparkCustomRules.mis` | `MisSparkCustomRules` | 16 | 6 | yes | yes |
 | `moniversive/framework/MisSuperdynamic.mis` | `MisSuperdynamic` | 4 | 4 | yes | yes |
 | `moniversive/framework/NotionAccountLinkRouter.mis` | `NotionAccountLinkRouter` | 8 | 5 | yes | yes |
 | `moniversive/framework/WalletBackendRouter.mis` | `WalletBackendRouter` | 12 | 7 | yes | yes |
 | `moniversive/framework/WalletTradeConvert.mis` | `WalletTradeConvert` | 12 | 6 | yes | yes |
 | `moniversive/framework/WalletUxIntegrationMesh.mis` | `WalletUxIntegrationMesh` | 9 | 8 | yes | yes |
+| `moniversive/framework/dashboard/DashboardTypes.mis` | `DashboardTypes` | 30 | 8 | yes | yes |
+| `moniversive/framework/dashboard/MisDashboardTelemetryHarness.mis` | `MisDashboardTelemetryHarness` | 12 | 8 | yes | yes |
+| `moniversive/framework/dashboard/MisDashboardTelemetryInvariants.mis` | `MisDashboardTelemetryInvariants` | 22 | 103 | yes | yes |
+| `moniversive/framework/dashboard/MisDashboardTypes.mis` | `MisDashboardTypes` | 24 | 6 | yes | yes |
+| `moniversive/framework/dashboard/MisDeFiIntegrityInvariants.mis` | `MisDeFiIntegrityInvariants` | 10 | 18 | yes | yes |
+| `moniversive/framework/dashboard/MisEndpointInvariants.mis` | `MisEndpointInvariants` | 10 | 18 | yes | yes |
+| `moniversive/framework/dashboard/MisMultiWalletInvariants.mis` | `MisMultiWalletInvariants` | 10 | 17 | yes | yes |
+| `moniversive/framework/dashboard/MisNetWorthInvariants.mis` | `MisNetWorthInvariants` | 10 | 16 | yes | yes |
+| `moniversive/framework/dashboard/MisUISettlementInvariants.mis` | `MisUISettlementInvariants` | 10 | 18 | yes | yes |
+| `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` | `DashboardTelemetryP1` | 11 | 20 | yes | yes |
+| `moniversive/framework/dashboard/dashboard_telemetry_p2.mis` | `DashboardTelemetryP2` | 12 | 20 | yes | yes |
+| `moniversive/framework/dashboard/dashboard_telemetry_p3.mis` | `DashboardTelemetryP3` | 12 | 20 | yes | yes |
+| `moniversive/framework/dashboard/dashboard_telemetry_p4.mis` | `DashboardTelemetryP4` | 10 | 20 | yes | yes |
+| `moniversive/framework/dashboard/dashboard_telemetry_p5.mis` | `DashboardTelemetryP5` | 11 | 20 | yes | yes |
+| `moniversive/framework/ingestion/MisMultiChainLiveIngestion1901.mis` | `MisMultiChainLiveIngestion1901` | 13 | 7 | yes | yes |
 | `moniversive/framework/mis_chain.mis` | `MisChain` | 5 | 4 | yes | yes |
 | `moniversive/framework/mis_core.mis` | `MisCore` | 5 | 5 | yes | yes |
 | `moniversive/framework/mis_crypto.mis` | `MisCrypto` | 5 | 4 | yes | yes |
@@ -32,6 +49,12 @@ Companion: `moniversive/framework/MisAllCodeIndex.mis` · SSOT: `CLRTY_SUBSTRATE
 | `moniversive/framework/mis_lang.mis` | `MisLang` | 5 | 4 | yes | yes |
 | `moniversive/framework/mis_ml.mis` | `MisMl` | 5 | 4 | yes | yes |
 | `moniversive/framework/misc.mis` | `Misc` | 8 | 5 | yes | yes |
+| `moniversive/framework/payments/PaymentTypes.mis` | `PaymentTypes` | 22 | 7 | yes | yes |
+| `moniversive/framework/payments/multi_coin_onramp.mis` | `MultiCoinOnramp` | 20 | 13 | yes | yes |
+| `moniversive/framework/wallet/ClrtyPreLaunchFreeze.mis` | `ClrtyPreLaunchFreeze` | 3 | 3 | yes | yes |
+| `moniversive/invariants/dashboard_telemetry.mis` | `DashboardTelemetry` | 19 | 8 | yes | yes |
+| `moniversive/invariants/multi_coin_onramp.mis` | `MultiCoinOnrampSpark` | 22 | 8 | yes | yes |
+| `moniversive/invariants/types.mis` | `MoniversiveCoreTypes` | 32 | 4 | yes | yes |
 | `moniversive/migrated/docs/simulation/generate_charts.mis` | `DocsSimulationGenerateCharts` | 5 | 2 | archive | yes |
 | `moniversive/migrated/first_access_pack/02_terminal_vector/inference/bench_throughput.mis` | `FirstAccessPack02TerminalVectorInferenceBenchThroughput` | 5 | 2 | archive | yes |
 | `moniversive/migrated/frontend/CLRTY-WALLET-INTEGRATION/scripts/verify_wallet_nodes.mis` | `FrontendCLRTYWALLETINTEGRATIONScriptsVerifyWalletNodes` | 5 | 2 | archive | yes |
@@ -266,3 +289,6 @@ Companion: `moniversive/framework/MisAllCodeIndex.mis` · SSOT: `CLRTY_SUBSTRATE
 | `moniversive/migrated/vis_intelligence/rag_verify.mis` | `VisIntelligenceRagVerify` | 5 | 2 | archive | yes |
 | `moniversive/packages/compliance/MisClrty1ComplianceScan.mis` | `MisClrty1ComplianceScan` | 6 | 5 | no | yes |
 | `moniversive/packages/compliance/MisRegulatoryHooks.mis` | `MisRegulatoryHooks` | 4 | 2 | no | yes |
+| `moniversive/payments/MisSparkMultiCoinOnramp.mis` | `MisSparkMultiCoinOnramp` | 29 | 13 | yes | yes |
+| `moniversive/payments/MisSparkMultiCoinOnrampInvariants.mis` | `MisSparkMultiCoinOnrampInvariants` | 17 | 14 | yes | yes |
+| `path.mis` | `KernelSwapToMis` | 9 | 6 | yes | yes |

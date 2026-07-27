@@ -1,6 +1,6 @@
 # AI prompting for MIS (language only)
 
-> Generated 2026-07-26T19:03:01Z · inputs for Cursor, MLX, and human authors
+> Generated 2026-07-27T00:56:55Z · inputs for Cursor, MLX, and human authors
 
 1. Resolve via `mis_code_index.json` / `clrty_getMisCodeIndex` first.
 2. Prefer taxonomy branches (`mis_core` … `mis_lang`) — no parallel trees.

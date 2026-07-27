@@ -1,6 +1,6 @@
 # `moniversive/framework/dashboard/DashboardTypes.mis`
 
-> Generated 2026-07-26T19:02:58Z · module **`DashboardTypes`** · 116 lines
+> Generated 2026-07-27T00:56:43Z · module **`DashboardTypes`** · 116 lines
 
 ```bash
 bin/misc moniversive/framework/dashboard/DashboardTypes.mis --check --compact-letters

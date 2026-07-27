@@ -1,6 +1,6 @@
 # `moniversive/framework/MisSuperdynamic.mis`
 
-> Generated 2026-07-26T19:02:58Z · module **`MisSuperdynamic`** · 32 lines
+> Generated 2026-07-27T00:56:43Z · module **`MisSuperdynamic`** · 32 lines
 
 ```bash
 bin/misc moniversive/framework/MisSuperdynamic.mis --check --compact-letters

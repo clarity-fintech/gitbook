@@ -2,13 +2,20 @@
 
 * [Introduction](README.md)
 
-## Education (`.mis` showcase)
+## Education — learn the language (`.mis`)
 
-* [**How to code in MIS**](education/how-to-code-in-mis.md)
-* [Coding exercises](education/coding-exercises.md)
 * [Education hub](education/README.md)
-* [MIS showcase — all education sources](education/mis-showcase.md)
-* [`.clrty` legacy surfaces](language/clrty-legacy-surfaces.md)
+* [1 — Language mindset](education/01-language-mindset.md)
+* [2 — Module anatomy](education/02-module-anatomy.md)
+* [3 — Invariants (deep)](education/03-invariants-deep.md)
+* [4 — Outcomes (deep)](education/04-outcomes-deep.md)
+* [5 — State, signals, fail](education/05-state-signals-fail.md)
+* [6 — Types & data](education/06-types-and-data.md)
+* [7 — Worked examples](education/07-worked-examples.md)
+* [8 — Reading framework modules](education/08-reading-framework-modules.md)
+* [How to code — full track](education/how-to-code-in-mis.md)
+* [Coding exercises](education/coding-exercises.md)
+* [MIS showcase](education/mis-showcase.md)
 
 ## Language & coding breakdown
 

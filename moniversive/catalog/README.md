@@ -1,8 +1,8 @@
 # MIS language catalog
 
-> Generated 2026-07-26T19:03:02Z
+> Generated 2026-07-27T00:56:55Z
 
-Machine index: **`CLRTY_SUBSTRATE/boot/mis_code_index.json`** (560 entries, **260** indexed `.mis`, **17** education showcase).
+Machine index: **`CLRTY_SUBSTRATE/boot/mis_code_index.json`** (723 entries, **286** indexed `.mis`, **39** education showcase).
 
 | Page | Contents |
 | --- | --- |

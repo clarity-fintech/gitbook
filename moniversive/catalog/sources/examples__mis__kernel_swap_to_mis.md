@@ -1,6 +1,6 @@
 # `examples/mis/kernel_swap_to_mis.mis`
 
-> Generated 2026-07-26T19:02:58Z · module **`KernelSwapToMis`** · 53 lines
+> Generated 2026-07-27T00:56:43Z · module **`KernelSwapToMis`** · 53 lines
 
 ```bash
 bin/misc examples/mis/kernel_swap_to_mis.mis --check --compact-letters

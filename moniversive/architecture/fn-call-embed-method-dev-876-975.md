@@ -1,6 +1,6 @@
 # Architecture primitives — 20×5 sets (876–975)
 
-> Generated 2026-07-26T19:03:01Z · module `MisArchitecturePrimitives.clrty` · RPC `clrty_getMisArchitecturePrimitives`
+> Generated 2026-07-27T00:56:55Z · module `MisArchitecturePrimitives.clrty` · RPC `clrty_getMisArchitecturePrimitives`
 
 Five **sets of 20** unique symbols (100 total):
 

@@ -1,10 +1,11 @@
 # Syntax rules
 
-```clrty
-use std::token;
+> Generated 2026-07-27T00:56:55Z · language reference (education track)
 
+```mis
 module Example {
-  invariant settlement_chain: chain_id == 1202;
+
+  invariant counter_non_negative: counter >= 0;
 
   state counter;
 
@@ -20,15 +21,17 @@ module Example {
 
 | Keyword | Role |
 |---------|------|
-| `module` | Top-level unit (former `contract`) |
+| `module` | Top-level unit |
 | `invariant` | Global truth condition |
 | `state` | Persistent field |
-| `signal` | Observable emission (former `event`) |
-| `fail` | Named failure intent (former `error`) |
+| `signal` | Observable emission |
+| `fail` | Named failure intent |
 | `outcome` | Desired result under `require` / `constraint` |
 | `require` | Precondition |
-| `constraint` | Post-state relation the optimizer must satisfy |
-| `@0` | Zero account |
-| `use std::…` | Stdlib import (replaces OpenZeppelin) |
+| `constraint` | Post-state relation the checker must satisfy |
+| `@0` | Zero account sentinel |
+| `use std::…` | Stdlib import when needed |
 
-Comments: `//` line comments. Settlement default: `clrty-1` / `1202`.
+Comments: `//` line comments.
+
+Deep dive: [Module anatomy](../education/02-module-anatomy.md) · [Outcomes](../education/04-outcomes-deep.md).
