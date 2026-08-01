@@ -2,6 +2,21 @@
 
 * [Introduction](README.md)
 
+## Education — learn the language (`.mis`)
+
+* [Education hub](education/README.md)
+* [1 — Language mindset](education/01-language-mindset.md)
+* [2 — Module anatomy](education/02-module-anatomy.md)
+* [3 — Invariants (deep)](education/03-invariants-deep.md)
+* [4 — Outcomes (deep)](education/04-outcomes-deep.md)
+* [5 — State, signals, fail](education/05-state-signals-fail.md)
+* [6 — Types & data](education/06-types-and-data.md)
+* [7 — Worked examples](education/07-worked-examples.md)
+* [8 — Reading framework modules](education/08-reading-framework-modules.md)
+* [How to code — full track](education/how-to-code-in-mis.md)
+* [Coding exercises](education/coding-exercises.md)
+* [MIS showcase](education/mis-showcase.md)
+
 ## Language & coding breakdown
 
 * [Full language breakdown](language/full-language-breakdown.md)
@@ -12,13 +27,28 @@
 * [Invariants](language/invariants.md)
 * [Outcomes & constraints](language/outcomes.md)
 * [High-level ergonomics](language/high-level-ergonomics.md)
+* [Definitions, variables & sets](language/definitions-variables-sets.md)
 * [Unique traits](language/unique-traits.md)
 * [Collections & concurrency](language/collections-concurrency.md)
+
+## Core protocol specs
+
+* [`gitbook.moniversive.mis` — tensors, Q64.64, invariant state](protocol/gitbook-moniversive-mis-core-specs.md)
+
+## Architecture (Static ML)
+
+* [EVM → MIS](architecture/evm-to-mis.md)
+* [Operational rulebook](architecture/operational-rulebook.md)
+* [Cross-shard bounds 746–760](architecture/cross-shard-state-bounds-746-760.md)
+* [Hardware vectors 761–775](architecture/hardware-vector-invariants-761-775.md)
+* [Native kernels 776–875](architecture/native-kernels-776-875.md)
+* [fn / call / embed / method / dev](architecture/fn-call-embed-method-dev-876-975.md)
 
 ## Learn
 
 * [Language learning path](learn/language-learning-path.md)
 * [AI prompting](learn/ai-prompting.md)
+* [LangChain + MIS](learn/langchain-prompt-engineering.md)
 * [Cheatsheets](learn/cheatsheets.md)
 
 ## MIS Taxonomy
@@ -71,10 +101,11 @@
 ## Catalog (generated)
 
 * [Catalog hub](catalog/README.md)
+* [Full `.mis` index (database)](catalog/mis-sources-full-index.md)
 * [Symbol catalog](catalog/symbols-full.md)
 * [Per-file reference](catalog/sources/README.md)
-* [Full `.mis` index](catalog/mis-sources-full-index.md)
 * [Commands & Make](catalog/commands-and-make-targets.md)
+* [Static ML bands (1025)](catalog/static-ml-invariant-bands.md)
 
 ## Showcases (`.mis`)
 
@@ -85,6 +116,7 @@
 ## Math
 
 * [Invariant primer](math/invariant-primer.md)
+* [Core protocol specs — `gitbook.moniversive.mis`](protocol/gitbook-moniversive-mis-core-specs.md)
 
 ## Downloads
 
