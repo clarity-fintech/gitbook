@@ -54,6 +54,7 @@ Browser handoff: `https://exchange.clarity-fintech.com/login?token=<JWT>&intent=
 
 ### 5. GitBook unlock
 
+- Setup guide: [GitBook Custom JWT setup](../authentication/gitbook-custom-jwt-setup.md)
 - Preview: [GitBook SWARM site](https://app.gitbook.com/o/6MCNfiz1cpjlR5LX4kWw/sites/site_vzd1R/preview)
 - Client script: [gitbook-gating.js](../assets/gitbook-gating.js)
 - Sections use `data-required-tier="starter|dev_portal|wallet_fund|elite|enterprise"`
