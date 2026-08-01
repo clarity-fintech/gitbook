@@ -1,6 +1,6 @@
 # 2 — Module anatomy
 
-> Generated 2026-07-27T00:56:55Z
+> Generated 2026-07-29T03:15:30Z
 
 Every `.mis` file is a sequence of declarations inside a single **`module`**. The module name is the unit of reuse and checking: one file may contain one module (education convention), and the name is usually PascalCase (`CounterLesson`, `MisRouter`).
 

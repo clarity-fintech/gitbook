@@ -1,6 +1,6 @@
 # 5 — State, signals, and fail
 
-> Generated 2026-07-27T00:56:55Z
+> Generated 2026-07-29T03:15:30Z
 
 MIS modules can declare **persistent fields** and **observable events** alongside invariants and outcomes. Together they replace mutable object fields + event emits in other languages.
 

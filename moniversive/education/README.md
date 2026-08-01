@@ -1,6 +1,6 @@
 # Education — learn MIS (`.mis`) as a language
 
-> Generated 2026-07-27T00:56:55Z · **language only** · compiler **`bin/misc`**
+> Generated 2026-07-29T03:15:30Z · **language only** · compiler **`bin/misc`**
 
 This track teaches **Moniversive Invariant Static** as a programming language: modules, invariants, outcomes, state, and signals. It does not cover products, institutions, or distributed ledgers — only how to read and write `.mis` and verify it with **`bin/misc`**.
 
@@ -23,7 +23,7 @@ This track teaches **Moniversive Invariant Static** as a programming language: m
 
 | Resource | Count |
 | --- | --- |
-| [MIS showcase](mis-showcase.md) | **39** education `.mis` files |
+| [MIS showcase](mis-showcase.md) | **150** education `.mis` files |
 | [Per-file excerpts](../catalog/sources/README.md) | Symbol lists + source previews |
 
 ```bash

@@ -1,10 +1,10 @@
 # 1 — Language mindset
 
-> Generated 2026-07-27T00:56:55Z
+> Generated 2026-07-29T03:15:30Z
 
 Most languages ask you to describe **steps**: call this, branch here, catch exceptions there. MIS asks you to describe **what must remain true** and **what result you want** under explicit gates. The checker (`bin/misc`) validates that your module is well-formed; the execution model (Static ML) is concerned with schedules that satisfy **`constraint`** lines without breaking **`invariant`** lines.
 
-That shift is the whole language. Once you stop looking for `main()` and start looking for **`module` → `invariant` → `outcome`**, files become predictable. The **39** modules in the [showcase](mis-showcase.md) all follow the same skeleton; differences are domain names and predicate counts, not syntax surprises.
+That shift is the whole language. Once you stop looking for `main()` and start looking for **`module` → `invariant` → `outcome`**, files become predictable. The **150** modules in the [showcase](mis-showcase.md) all follow the same skeleton; differences are domain names and predicate counts, not syntax surprises.
 
 ## Code = intent, state = invariants
 

@@ -1,6 +1,6 @@
 # Language overview
 
-> Generated 2026-07-27T00:56:55Z
+> Generated 2026-07-29T03:15:30Z
 
 Moniversive is a deterministic **execution + invariant intelligence** layer:
 

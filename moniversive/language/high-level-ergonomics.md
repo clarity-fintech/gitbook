@@ -1,6 +1,6 @@
 # High-level ergonomics (Python-like → MIS)
 
-> Generated 2026-07-27T00:56:55Z · compile to static **`.mis`** / `.clrty` kernels · **`bin/misc`**
+> Generated 2026-07-29T03:15:30Z · compile to static **`.mis`** / `.clrty` kernels · **`bin/misc`**
 
 | High-level concept | Python | MIS (authoring) | Primitive |
 | --- | --- | --- | --- |

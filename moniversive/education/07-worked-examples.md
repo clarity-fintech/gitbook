@@ -1,6 +1,6 @@
 # 7 — Worked examples (multi-module)
 
-> Generated 2026-07-27T00:56:55Z · compare with [showcase](mis-showcase.md) (**39** files)
+> Generated 2026-07-29T03:15:30Z · compare with [showcase](mis-showcase.md) (**150** files)
 
 Each example below has **paragraph guidance** plus **full source**. Run any repo path with `bin/misc`.
 

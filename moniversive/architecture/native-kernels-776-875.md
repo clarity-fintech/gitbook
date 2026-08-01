@@ -1,6 +1,6 @@
 # Native MIS kernels (776–875) — catalog 001–100
 
-> Generated 2026-07-27T00:56:55Z · module `MisNativeKernels.clrty` · RPC `clrty_getMisNativeKernels`
+> Generated 2026-07-29T03:15:30Z · module `MisNativeKernels.clrty` · RPC `clrty_getMisNativeKernels`
 
 ZK intrinsics, DMA, EVM-bridge kernels, ML tensor ops, substrate/cosmos extensions, and system integrity controls (native `.clrty` / `.mis` surfaces).
 

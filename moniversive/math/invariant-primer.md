@@ -1,6 +1,6 @@
 # Mathematics — invariants, outcomes, and bands
 
-> Generated 2026-07-27T00:56:55Z
+> Generated 2026-08-01T19:49:28Z
 
 MIS treats **invariants** as statically checkable predicates and **outcomes** as named execution intents.
 
@@ -8,10 +8,10 @@ MIS treats **invariants** as statically checkable predicates and **outcomes** as
 
 | Symbol kind | Count (scan) |
 | --- | --- |
-| Modules | 39 |
+| Modules | 0 |
 | fn | 0 |
-| Invariants | 472 |
-| Outcomes | 447 |
+| Invariants | 0 |
+| Outcomes | 0 |
 | EMBED 3..=6 blocks | 0 |
 
 Deep dives: [BeginnersGuide/Mathematics](../BeginnersGuide/Mathematics.md) · [Static ML bands](../architecture/static-ml-invariants.md) · [Gradients 201–300](../architecture/gradient-invariants-201-300.md).

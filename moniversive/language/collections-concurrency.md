@@ -1,6 +1,6 @@
 # Collections & concurrency
 
-> Generated 2026-07-27T00:56:55Z · bounded structures · lock-free atomics
+> Generated 2026-07-29T03:15:30Z · bounded structures · lock-free atomics
 
 | Primitive | Role |
 | --- | --- |

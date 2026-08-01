@@ -1,6 +1,6 @@
 # Core protocol specs — `gitbook.moniversive.mis`
 
-> Generated 2026-07-27T00:56:55Z · mathematical tensors · **Q64.64** fixed-point · invariant state frameworks
+> Generated 2026-07-29T03:15:30Z · mathematical tensors · **Q64.64** fixed-point · invariant state frameworks
 
 **Core Protocol Specs (`gitbook.moniversive.mis`):** mathematical tensor definitions, **Q64.64** fixed-point math rules, and invariant state frameworks.
 

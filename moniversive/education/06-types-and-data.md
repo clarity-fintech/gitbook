@@ -1,6 +1,6 @@
 # 6 — Types and data
 
-> Generated 2026-07-27T00:56:55Z
+> Generated 2026-07-29T03:15:30Z
 
 MIS uses a small set of scalar types in education modules. Match surrounding files when you extend framework code.
 

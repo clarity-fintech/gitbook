@@ -1,6 +1,6 @@
 # How to code in MIS — full track
 
-> Generated 2026-07-27T00:56:55Z · language-only · **`bin/misc`**
+> Generated 2026-07-29T03:15:30Z · language-only · **`bin/misc`**
 
 This is the **single-page** version of the multi-chapter course. For long-form prose, read [01 — Language mindset](01-language-mindset.md) through [08 — Reading framework modules](08-reading-framework-modules.md).
 
@@ -23,7 +23,7 @@ make mis-ml-check
 
 ## Corpus size
 
-**39** education `.mis` files · [symbols](../catalog/symbols-full.md) · [sources](../catalog/sources/README.md)
+**150** education `.mis` files · [symbols](../catalog/symbols-full.md) · [sources](../catalog/sources/README.md)
 
 ## Language rules (compressed)
 

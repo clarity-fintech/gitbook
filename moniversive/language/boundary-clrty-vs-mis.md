@@ -1,12 +1,12 @@
 # Language vs CLRTY-1 vs legacy `.clrty`
 
-> Generated 2026-07-27T00:56:43Z · scope: **Moniversive GitBook space only**
+> Generated 2026-08-01T19:49:28Z · scope: **Moniversive GitBook space only**
 
 This GitBook space documents **Moniversive Invariant Static (MIS)** — the deep-root language (`.mis`).
 
 | Layer | What it is | Where it lives |
 | --- | --- | --- |
-| **MIS language** | Syntax, letter-hash, taxonomy, `bin/misc` (EMBED gates 3..=6 retired in fleet `.mis`) | This space (`moniversive/`) |
+| **MIS language** | Syntax, EMBED 3..=6, letter-hash, taxonomy, `bin/misc` | This space (`moniversive/`) |
 | **Legacy MIS-ML surface** | Host-compiled `.clrty` stdlib/RPC (no Solidity) | `languages/mis-ml/` in monorepo — not taught here as primary |
 | **CLRTY-1 network** | Settlement chain `1202`, staking, ticks, RPC fleet | `public/` + `developer/` GitBook spaces · boot JSON only as references |
 

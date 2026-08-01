@@ -1,6 +1,6 @@
 # 8 — Reading framework `.mis` modules
 
-> Generated 2026-07-27T00:56:55Z
+> Generated 2026-07-29T03:15:30Z
 
 The `moniversive/framework/` tree is the standard library of **language patterns**. Read in this order:
 

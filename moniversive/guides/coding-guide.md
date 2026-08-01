@@ -1,6 +1,6 @@
 # Coding guide — Moniversive Invariant Static (`.mis`)
 
-> Generated 2026-07-27T00:56:55Z · language-only teach-yourself entry
+> Generated 2026-07-29T03:15:30Z · language-only teach-yourself entry
 
 ## Start here
 
@@ -22,7 +22,7 @@ make mis-ml-check
 
 | Resource | Purpose |
 | --- | --- |
-| [MIS showcase](../education/mis-showcase.md) | **39** runnable `.mis` files |
+| [MIS showcase](../education/mis-showcase.md) | **150** runnable `.mis` files |
 | [Per-file sources](../catalog/sources/README.md) | Excerpts + symbols |
 
 Regenerate: `make gitbook-moniversive-build` · live space only: `make gitbook-space-live`
