@@ -1,6 +1,6 @@
 # SWARM Agent Node on CLRTY-1
 
-Pay-gated documentation for hosting autonomous agent nodes on **Cherry bare-metal** with **Spark** settlement on **clrty-1 / chain 1202**.
+Consumer walkthrough for hosting autonomous agent nodes on **Cherry bare-metal** with **Spark** settlement on **clrty-1 / chain 1202**. **NO Docker.**
 
 ## Live preview
 
@@ -8,42 +8,42 @@ Pay-gated documentation for hosting autonomous agent nodes on **Cherry bare-meta
 - **Monitor mirror:** [monitor.clarity-fintech.com/docs/swarm-agent-node/](https://monitor.clarity-fintech.com/docs/swarm-agent-node/)
 - **SWARM host funnel:** [uiquio/swarms/host](https://monitor.clarity-fintech.com/uiquio/swarms/host)
 
-## Funnel
+## The funnel
 
 ```
-Spark checkout → POST /v1/auth/issue-token → Clarity Wallet login → GitBook JWT gate → Cherry deploy
+Spark checkout → JWT → Clarity Wallet → GitBook unlock → Cherry deploy → Register & run agents
 ```
 
 | Step | Surface |
 |------|---------|
-| Pay | Spark checkout tiers (`/uiquio/starter`, `/uiquio/dev-portal`, …) |
-| JWT | `POST https://api.clarity-fintech.com/v1/auth/issue-token` |
-| Verify | `POST https://api.clarity-fintech.com/v1/auth/verify` |
-| Docs | GitBook Audience + `gitbook-gating.js` |
+| Pay | [Spark checkout](./consumer-walkthrough/02-pay-gate-checkout.md) |
+| Session | `POST /v1/swarm/paygate/activate` |
+| JWT | `POST /v1/auth/issue-token` |
+| Wallet | [exchange.clarity-fintech.com/login](https://exchange.clarity-fintech.com/login) |
+| Docs | GitBook Audience + tier gating |
 | Node | `/opt/clrty/swarm-node` on Cherry — **NO Docker** |
 
-## Documentation map
+## Start the walkthrough
 
-| Section | Description |
-|---------|-------------|
-| [Getting started](./getting-started/overview.md) | Overview, pay gate, quick start |
-| [Deployment](./deployment/consumer-deployment-guide.md) | Consumer node, custom agents, Cherry, CLI |
-| [Architecture](./architecture/100-layer-overview.md) | 100-layer stack (groups 1–10) |
-| [Payment tiers](./payment-tiers/starter-5-99.md) | Starter through Enterprise |
-| [Blockchain](./blockchain/chain-1202-rpc.md) | RPC 1202, on-chain registry |
+→ **[Consumer walkthrough hub](./consumer-walkthrough/README.md)**
 
-## Isolated agent node repo
+| # | Step |
+|---|------|
+| 1 | [Prerequisites](./consumer-walkthrough/01-prerequisites.md) |
+| 2 | [Pay Gate Checkout](./consumer-walkthrough/02-pay-gate-checkout.md) |
+| 3 | [Activate Pay Gate Session](./consumer-walkthrough/03-activate-session.md) |
+| 4 | [Private JWT + Wallet Login](./consumer-walkthrough/04-private-jwt-wallet.md) |
+| 5 | [GitBook Authenticated Access](./consumer-walkthrough/05-gitbook-gate.md) |
+| 6 | [Install on Cherry (NO Docker)](./consumer-walkthrough/06-install-cherry.md) |
+| 7 | [Register Agents & Execute](./consumer-walkthrough/07-register-execute.md) |
 
-Consumer upload pipeline: [`clrty-swarm-private-node/`](../../../clrty-swarm-private-node/README.md)
+### After unlock — upload agents
 
-## SSOT references
-
-| Artifact | Path |
-|----------|------|
-| Nano tasks (100) | `cloudflare/spark-pay/shared/swarmNodeNanoTasks100.json` |
-| Payment tier matrix | `cloudflare/spark-pay/shared/swarmPaymentTierMatrix.js` |
-| Private access funnel | `cloudflare/spark-pay/shared/swarmPrivateAccessFunnel.js` |
-| Prior private docs | [swarm-private-access](../swarm-private-access/README.md) |
+| Phase | Step |
+|-------|------|
+| 1 | [Auth + JWT Issue](./consumer-walkthrough/upload-phase1-auth.md) |
+| 2 | [Prepare .mis + .py Agents](./consumer-walkthrough/upload-phase2-prep.md) |
+| 3 | [Upload to Cherry](./consumer-walkthrough/upload-phase3-upload.md) |
 
 ## Client gating
 
@@ -59,6 +59,5 @@ Include on GitBook custom HTML or monitor mirror pages:
 |-----|-------|
 | Org ID | `6MCNfiz1cpjlR5LX4kWw` |
 | Site ID | `site_vzd1R` |
-| Ask API | `POST https://api.gitbook.com/v1/orgs/6MCNfiz1cpjlR5LX4kWw/sites/site_vzd1R/ask` |
 
 Set `GITBOOK_TOKEN` locally — **never commit**.
