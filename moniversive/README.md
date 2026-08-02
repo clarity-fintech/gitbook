@@ -1,18 +1,19 @@
 # Moniversive Invariant Static — language & code
 
-> Generated 2026-07-29T03:15:31Z · **`.mis` language** · **`bin/misc`** · education-first GitBook
+> Generated 2026-08-02T01:05:18Z · **`.mis` sources**, **`bin/misc`**, and the **full coding breakdown** only. No institutional, investor, chain, or product docs in this space.
 
-**Moniversive Invariant Static (MIS)** is a module / invariant / outcome language checked with **`bin/misc`**.
+**Moniversive Invariant Static (MIS)** replaces Solidity and Python application authoring for CLRTY coding surfaces.
 
 | | |
 |--|--|
 | **Extension** | **`.mis`** |
 | **Compiler** | **`bin/misc`** (`make misc-build`) |
 | **Letter-hash** | Rolling SHA-256 per typed letter |
-| **Learn** | [Education hub](education/README.md) · [Worked examples](education/07-worked-examples.md) |
+| **EMBED** | Gates **3..=6** |
+| **Kernel repo** | [moniversive_invariant_static_ML](https://github.com/clarity-fintech/moniversive_invariant_static_ML) |
 
 ```bash
 bin/misc path.mis --check --compact-letters
 ```
 
-Start: [Education hub](education/README.md) · [01 — Language mindset](education/01-language-mindset.md) · [MIS showcase](education/mis-showcase.md).
+Start: [Full language breakdown](language/full-language-breakdown.md) · [Symbol catalog](catalog/symbols-full.md) · [Per-file reference](catalog/sources/README.md).
