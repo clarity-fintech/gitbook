@@ -1,14 +1,15 @@
 # AI prompting for MIS (language only)
 
-> Generated 2026-08-02T01:05:18Z · inputs for Cursor, MLX, and human authors
+> Generated 2026-07-29T03:15:30Z · inputs for Cursor, MLX, and human authors
 
 1. Resolve via `mis_code_index.json` / `clrty_getMisCodeIndex` first.
 2. Prefer taxonomy branches (`mis_core` … `mis_lang`) — no parallel trees.
-3. **Never** propose `.sol` or new Python application modules — author **`.mis`**.
-4. Include **EMBED 3..=6** + **letter-hash** on every module.
+3. **Never** propose legacy Solidity or new Python application modules — author **`.mis`**.
+4. **Letter-hash** on every module (`invariant letter_hash_bound`); EMBED gates **retired** — see [embed-gates.md](../language/embed-gates.md).
 5. Prefer `invariant` + `outcome` over try/except and nested if/else.
 6. Bound recursion with `@mis_kernel(max_depth=…)` or `@mis.inductive`.
-7. Language GitBook = **code and coding breakdown only** (no institutional / investor / chain product docs).
+7. LangChain / multi-step prompts: [langchain-prompt-engineering.md](langchain-prompt-engineering.md).
+8. Language GitBook = **code and coding breakdown only** (no institutional / investor / chain product docs).
 
 Full breakdown: [language/full-language-breakdown.md](../language/full-language-breakdown.md).
 

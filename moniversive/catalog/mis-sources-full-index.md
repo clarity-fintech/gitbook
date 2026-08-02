@@ -1,55 +1,355 @@
-# Full index — all `.mis` sources in `mis_code_index`
+# Full index — all `.mis` in `mis_code_index`
 
-> Generated 2026-08-02T01:05:18Z · **47** entries · tip-of-spear: `CLRTY_SUBSTRATE/boot/mis_code_index.json`
+> Generated 2026-07-29T03:15:31Z · **347** indexed · **109** education (non-migrated) · showcase: [education/mis-showcase.md](../education/mis-showcase.md)
 
-Companion module: `moniversive/framework/MisAllCodeIndex.mis`
+Companion: `moniversive/framework/MisAllCodeIndex.mis` · SSOT: `CLRTY_SUBSTRATE/boot/mis_code_index.json`
 
-| Path | Module | Invariants | Outcomes | GitBook |
-| --- | --- | --- | --- | --- |
-| `examples/mis/kernel_swap_to_mis.mis` | — | 0 | 0 | examples/kernel-swap-to-mis.md |
-| `languages/mis-ml/mis/HighLevelErgonomics.mis` | — | 0 | 0 | — |
-| `moniversive/framework/MisCdkKernelRulesInstall.mis` | — | 0 | 0 | catalog/README.md |
-| `moniversive/framework/MisEngineRoot.mis` | — | 0 | 0 | — |
-| `moniversive/framework/MisRecursion.mis` | — | 0 | 0 | — |
-| `moniversive/framework/MisRouter.mis` | — | 0 | 0 | — |
-| `moniversive/framework/MisSparkCustomRules.mis` | — | 0 | 0 | language/full-language-breakdown.md |
-| `moniversive/framework/MisSparkLiveApiStream.mis` | — | 0 | 0 | — |
-| `moniversive/framework/MisSuperdynamic.mis` | — | 0 | 0 | — |
-| `moniversive/framework/dashboard/DashboardTypes.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/dashboard/MisDashboardTelemetryHarness.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/dashboard/MisDashboardTelemetryInvariants.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/dashboard/MisDashboardTypes.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/dashboard/MisDeFiIntegrityInvariants.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/dashboard/MisEndpointInvariants.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/dashboard/MisNetWorthInvariants.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/dashboard/MisUISettlementInvariants.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/dashboard/dashboard_telemetry_p2.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/dashboard/dashboard_telemetry_p3.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/dashboard/dashboard_telemetry_p4.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/dashboard/dashboard_telemetry_p5.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/e2e/clarity.mis.nanotasks.full_e2e_payment_rails_crypto_card_matrix.mis` | — | 0 | 0 | — |
-| `moniversive/framework/ingestion/MisMultiChainLiveIngestion1901.mis` | — | 0 | 0 | external/clarity-fintech/fintauo/docs/MULTI_CHAIN_LIVE_INGESTION.md |
-| `moniversive/framework/merchant/MisMerchantApiInvariants.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/merchant/MisMerchantEcommerceSystems20.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/merchant/MisMerchantEcosystemFeatures30.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/merchant/MisMerchantEcosystemHarness.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/merchant/MisMerchantEcosystemInvariants.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/merchant/MisMerchantGoLiveInvariants.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/merchant/MisMerchantMonetizationInvariants.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/merchant/MisMerchantPaymentRailsMap.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/merchant/MisMerchantProcessingInvariants.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/merchant/disputes/MisMerchantDisputeHarness.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/merchant/disputes/MisMerchantDisputeInvariants.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/merchant/pricing/MisMerchantPricingHarness.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/merchant/ux/MisMerchantPaymentUxHarness.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/merchant/ux/MisMerchantPaymentUxInvariants.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/mis_chain.mis` | — | 0 | 0 | — |
-| `moniversive/framework/mis_core.mis` | — | 0 | 0 | — |
-| `moniversive/framework/mis_crypto.mis` | — | 0 | 0 | — |
-| `moniversive/framework/mis_kernel.mis` | — | 0 | 0 | — |
-| `moniversive/framework/mis_lang.mis` | — | 0 | 0 | — |
-| `moniversive/framework/mis_ml.mis` | — | 0 | 0 | — |
-| `moniversive/framework/misc.mis` | — | 0 | 0 | — |
-| `moniversive/framework/payments/PaymentTypes.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
-| `moniversive/framework/payments/multi_coin_onramp.mis` | — | 0 | 0 | taxonomy/mis_chain.md |
+| Path | Module | Inv | Out | Education | On disk |
+| --- | --- | ---: | ---: | --- | --- |
+| `examples/mis/kernel_swap_to_mis.mis` | `KernelSwapToMis` | 9 | 6 | yes | yes |
+| `languages/mis-ml/mis/HighLevelErgonomics.mis` | `HighLevelErgonomics` | 5 | 4 | yes | yes |
+| `moniversive/contracts/MisClrtFeeRouter.mis` | `MisClrtFeeRouter` | 6 | 2 | yes | yes |
+| `moniversive/contracts/MisClrty1ContractsIndex.mis` | `MisClrty1ContractsIndex` | 6 | 7 | yes | yes |
+| `moniversive/contracts/MisClrty1Treasury.mis` | `MisClrty1Treasury` | 9 | 2 | yes | yes |
+| `moniversive/contracts/MisProtocolFeeCollector.mis` | `MisProtocolFeeCollector` | 6 | 2 | yes | yes |
+| `moniversive/contracts/MisSplitGatewayRouter.mis` | `MisSplitGatewayRouter` | 7 | 2 | yes | yes |
+| `moniversive/contracts/MisStrataBridgeHooks.mis` | `MisStrataBridgeHooks` | 6 | 3 | yes | yes |
+| `moniversive/contracts/bridge/MisCLRTYSwapRouter.mis` | `MisCLRTYSwapRouter` | 6 | 1 | yes | yes |
+| `moniversive/contracts/bridge/MisClrtExecutionReserve.mis` | `MisClrtExecutionReserve` | 7 | 1 | yes | yes |
+| `moniversive/contracts/bridge/MisClrtMarketplaceRouter.mis` | `MisClrtMarketplaceRouter` | 7 | 1 | yes | yes |
+| `moniversive/contracts/bridge/MisClrtModelRegistry.mis` | `MisClrtModelRegistry` | 6 | 1 | yes | yes |
+| `moniversive/contracts/bridge/MisClrtyImmutableToken.mis` | `MisClrtyImmutableToken` | 8 | 1 | yes | yes |
+| `moniversive/contracts/bridge/MisClrtyNttManagerFactory.mis` | `MisClrtyNttManagerFactory` | 6 | 1 | yes | yes |
+| `moniversive/contracts/bridge/MisClrtyOFTv2.mis` | `MisClrtyOFTv2` | 7 | 1 | yes | yes |
+| `moniversive/contracts/bridge/MisFmaArbitrumRouter.mis` | `MisFmaArbitrumRouter` | 6 | 1 | yes | yes |
+| `moniversive/contracts/bridge/MisFmaBaseSettlementHub.mis` | `MisFmaBaseSettlementHub` | 6 | 1 | yes | yes |
+| `moniversive/contracts/bridge/MisFmaBridgePerimeterIndex.mis` | `MisFmaBridgePerimeterIndex` | 7 | 19 | yes | yes |
+| `moniversive/contracts/bridge/MisFmaExecutionGateway.mis` | `MisFmaExecutionGateway` | 6 | 1 | yes | yes |
+| `moniversive/contracts/bridge/MisFmaInstitutionalCustody.mis` | `MisFmaInstitutionalCustody` | 7 | 1 | yes | yes |
+| `moniversive/contracts/bridge/MisFmaMasterInfrastructure.mis` | `MisFmaMasterInfrastructure` | 8 | 1 | yes | yes |
+| `moniversive/contracts/bridge/MisFmaSpotArbEntry.mis` | `MisFmaSpotArbEntry` | 6 | 1 | yes | yes |
+| `moniversive/contracts/bridge/MisFmaStakingVault.mis` | `MisFmaStakingVault` | 6 | 1 | yes | yes |
+| `moniversive/contracts/bridge/MisFmaTargetNttSettler.mis` | `MisFmaTargetNttSettler` | 6 | 1 | yes | yes |
+| `moniversive/contracts/bridge/MisFmaTimelockController.mis` | `MisFmaTimelockController` | 7 | 1 | yes | yes |
+| `moniversive/contracts/bridge/MisFmaWalletSweeper.mis` | `MisFmaWalletSweeper` | 6 | 1 | yes | yes |
+| `moniversive/contracts/bridge/MisNttManagerPauseGuard.mis` | `MisNttManagerPauseGuard` | 7 | 1 | yes | yes |
+| `moniversive/contracts/bridge/MisNttManagerWithExecutor.mis` | `MisNttManagerWithExecutor` | 6 | 1 | yes | yes |
+| `moniversive/framework/CherryDataPlane.mis` | `CherryDataPlane` | 9 | 8 | yes | yes |
+| `moniversive/framework/ClarityFintechRepoCommandMesh.mis` | `ClarityFintechRepoCommandMesh` | 10 | 60 | no | yes |
+| `moniversive/framework/Clrty1WalletRosterPolicy.mis` | `Clrty1WalletRosterPolicy` | 14 | 6 | no | yes |
+| `moniversive/framework/Clrty1WalletSecurityPolicy.mis` | `Clrty1WalletSecurityPolicy` | 16 | 6 | no | yes |
+| `moniversive/framework/ClrtySovereignLineageFence.mis` | `ClrtySovereignLineageFence` | 13 | 5 | yes | yes |
+| `moniversive/framework/LaunchLockGate.mis` | `LaunchLockGate` | 11 | 5 | yes | yes |
+| `moniversive/framework/MisBeacon.mis` | `MisBeacon` | 5 | 3 | yes | yes |
+| `moniversive/framework/MisClarityFintechFleet.mis` | `MisClarityFintechFleet` | 5 | 3 | yes | yes |
+| `moniversive/framework/MisClrtyManifest.mis` | `MisClrtyManifest` | 5 | 3 | yes | yes |
+| `moniversive/framework/MisClrtyWalletProfile.mis` | `MisClrtyWalletProfile` | 7 | 5 | no | yes |
+| `moniversive/framework/MisEngineRoot.mis` | `MisEngineRoot` | 6 | 3 | yes | yes |
+| `moniversive/framework/MisRecursion.mis` | `MisRecursion` | 4 | 3 | yes | yes |
+| `moniversive/framework/MisRouter.mis` | `MisRouter` | 4 | 4 | yes | yes |
+| `moniversive/framework/MisSparkCustomRules.mis` | `MisSparkCustomRules` | 16 | 6 | yes | yes |
+| `moniversive/framework/MisSparkLiveApiStream.mis` | `MisSparkLiveApiStream` | 8 | 5 | yes | yes |
+| `moniversive/framework/MisSuperdynamic.mis` | `MisSuperdynamic` | 4 | 4 | yes | yes |
+| `moniversive/framework/NotionAccountLinkRouter.mis` | `NotionAccountLinkRouter` | 8 | 5 | yes | yes |
+| `moniversive/framework/WalletBackendRouter.mis` | `WalletBackendRouter` | 12 | 7 | yes | yes |
+| `moniversive/framework/WalletTradeConvert.mis` | `WalletTradeConvert` | 12 | 6 | yes | yes |
+| `moniversive/framework/WalletUxIntegrationMesh.mis` | `WalletUxIntegrationMesh` | 9 | 8 | yes | yes |
+| `moniversive/framework/dashboard/DashboardTypes.mis` | `DashboardTypes` | 30 | 8 | yes | yes |
+| `moniversive/framework/dashboard/MisDashboardTelemetryHarness.mis` | `MisDashboardTelemetryHarness` | 12 | 8 | yes | yes |
+| `moniversive/framework/dashboard/MisDashboardTelemetryInvariants.mis` | `MisDashboardTelemetryInvariants` | 22 | 103 | yes | yes |
+| `moniversive/framework/dashboard/MisDashboardTypes.mis` | `MisDashboardTypes` | 24 | 6 | yes | yes |
+| `moniversive/framework/dashboard/MisDeFiIntegrityInvariants.mis` | `MisDeFiIntegrityInvariants` | 10 | 18 | yes | yes |
+| `moniversive/framework/dashboard/MisEndpointInvariants.mis` | `MisEndpointInvariants` | 10 | 18 | yes | yes |
+| `moniversive/framework/dashboard/MisMultiWalletInvariants.mis` | `MisMultiWalletInvariants` | 10 | 17 | yes | yes |
+| `moniversive/framework/dashboard/MisNetWorthInvariants.mis` | `MisNetWorthInvariants` | 10 | 16 | yes | yes |
+| `moniversive/framework/dashboard/MisUISettlementInvariants.mis` | `MisUISettlementInvariants` | 10 | 18 | yes | yes |
+| `moniversive/framework/dashboard/dashboard_telemetry_p1.mis` | `DashboardTelemetryP1` | 11 | 20 | yes | yes |
+| `moniversive/framework/dashboard/dashboard_telemetry_p2.mis` | `DashboardTelemetryP2` | 12 | 20 | yes | yes |
+| `moniversive/framework/dashboard/dashboard_telemetry_p3.mis` | `DashboardTelemetryP3` | 12 | 20 | yes | yes |
+| `moniversive/framework/dashboard/dashboard_telemetry_p4.mis` | `DashboardTelemetryP4` | 10 | 20 | yes | yes |
+| `moniversive/framework/dashboard/dashboard_telemetry_p5.mis` | `DashboardTelemetryP5` | 11 | 20 | yes | yes |
+| `moniversive/framework/e2e/clarity.mis.nanotasks.full_e2e_payment_rails_crypto_card_matrix.mis` | `clarity` | 6 | 101 | yes | yes |
+| `moniversive/framework/ingestion/MisMultiChainLiveIngestion1901.mis` | `MisMultiChainLiveIngestion1901` | 13 | 7 | yes | yes |
+| `moniversive/framework/merchant/MisMerchantApiInvariants.mis` | `MisMerchantApiInvariants` | 12 | 20 | yes | yes |
+| `moniversive/framework/merchant/MisMerchantEcommerceSystems20.mis` | `MisMerchantEcommerceSystems20` | 5 | 21 | yes | yes |
+| `moniversive/framework/merchant/MisMerchantEcosystemFeatures30.mis` | `MisMerchantEcosystemFeatures30` | 3 | 31 | yes | yes |
+| `moniversive/framework/merchant/MisMerchantEcosystemHarness.mis` | `MisMerchantEcosystemHarness` | 10 | 9 | yes | yes |
+| `moniversive/framework/merchant/MisMerchantEcosystemInvariants.mis` | `MisMerchantEcosystemInvariants` | 12 | 100 | yes | yes |
+| `moniversive/framework/merchant/MisMerchantGoLiveInvariants.mis` | `MisMerchantGoLiveInvariants` | 12 | 20 | yes | yes |
+| `moniversive/framework/merchant/MisMerchantMonetizationInvariants.mis` | `MisMerchantMonetizationInvariants` | 12 | 20 | yes | yes |
+| `moniversive/framework/merchant/MisMerchantPaymentRailsMap.mis` | `MisMerchantPaymentRailsMap` | 4 | 8 | yes | yes |
+| `moniversive/framework/merchant/MisMerchantProcessingInvariants.mis` | `MisMerchantProcessingInvariants` | 12 | 20 | yes | yes |
+| `moniversive/framework/merchant/MisMerchantWalletInvariants.mis` | `MisMerchantWalletInvariants` | 12 | 20 | yes | yes |
+| `moniversive/framework/merchant/disputes/MisMerchantDisputeHarness.mis` | `MisMerchantDisputeHarness` | 3 | 5 | yes | yes |
+| `moniversive/framework/merchant/disputes/MisMerchantDisputeInvariants.mis` | `MisMerchantDisputeInvariants` | 3 | 100 | yes | yes |
+| `moniversive/framework/merchant/pricing/MisMerchantPricingHarness.mis` | `MisMerchantPricingHarness` | 4 | 1 | yes | yes |
+| `moniversive/framework/merchant/ux/MisMerchantPaymentUxHarness.mis` | `MisMerchantPaymentUxHarness` | 4 | 3 | yes | yes |
+| `moniversive/framework/merchant/ux/MisMerchantPaymentUxInvariants.mis` | `MisMerchantPaymentUxInvariants` | 4 | 100 | yes | yes |
+| `moniversive/framework/mis_chain.mis` | `MisChain` | 5 | 4 | yes | yes |
+| `moniversive/framework/mis_core.mis` | `MisCore` | 5 | 5 | yes | yes |
+| `moniversive/framework/mis_crypto.mis` | `MisCrypto` | 5 | 4 | yes | yes |
+| `moniversive/framework/mis_kernel.mis` | `MisKernel` | 7 | 4 | yes | yes |
+| `moniversive/framework/mis_lang.mis` | `MisLang` | 5 | 4 | yes | yes |
+| `moniversive/framework/mis_ml.mis` | `MisMl` | 5 | 4 | yes | yes |
+| `moniversive/framework/misc.mis` | `Misc` | 8 | 5 | yes | yes |
+| `moniversive/framework/payments/PaymentTypes.mis` | `PaymentTypes` | 22 | 7 | yes | yes |
+| `moniversive/framework/payments/multi_coin_onramp.mis` | `MultiCoinOnramp` | 20 | 13 | yes | yes |
+| `moniversive/framework/wallet/ClrtyPreLaunchFreeze.mis` | `ClrtyPreLaunchFreeze` | 3 | 3 | yes | yes |
+| `moniversive/invariants/dashboard_telemetry.mis` | `DashboardTelemetry` | 19 | 8 | yes | yes |
+| `moniversive/invariants/multi_coin_onramp.mis` | `MultiCoinOnrampSpark` | 22 | 8 | yes | yes |
+| `moniversive/invariants/types.mis` | `MoniversiveCoreTypes` | 32 | 4 | yes | yes |
+| `moniversive/migrated/docs/simulation/generate_charts.mis` | `DocsSimulationGenerateCharts` | 5 | 2 | archive | yes |
+| `moniversive/migrated/first_access_pack/02_terminal_vector/inference/bench_throughput.mis` | `FirstAccessPack02TerminalVectorInferenceBenchThroughput` | 5 | 2 | archive | yes |
+| `moniversive/migrated/frontend/CLRTY-WALLET-INTEGRATION/scripts/verify_wallet_nodes.mis` | `FrontendCLRTYWALLETINTEGRATIONScriptsVerifyWalletNodes` | 5 | 2 | archive | yes |
+| `moniversive/migrated/frontend/CLRTY-WALLET-INTEGRATION/sdk/python/clrty_client.mis` | `FrontendCLRTYWALLETINTEGRATIONSdkPythonClrtyClient` | 5 | 2 | archive | yes |
+| `moniversive/migrated/frontend/CLRTY-WALLET-INTEGRATION/var/staging/full-bundle/scripts/verify_wallet_nodes.mis` | `FrontendCLRTYWALLETINTEGRATIONVarStagingFullBundleScriptsVerifyWalletNodes` | 5 | 2 | archive | yes |
+| `moniversive/migrated/frontend/CLRTY-WALLET-INTEGRATION/var/staging/full-bundle/sdk/python/clrty_client.mis` | `FrontendCLRTYWALLETINTEGRATIONVarStagingFullBundleSdkPythonClrtyClient` | 5 | 2 | archive | yes |
+| `moniversive/migrated/languages/mis-ml/compiler/clrtyc.mis` | `LanguagesMisMlCompilerClrtyc` | 5 | 2 | archive | yes |
+| `moniversive/migrated/languages/mis-ml/python/__init__.mis` | `LanguagesMisMlPythonInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/languages/mis-ml/python/mis.mis` | `LanguagesMisMlPythonMis` | 5 | 2 | archive | yes |
+| `moniversive/migrated/monetization-layers/billing/stripe_bridge.mis` | `MonetizationLayersBillingStripeBridge` | 5 | 2 | archive | yes |
+| `moniversive/migrated/monetization-layers/scripts/create_stripe_payment_links.mis` | `MonetizationLayersScriptsCreateStripePaymentLinks` | 5 | 2 | archive | yes |
+| `moniversive/migrated/monetization-layers/scripts/provision_stripe_products.mis` | `MonetizationLayersScriptsProvisionStripeProducts` | 5 | 2 | archive | yes |
+| `moniversive/migrated/monetization-layers/security/access_provision.mis` | `MonetizationLayersSecurityAccessProvision` | 5 | 2 | archive | yes |
+| `moniversive/migrated/monetization-layers/webhooks/handler.mis` | `MonetizationLayersWebhooksHandler` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-cif/src/clrty_cif/__init__.mis` | `PythonClrtyCifSrcClrtyCifInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-cif/src/clrty_cif/__main__.mis` | `PythonClrtyCifSrcClrtyCifMain` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-cif/src/clrty_cif/cli.mis` | `PythonClrtyCifSrcClrtyCifCli` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-cif/src/clrty_cif/config.mis` | `PythonClrtyCifSrcClrtyCifConfig` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-cif/src/clrty_cif/integrate.mis` | `PythonClrtyCifSrcClrtyCifIntegrate` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-cif/src/clrty_cif/program.mis` | `PythonClrtyCifSrcClrtyCifProgram` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-cif/src/clrty_cif/validate.mis` | `PythonClrtyCifSrcClrtyCifValidate` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-cif/tests/test_validate.mis` | `PythonClrtyCifTestsTestValidate` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-gss/src/clrty_gss/__init__.mis` | `PythonClrtyGssSrcClrtyGssInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-gss/src/clrty_gss/__main__.mis` | `PythonClrtyGssSrcClrtyGssMain` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-gss/src/clrty_gss/cli.mis` | `PythonClrtyGssSrcClrtyGssCli` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-gss/src/clrty_gss/config.mis` | `PythonClrtyGssSrcClrtyGssConfig` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-gss/tests/test_validate.mis` | `PythonClrtyGssTestsTestValidate` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-hud/src/clrty_hud/__init__.mis` | `PythonClrtyHudSrcClrtyHudInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-hud/src/clrty_hud/__main__.mis` | `PythonClrtyHudSrcClrtyHudMain` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-hud/src/clrty_hud/app.mis` | `PythonClrtyHudSrcClrtyHudApp` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-hud/src/clrty_hud/cli.mis` | `PythonClrtyHudSrcClrtyHudCli` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-hud/src/clrty_hud/data.mis` | `PythonClrtyHudSrcClrtyHudData` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-hud/src/clrty_hud/i18n/__init__.mis` | `PythonClrtyHudSrcClrtyHudI18nInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-hud/src/clrty_hud/languages_master.mis` | `PythonClrtyHudSrcClrtyHudLanguagesMaster` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-hud/src/clrty_hud/radial.mis` | `PythonClrtyHudSrcClrtyHudRadial` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-nis/src/clrty_nis/__init__.mis` | `PythonClrtyNisSrcClrtyNisInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-nis/src/clrty_nis/__main__.mis` | `PythonClrtyNisSrcClrtyNisMain` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-nis/src/clrty_nis/cli.mis` | `PythonClrtyNisSrcClrtyNisCli` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-nis/src/clrty_nis/config.mis` | `PythonClrtyNisSrcClrtyNisConfig` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-nis/tests/test_validate.mis` | `PythonClrtyNisTestsTestValidate` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-ohp/src/clrty_ohp/__init__.mis` | `PythonClrtyOhpSrcClrtyOhpInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-ohp/src/clrty_ohp/__main__.mis` | `PythonClrtyOhpSrcClrtyOhpMain` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-ohp/src/clrty_ohp/cli.mis` | `PythonClrtyOhpSrcClrtyOhpCli` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-ohp/src/clrty_ohp/config.mis` | `PythonClrtyOhpSrcClrtyOhpConfig` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-ohp/tests/test_validate.mis` | `PythonClrtyOhpTestsTestValidate` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-sanity-repo/python/clrty-sanity/src/clrty_sanity/__init__.mis` | `PythonClrtySanityRepoPythonClrtySanitySrcClrtySanityInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-sanity-repo/python/clrty-sanity/src/clrty_sanity/__main__.mis` | `PythonClrtySanityRepoPythonClrtySanitySrcClrtySanityMain` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-sanity-repo/python/clrty-sanity/src/clrty_sanity/cli.mis` | `PythonClrtySanityRepoPythonClrtySanitySrcClrtySanityCli` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-sanity-repo/python/clrty-sanity/src/clrty_sanity/config.mis` | `PythonClrtySanityRepoPythonClrtySanitySrcClrtySanityConfig` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-sanity-repo/python/clrty-sanity/tests/test_validate.mis` | `PythonClrtySanityRepoPythonClrtySanityTestsTestValidate` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-sanity/src/clrty_sanity/__init__.mis` | `PythonClrtySanitySrcClrtySanityInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-sanity/src/clrty_sanity/__main__.mis` | `PythonClrtySanitySrcClrtySanityMain` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-sanity/src/clrty_sanity/cli.mis` | `PythonClrtySanitySrcClrtySanityCli` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-sanity/src/clrty_sanity/config.mis` | `PythonClrtySanitySrcClrtySanityConfig` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-sanity/tests/test_validate.mis` | `PythonClrtySanityTestsTestValidate` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-sets/src/clrty_sets/__init__.mis` | `PythonClrtySetsSrcClrtySetsInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-sets/src/clrty_sets/__main__.mis` | `PythonClrtySetsSrcClrtySetsMain` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-sets/src/clrty_sets/cli.mis` | `PythonClrtySetsSrcClrtySetsCli` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-sets/src/clrty_sets/config.mis` | `PythonClrtySetsSrcClrtySetsConfig` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-sets/tests/test_validate.mis` | `PythonClrtySetsTestsTestValidate` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-site/src/clrty_site/__init__.mis` | `PythonClrtySiteSrcClrtySiteInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-site/src/clrty_site/__main__.mis` | `PythonClrtySiteSrcClrtySiteMain` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-site/src/clrty_site/cli.mis` | `PythonClrtySiteSrcClrtySiteCli` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-site/src/clrty_site/config.mis` | `PythonClrtySiteSrcClrtySiteConfig` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-site/src/clrty_site/sync.mis` | `PythonClrtySiteSrcClrtySiteSync` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/clrty-site/tests/test_links.mis` | `PythonClrtySiteTestsTestLinks` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-fees/src/clrty_fees/__init__.mis` | `PythonCybersecurityPythonClrtyFeesSrcClrtyFeesInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-fees/src/clrty_fees/__main__.mis` | `PythonCybersecurityPythonClrtyFeesSrcClrtyFeesMain` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-fees/src/clrty_fees/cli.mis` | `PythonCybersecurityPythonClrtyFeesSrcClrtyFeesCli` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-fees/src/clrty_fees/config.mis` | `PythonCybersecurityPythonClrtyFeesSrcClrtyFeesConfig` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-fees/src/clrty_fees/notion_sync.mis` | `PythonCybersecurityPythonClrtyFeesSrcClrtyFeesNotionSync` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-fees/tests/test_validate.mis` | `PythonCybersecurityPythonClrtyFeesTestsTestValidate` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-gss/src/clrty_gss/__init__.mis` | `PythonCybersecurityPythonClrtyGssSrcClrtyGssInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-gss/src/clrty_gss/__main__.mis` | `PythonCybersecurityPythonClrtyGssSrcClrtyGssMain` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-gss/src/clrty_gss/cli.mis` | `PythonCybersecurityPythonClrtyGssSrcClrtyGssCli` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-gss/src/clrty_gss/config.mis` | `PythonCybersecurityPythonClrtyGssSrcClrtyGssConfig` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-gss/tests/test_validate.mis` | `PythonCybersecurityPythonClrtyGssTestsTestValidate` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-nis/src/clrty_nis/__init__.mis` | `PythonCybersecurityPythonClrtyNisSrcClrtyNisInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-nis/src/clrty_nis/__main__.mis` | `PythonCybersecurityPythonClrtyNisSrcClrtyNisMain` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-nis/src/clrty_nis/cli.mis` | `PythonCybersecurityPythonClrtyNisSrcClrtyNisCli` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-nis/src/clrty_nis/config.mis` | `PythonCybersecurityPythonClrtyNisSrcClrtyNisConfig` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-nis/tests/test_validate.mis` | `PythonCybersecurityPythonClrtyNisTestsTestValidate` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-ohp/src/clrty_ohp/__init__.mis` | `PythonCybersecurityPythonClrtyOhpSrcClrtyOhpInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-ohp/src/clrty_ohp/__main__.mis` | `PythonCybersecurityPythonClrtyOhpSrcClrtyOhpMain` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-ohp/src/clrty_ohp/cli.mis` | `PythonCybersecurityPythonClrtyOhpSrcClrtyOhpCli` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-ohp/src/clrty_ohp/config.mis` | `PythonCybersecurityPythonClrtyOhpSrcClrtyOhpConfig` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-ohp/tests/test_validate.mis` | `PythonCybersecurityPythonClrtyOhpTestsTestValidate` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-sets/src/clrty_sets/__init__.mis` | `PythonCybersecurityPythonClrtySetsSrcClrtySetsInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-sets/src/clrty_sets/__main__.mis` | `PythonCybersecurityPythonClrtySetsSrcClrtySetsMain` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-sets/src/clrty_sets/cli.mis` | `PythonCybersecurityPythonClrtySetsSrcClrtySetsCli` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-sets/src/clrty_sets/config.mis` | `PythonCybersecurityPythonClrtySetsSrcClrtySetsConfig` | 5 | 2 | archive | yes |
+| `moniversive/migrated/python/cybersecurity/python/clrty-sets/tests/test_validate.mis` | `PythonCybersecurityPythonClrtySetsTestsTestValidate` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/audit/collect_red_flags.mis` | `ScriptsAuditCollectRedFlags` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity-wallet/build_access_packs.mis` | `ScriptsClarityWalletBuildAccessPacks` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity-wallet/generate_content_database.mis` | `ScriptsClarityWalletGenerateContentDatabase` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity-wallet/generate_dev_manifest.mis` | `ScriptsClarityWalletGenerateDevManifest` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity-wallet/generate_labs_manifest.mis` | `ScriptsClarityWalletGenerateLabsManifest` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity-wallet/scaffold_product.mis` | `ScriptsClarityWalletScaffoldProduct` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity-wallet/verify_wallet_nodes.mis` | `ScriptsClarityWalletVerifyWalletNodes` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/__init__.mis` | `ScriptsClarityDocsInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/apply_notion_mcp_resync.mis` | `ScriptsClarityDocsApplyNotionMcpResync` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/bulk_missing_rest_submit.mis` | `ScriptsClarityDocsBulkMissingRestSubmit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/bulk_nav_sync_progress.mis` | `ScriptsClarityDocsBulkNavSyncProgress` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/chain.mis` | `ScriptsClarityDocsChain` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/cli_inventory.mis` | `ScriptsClarityDocsCliInventory` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/content.mis` | `ScriptsClarityDocsContent` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/data.mis` | `ScriptsClarityDocsData` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/fellowship_pack.mis` | `ScriptsClarityDocsFellowshipPack` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/generate.mis` | `ScriptsClarityDocsGenerate` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/groups.mis` | `ScriptsClarityDocsGroups` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/gs_core_pack.mis` | `ScriptsClarityDocsGsCorePack` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/hub_pack.mis` | `ScriptsClarityDocsHubPack` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/leaf.mis` | `ScriptsClarityDocsLeaf` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/loaders/__init__.mis` | `ScriptsClarityDocsLoadersInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/manifests.mis` | `ScriptsClarityDocsManifests` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/mcp_bulk_apply_runner.mis` | `ScriptsClarityDocsMcpBulkApplyRunner` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/mcp_emit_batch.mis` | `ScriptsClarityDocsMcpEmitBatch` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/mcp_nav_agent_batch.mis` | `ScriptsClarityDocsMcpNavAgentBatch` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/mcp_nav_batch_apply.mis` | `ScriptsClarityDocsMcpNavBatchApply` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/mcp_nav_batch_mark.mis` | `ScriptsClarityDocsMcpNavBatchMark` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/mcp_nav_finalize.mis` | `ScriptsClarityDocsMcpNavFinalize` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/mcp_nav_next_batch.mis` | `ScriptsClarityDocsMcpNavNextBatch` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/mcp_resync_runner.mis` | `ScriptsClarityDocsMcpResyncRunner` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/mcp_submit_group.mis` | `ScriptsClarityDocsMcpSubmitGroup` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/nav_graph.mis` | `ScriptsClarityDocsNavGraph` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/notion_markdown.mis` | `ScriptsClarityDocsNotionMarkdown` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/operator_pack.mis` | `ScriptsClarityDocsOperatorPack` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/patch_architecture_groups.mis` | `ScriptsClarityDocsPatchArchitectureGroups` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/prepare_notion_payloads.mis` | `ScriptsClarityDocsPrepareNotionPayloads` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/prism_ops.mis` | `ScriptsClarityDocsPrismOps` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/publish_group_hierarchy.mis` | `ScriptsClarityDocsPublishGroupHierarchy` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/publish_new_pages.mis` | `ScriptsClarityDocsPublishNewPages` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/record_group_hub_ids.mis` | `ScriptsClarityDocsRecordGroupHubIds` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/render.mis` | `ScriptsClarityDocsRender` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/run_notion_mcp_batches.mis` | `ScriptsClarityDocsRunNotionMcpBatches` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/submit_notion_mcp_batch.mis` | `ScriptsClarityDocsSubmitNotionMcpBatch` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/sync_notion.mis` | `ScriptsClarityDocsSyncNotion` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/tokens_dev_sdk_pack.mis` | `ScriptsClarityDocsTokensDevSdkPack` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clarity_docs/wallet_integration_pack.mis` | `ScriptsClarityDocsWalletIntegrationPack` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_chain/__init__.mis` | `ScriptsClrtyChainInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_chain/_json.mis` | `ScriptsClrtyChainJson` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_chain/evidence.mis` | `ScriptsClrtyChainEvidence` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_chain/helix.mis` | `ScriptsClrtyChainHelix` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_chain/networks.mis` | `ScriptsClrtyChainNetworks` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_chain/ops_surface.mis` | `ScriptsClrtyChainOpsSurface` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_chain/rpc_cli.mis` | `ScriptsClrtyChainRpcCli` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_chain/security.mis` | `ScriptsClrtyChainSecurity` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_chain/tokenomics.mis` | `ScriptsClrtyChainTokenomics` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_chain/validators.mis` | `ScriptsClrtyChainValidators` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_project/__init__.mis` | `ScriptsClrtyProjectInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_project/_json.mis` | `ScriptsClrtyProjectJson` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_project/evidence.mis` | `ScriptsClrtyProjectEvidence` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_project/helix.mis` | `ScriptsClrtyProjectHelix` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_project/index.mis` | `ScriptsClrtyProjectIndex` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_project/networks.mis` | `ScriptsClrtyProjectNetworks` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_project/ops_surface.mis` | `ScriptsClrtyProjectOpsSurface` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_project/rpc_cli.mis` | `ScriptsClrtyProjectRpcCli` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_project/security.mis` | `ScriptsClrtyProjectSecurity` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_project/tokenomics.mis` | `ScriptsClrtyProjectTokenomics` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrty_project/validators.mis` | `ScriptsClrtyProjectValidators` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrtynet/generate_bridge_nano.mis` | `ScriptsClrtynetGenerateBridgeNano` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrtynet/generate_browser_nano.mis` | `ScriptsClrtynetGenerateBrowserNano` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrtynet/generate_nano_tasks.mis` | `ScriptsClrtynetGenerateNanoTasks` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrtynet/generate_verify_nano.mis` | `ScriptsClrtynetGenerateVerifyNano` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrtynet/inventory_commands.mis` | `ScriptsClrtynetInventoryCommands` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/clrtynet/run_inventory_commands.mis` | `ScriptsClrtynetRunInventoryCommands` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/compliance/clrty1_coding_commands_chain_verify.mis` | `ScriptsComplianceClrty1CodingCommandsChainVerify` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/desktop/materialize_clrty_projects.mis` | `ScriptsDesktopMaterializeClrtyProjects` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/docs/build_diagram_portfolio.mis` | `ScriptsDocsBuildDiagramPortfolio` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/fellowship/e2e_cif_flow.mis` | `ScriptsFellowshipE2eCifFlow` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/fellowship/e2e_cif_program.mis` | `ScriptsFellowshipE2eCifProgram` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/fellowship/validate_submission.mis` | `ScriptsFellowshipValidateSubmission` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/framer/generate_sitemap.mis` | `ScriptsFramerGenerateSitemap` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/integrations/calendly_client.mis` | `ScriptsIntegrationsCalendlyClient` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/integrations/generate_platform_adapters.mis` | `ScriptsIntegrationsGeneratePlatformAdapters` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/integrations/generate_platform_docs.mis` | `ScriptsIntegrationsGeneratePlatformDocs` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/integrations/generate_platform_manifest.mis` | `ScriptsIntegrationsGeneratePlatformManifest` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/investor/generate_nano_details.mis` | `ScriptsInvestorGenerateNanoDetails` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/investor/generate_sovereign_protocols.mis` | `ScriptsInvestorGenerateSovereignProtocols` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/launch/build_launch_tasks_snapshot.mis` | `ScriptsLaunchBuildLaunchTasksSnapshot` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/launch/generate_handoff_checklist.mis` | `ScriptsLaunchGenerateHandoffChecklist` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/metrics/aggregate_data_center.mis` | `ScriptsMetricsAggregateDataCenter` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/metrics/notion_client.mis` | `ScriptsMetricsNotionClient` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/metrics/sync_notion_data_center.mis` | `ScriptsMetricsSyncNotionDataCenter` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/metrics/sync_notion_launch_tasks.mis` | `ScriptsMetricsSyncNotionLaunchTasks` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/metrics/sync_notion_security.mis` | `ScriptsMetricsSyncNotionSecurity` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/metrics/sync_sheets_inputs.mis` | `ScriptsMetricsSyncSheetsInputs` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/mis-ml/moniversive_filter.mis` | `ScriptsMisMlMoniversiveFilter` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/mis-ml/rewrite_embed_gates.mis` | `ScriptsMisMlRewriteEmbedGates` | 6 | 2 | archive | yes |
+| `moniversive/migrated/scripts/mis-ml/sol_to_clrty.mis` | `ScriptsMisMlSolToClrty` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/mis-ml/verify_mis_code_index.mis` | `ScriptsMisMlVerifyMisCodeIndex` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/mis-ml/verify_static_ml_structure.mis` | `ScriptsMisMlVerifyStaticMlStructure` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/products/generate_product_pages.mis` | `ScriptsProductsGenerateProductPages` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/sdk/generate_openapi.mis` | `ScriptsSdkGenerateOpenapi` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/sections/generate_section_handlers.mis` | `ScriptsSectionsGenerateSectionHandlers` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/sections/generate_section_manifests.mis` | `ScriptsSectionsGenerateSectionManifests` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/skills/generate_skills_catalog.mis` | `ScriptsSkillsGenerateSkillsCatalog` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/website/apply_round_funnel_shell.mis` | `ScriptsWebsiteApplyRoundFunnelShell` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/website/augment_figma_hand_edit.mis` | `ScriptsWebsiteAugmentFigmaHandEdit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/website/embed_product_diagrams.mis` | `ScriptsWebsiteEmbedProductDiagrams` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/website/enrich_program_pages.mis` | `ScriptsWebsiteEnrichProgramPages` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/website/expand_content_manifest.mis` | `ScriptsWebsiteExpandContentManifest` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/website/generate_figma_pages_manifest.mis` | `ScriptsWebsiteGenerateFigmaPagesManifest` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/website/generate_sitemap.mis` | `ScriptsWebsiteGenerateSitemap` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/website/generate_website_pages.mis` | `ScriptsWebsiteGenerateWebsitePages` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/website/scaffold_figma_hand_edit_pages.mis` | `ScriptsWebsiteScaffoldFigmaHandEditPages` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/website/upgrade_public_shell.mis` | `ScriptsWebsiteUpgradePublicShell` | 5 | 2 | archive | yes |
+| `moniversive/migrated/scripts/website/write_blog_posts.mis` | `ScriptsWebsiteWriteBlogPosts` | 5 | 2 | archive | yes |
+| `moniversive/migrated/sdk/python/clrty_boot.mis` | `SdkPythonClrtyBoot` | 5 | 2 | archive | yes |
+| `moniversive/migrated/sdk/python/clrty_client.mis` | `SdkPythonClrtyClient` | 5 | 2 | archive | yes |
+| `moniversive/migrated/seo-kit-second/automations/browser/chrome_attach.mis` | `SeoKitSecondAutomationsBrowserChromeAttach` | 5 | 2 | archive | yes |
+| `moniversive/migrated/seo-kit-second/automations/browser/chrome_login.mis` | `SeoKitSecondAutomationsBrowserChromeLogin` | 5 | 2 | archive | yes |
+| `moniversive/migrated/seo-kit-second/automations/browser/pattern_recog.mis` | `SeoKitSecondAutomationsBrowserPatternRecog` | 5 | 2 | archive | yes |
+| `moniversive/migrated/seo-kit-second/automations/browser/platforms/__init__.mis` | `SeoKitSecondAutomationsBrowserPlatformsInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/seo-kit-second/automations/browser/platforms/quora.mis` | `SeoKitSecondAutomationsBrowserPlatformsQuora` | 5 | 2 | archive | yes |
+| `moniversive/migrated/seo-kit-second/automations/browser/platforms/reddit.mis` | `SeoKitSecondAutomationsBrowserPlatformsReddit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/seo-kit-second/automations/browser/test_flow.mis` | `SeoKitSecondAutomationsBrowserTestFlow` | 5 | 2 | archive | yes |
+| `moniversive/migrated/seo-kit-second/automations/browser_publish.mis` | `SeoKitSecondAutomationsBrowserPublish` | 5 | 2 | archive | yes |
+| `moniversive/migrated/simulators/clrty_mirror/actors/__init__.mis` | `SimulatorsClrtyMirrorActorsInit` | 5 | 2 | archive | yes |
+| `moniversive/migrated/simulators/clrty_mirror/actors/arb.mis` | `SimulatorsClrtyMirrorActorsArb` | 5 | 2 | archive | yes |
+| `moniversive/migrated/simulators/clrty_mirror/actors/fomo.mis` | `SimulatorsClrtyMirrorActorsFomo` | 5 | 2 | archive | yes |
+| `moniversive/migrated/simulators/clrty_mirror/actors/holder.mis` | `SimulatorsClrtyMirrorActorsHolder` | 5 | 2 | archive | yes |
+| `moniversive/migrated/simulators/clrty_mirror/actors/panic.mis` | `SimulatorsClrtyMirrorActorsPanic` | 5 | 2 | archive | yes |
+| `moniversive/migrated/simulators/clrty_mirror/mirra_order_book.mis` | `SimulatorsClrtyMirrorMirraOrderBook` | 5 | 2 | archive | yes |
+| `moniversive/migrated/simulators/clrty_mirror/pump_logic.mis` | `SimulatorsClrtyMirrorPumpLogic` | 5 | 2 | archive | yes |
+| `moniversive/migrated/simulators/clrty_mirror/run_batch.mis` | `SimulatorsClrtyMirrorRunBatch` | 5 | 2 | archive | yes |
+| `moniversive/migrated/simulators/clrty_mirror/synthetic_book.mis` | `SimulatorsClrtyMirrorSyntheticBook` | 5 | 2 | archive | yes |
+| `moniversive/migrated/simulators/clrty_mirror/telemetry.mis` | `SimulatorsClrtyMirrorTelemetry` | 5 | 2 | archive | yes |
+| `moniversive/migrated/simulators/tokenomics/simulate.mis` | `SimulatorsTokenomicsSimulate` | 5 | 2 | archive | yes |
+| `moniversive/migrated/vis_intelligence/feature_pipeline.mis` | `VisIntelligenceFeaturePipeline` | 5 | 2 | archive | yes |
+| `moniversive/migrated/vis_intelligence/inference_local.mis` | `VisIntelligenceInferenceLocal` | 5 | 2 | archive | yes |
+| `moniversive/migrated/vis_intelligence/rag_verify.mis` | `VisIntelligenceRagVerify` | 5 | 2 | archive | yes |
+| `moniversive/nanotasks/merchant_ecosystem_integration.mis` | `MerchantEcosystemIntegrationNanotasks` | 10 | 2 | yes | yes |
+| `moniversive/nanotasks/merchant_pricing_tiers.mis` | `MerchantPricingTiersNanotasks` | 4 | 1 | yes | yes |
+| `moniversive/packages/clrty/MisClrty1BlockchainSections.mis` | `MisClrty1BlockchainSections` | 10 | 7 | yes | yes |
+| `moniversive/packages/clrty/MisClrty1MassDataSegmentation.mis` | `MisClrty1MassDataSegmentation` | 11 | 5 | yes | yes |
+| `moniversive/packages/clrty/MisClrty1SmartContractsSection.mis` | `MisClrty1SmartContractsSection` | 11 | 5 | yes | yes |
+| `moniversive/packages/compliance/MisClrty1ComplianceScan.mis` | `MisClrty1ComplianceScan` | 6 | 5 | no | yes |
+| `moniversive/packages/compliance/MisRegulatoryHooks.mis` | `MisRegulatoryHooks` | 4 | 2 | no | yes |
+| `moniversive/packages/nanotasks/CherryServersQuantumSecIpDetectorUpdate.mis` | `CherryServersQuantumSecIpDetectorUpdate` | 13 | 9 | yes | yes |
+| `moniversive/packages/nanotasks/FullE2ePaymentRailsCryptoCardMatrix.mis` | `FullE2ePaymentRailsCryptoCardMatrix` | 12 | 9 | yes | yes |
+| `moniversive/packages/nanotasks/clarity.mis.nanotasks.clrty1_full_matrix_100.all_other.mis` | `clarity` | 8 | 1 | yes | yes |
+| `moniversive/packages/nanotasks/clarity.mis.nanotasks.clrty1_full_matrix_100.devnet.mis` | `clarity` | 8 | 1 | yes | yes |
+| `moniversive/packages/nanotasks/clarity.mis.nanotasks.clrty1_full_matrix_100.mainnet.mis` | `clarity` | 8 | 1 | yes | yes |
+| `moniversive/packages/nanotasks/clarity.mis.nanotasks.clrty1_full_matrix_100.mis` | `clarity` | 16 | 7 | yes | yes |
+| `moniversive/packages/nanotasks/clarity.mis.nanotasks.clrty1_full_matrix_100.testnet.mis` | `clarity` | 8 | 1 | yes | yes |
+| `moniversive/packages/nanotasks/clrty1_full_matrix_100/clarity.mis.nanotasks.clrty1_full_matrix_100.layer_c2c.mis` | `clarity` | 9 | 21 | yes | yes |
+| `moniversive/packages/nanotasks/clrty1_full_matrix_100/clarity.mis.nanotasks.clrty1_full_matrix_100.layer_chp.mis` | `clarity` | 9 | 21 | yes | yes |
+| `moniversive/packages/nanotasks/clrty1_full_matrix_100/clarity.mis.nanotasks.clrty1_full_matrix_100.layer_clk.mis` | `clarity` | 9 | 21 | yes | yes |
+| `moniversive/packages/nanotasks/clrty1_full_matrix_100/clarity.mis.nanotasks.clrty1_full_matrix_100.layer_flx.mis` | `clarity` | 9 | 21 | yes | yes |
+| `moniversive/packages/nanotasks/clrty1_full_matrix_100/clarity.mis.nanotasks.clrty1_full_matrix_100.layer_mis.mis` | `clarity` | 9 | 21 | yes | yes |
+| `moniversive/packages/security/MisEmbeddedLinkCrawlShield.mis` | `MisEmbeddedLinkCrawlShield` | 10 | 10 | yes | yes |
+| `moniversive/payments/MisSparkMultiCoinOnramp.mis` | `MisSparkMultiCoinOnramp` | 29 | 13 | yes | yes |
+| `moniversive/payments/MisSparkMultiCoinOnrampInvariants.mis` | `MisSparkMultiCoinOnrampInvariants` | 17 | 14 | yes | yes |
+| `path.mis` | `KernelSwapToMis` | 9 | 6 | yes | yes |
