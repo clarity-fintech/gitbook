@@ -1,0 +1,66 @@
+# Moniversive Invariant Static (MIS) — GitBook index
+# https://clarity-7.gitbook.io/clarity-docs/clarity-moniversive-invariant-static-mis
+
+> .mis language · bin/misc · education-first documentation
+
+## Start here
+
+- Introduction: README.md
+- Education hub: education/README.md
+- Full language breakdown: language/full-language-breakdown.md
+- Per-file .mis catalog: catalog/sources/README.md
+- Full mis index: catalog/mis-sources-full-index.md
+- Symbol catalog: catalog/symbols-full.md
+- Static ML bands (1025): catalog/static-ml-invariant-bands.md
+
+## Corpus (90 language .mis sources indexed)
+
+- examples/mis/kernel_swap_to_mis.mis: catalog/sources/examples__mis__kernel_swap_to_mis.md
+- languages/mis-ml/mis/HighLevelErgonomics.mis: catalog/sources/languages__mis-ml__mis__HighLevelErgonomics.md
+- moniversive/contracts/MisClrtFeeRouter.mis: catalog/sources/moniversive__contracts__MisClrtFeeRouter.md
+- moniversive/contracts/MisProtocolFeeCollector.mis: catalog/sources/moniversive__contracts__MisProtocolFeeCollector.md
+- moniversive/contracts/MisSplitGatewayRouter.mis: catalog/sources/moniversive__contracts__MisSplitGatewayRouter.md
+- moniversive/contracts/MisStrataBridgeHooks.mis: catalog/sources/moniversive__contracts__MisStrataBridgeHooks.md
+- moniversive/contracts/bridge/MisClrtExecutionReserve.mis: catalog/sources/moniversive__contracts__bridge__MisClrtExecutionReserve.md
+- moniversive/contracts/bridge/MisClrtMarketplaceRouter.mis: catalog/sources/moniversive__contracts__bridge__MisClrtMarketplaceRouter.md
+- moniversive/contracts/bridge/MisClrtModelRegistry.mis: catalog/sources/moniversive__contracts__bridge__MisClrtModelRegistry.md
+- moniversive/contracts/bridge/MisFmaArbitrumRouter.mis: catalog/sources/moniversive__contracts__bridge__MisFmaArbitrumRouter.md
+- moniversive/contracts/bridge/MisFmaBaseSettlementHub.mis: catalog/sources/moniversive__contracts__bridge__MisFmaBaseSettlementHub.md
+- moniversive/contracts/bridge/MisFmaBridgePerimeterIndex.mis: catalog/sources/moniversive__contracts__bridge__MisFmaBridgePerimeterIndex.md
+- moniversive/contracts/bridge/MisFmaExecutionGateway.mis: catalog/sources/moniversive__contracts__bridge__MisFmaExecutionGateway.md
+- moniversive/contracts/bridge/MisFmaInstitutionalCustody.mis: catalog/sources/moniversive__contracts__bridge__MisFmaInstitutionalCustody.md
+- moniversive/contracts/bridge/MisFmaMasterInfrastructure.mis: catalog/sources/moniversive__contracts__bridge__MisFmaMasterInfrastructure.md
+- moniversive/contracts/bridge/MisFmaSpotArbEntry.mis: catalog/sources/moniversive__contracts__bridge__MisFmaSpotArbEntry.md
+- moniversive/contracts/bridge/MisFmaTargetNttSettler.mis: catalog/sources/moniversive__contracts__bridge__MisFmaTargetNttSettler.md
+- moniversive/contracts/bridge/MisFmaTimelockController.mis: catalog/sources/moniversive__contracts__bridge__MisFmaTimelockController.md
+- moniversive/contracts/bridge/MisNttManagerPauseGuard.mis: catalog/sources/moniversive__contracts__bridge__MisNttManagerPauseGuard.md
+- moniversive/contracts/bridge/MisNttManagerWithExecutor.mis: catalog/sources/moniversive__contracts__bridge__MisNttManagerWithExecutor.md
+- moniversive/framework/MisCdkKernelRulesInstall.mis: catalog/sources/moniversive__framework__MisCdkKernelRulesInstall.md
+- moniversive/framework/MisEngineRoot.mis: catalog/sources/moniversive__framework__MisEngineRoot.md
+- moniversive/framework/MisRecursion.mis: catalog/sources/moniversive__framework__MisRecursion.md
+- moniversive/framework/MisRouter.mis: catalog/sources/moniversive__framework__MisRouter.md
+- moniversive/framework/MisSparkCustomRules.mis: catalog/sources/moniversive__framework__MisSparkCustomRules.md
+- moniversive/framework/MisSparkLiveApiStream.mis: catalog/sources/moniversive__framework__MisSparkLiveApiStream.md
+- moniversive/framework/MisSuperdynamic.mis: catalog/sources/moniversive__framework__MisSuperdynamic.md
+- moniversive/framework/dashboard/DashboardTypes.mis: catalog/sources/moniversive__framework__dashboard__DashboardTypes.md
+- moniversive/framework/dashboard/MisDashboardTelemetryHarness.mis: catalog/sources/moniversive__framework__dashboard__MisDashboardTelemetryHarness.md
+- moniversive/framework/dashboard/MisDashboardTelemetryInvariants.mis: catalog/sources/moniversive__framework__dashboard__MisDashboardTelemetryInvariants.md
+- moniversive/framework/dashboard/MisDashboardTypes.mis: catalog/sources/moniversive__framework__dashboard__MisDashboardTypes.md
+- moniversive/framework/dashboard/MisDeFiIntegrityInvariants.mis: catalog/sources/moniversive__framework__dashboard__MisDeFiIntegrityInvariants.md
+- moniversive/framework/dashboard/MisEndpointInvariants.mis: catalog/sources/moniversive__framework__dashboard__MisEndpointInvariants.md
+- moniversive/framework/dashboard/MisNetWorthInvariants.mis: catalog/sources/moniversive__framework__dashboard__MisNetWorthInvariants.md
+- moniversive/framework/dashboard/MisUISettlementInvariants.mis: catalog/sources/moniversive__framework__dashboard__MisUISettlementInvariants.md
+- moniversive/framework/dashboard/dashboard_telemetry_p1.mis: catalog/sources/moniversive__framework__dashboard__dashboard_telemetry_p1.md
+- moniversive/framework/dashboard/dashboard_telemetry_p2.mis: catalog/sources/moniversive__framework__dashboard__dashboard_telemetry_p2.md
+- moniversive/framework/dashboard/dashboard_telemetry_p3.mis: catalog/sources/moniversive__framework__dashboard__dashboard_telemetry_p3.md
+- moniversive/framework/dashboard/dashboard_telemetry_p4.mis: catalog/sources/moniversive__framework__dashboard__dashboard_telemetry_p4.md
+- moniversive/framework/dashboard/dashboard_telemetry_p5.mis: catalog/sources/moniversive__framework__dashboard__dashboard_telemetry_p5.md
+- … and 50 more in catalog/sources/
+
+## Commands
+
+bin/misc path.mis --check --compact-letters
+make misc-build
+make gitbook-moniversive-build
+make gitbook-publish
+

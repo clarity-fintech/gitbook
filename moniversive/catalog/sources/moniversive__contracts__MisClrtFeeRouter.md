@@ -1,6 +1,6 @@
 # `moniversive/contracts/MisClrtFeeRouter.mis`
 
-> Generated 2026-07-29T03:15:28Z · module **`MisClrtFeeRouter`** · 28 lines
+> Generated 2026-08-02T12:03:42Z · module **`MisClrtFeeRouter`** · 28 lines
 
 ```bash
 bin/misc moniversive/contracts/MisClrtFeeRouter.mis --check --compact-letters

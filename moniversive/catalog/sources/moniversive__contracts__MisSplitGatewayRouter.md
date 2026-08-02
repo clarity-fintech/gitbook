@@ -1,6 +1,6 @@
 # `moniversive/contracts/MisSplitGatewayRouter.mis`
 
-> Generated 2026-07-29T03:15:28Z · module **`MisSplitGatewayRouter`** · 31 lines
+> Generated 2026-08-02T12:03:42Z · module **`MisSplitGatewayRouter`** · 31 lines
 
 ```bash
 bin/misc moniversive/contracts/MisSplitGatewayRouter.mis --check --compact-letters

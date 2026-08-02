@@ -1,36 +1,11 @@
 # `moniversive/contracts/bridge/MisFmaExecutionGateway.mis`
 
-> Generated 2026-07-29T03:15:28Z · module **`MisFmaExecutionGateway`** · 15 lines
+> Generated 2026-08-02T12:03:42Z · indexed in `mis_code_index.json` · **source not in this checkout**
+
+This module is registered in **`CLRTY_SUBSTRATE/boot/mis_code_index.json`**. Clone the full monorepo or [moniversive_invariant_static_ML](https://github.com/clarity-fintech/moniversive_invariant_static_ML) for the live `.mis` source.
 
 ```bash
 bin/misc moniversive/contracts/bridge/MisFmaExecutionGateway.mis --check --compact-letters
 ```
 
-| | |
-| --- | --- |
-| Invariants | `letter_hash_bound:`, `deep_root_moniversive:`, `settlement_chain:`, `kernel_is_misc:`, `authoring_extension_mis:`, `no_solidity_authoring:` |
-| Outcomes | `execute_gateway_intent` |
-| fn | — |
-| EMBED 3..=6 | no |
-
-## Source (excerpt)
-
-```mis
-// Moniversive Invariant Static (MIS) — CLRTY-1 FMA bridge perimeter (authoring SSOT)
-// Legacy MIS-ML archive: CLRTY_SUBSTRATE/bridge_perimeter/fma/contracts/src/FmaExecutionGateway.clrty
-// Compile: bin/misc moniversive/contracts/bridge/MisFmaExecutionGateway.mis --check --compact-letters
-
-module MisFmaExecutionGateway {
-
-  invariant letter_hash_bound: letter_hash_root != @0;
-  invariant deep_root_moniversive: deep_root == moniversive;
-  invariant settlement_chain: chain_id == 1202;
-  invariant kernel_is_misc: compiler_kernel == misc;
-  invariant authoring_extension_mis: source_extension == mis;
-  invariant no_solidity_authoring: solidity_authoring == false;
-
-  outcome execute_gateway_intent(intent: Bytes) { require intent != @0; constraint invariants_hold == true; }
-}
-```
-
-[Index hub](README.md) · [All symbols](../symbols-full.md)
+[Index hub](README.md) · [Full `.mis` index](../mis-sources-full-index.md)

@@ -1,53 +1,11 @@
 # `moniversive/framework/MisSuperdynamic.mis`
 
-> Generated 2026-07-29T03:15:28Z · module **`MisSuperdynamic`** · 32 lines
+> Generated 2026-08-02T12:03:42Z · indexed in `mis_code_index.json` · **source not in this checkout**
+
+This module is registered in **`CLRTY_SUBSTRATE/boot/mis_code_index.json`**. Clone the full monorepo or [moniversive_invariant_static_ML](https://github.com/clarity-fintech/moniversive_invariant_static_ML) for the live `.mis` source.
 
 ```bash
 bin/misc moniversive/framework/MisSuperdynamic.mis --check --compact-letters
 ```
 
-| | |
-| --- | --- |
-| Invariants | `letter_hash_bound:`, `deep_root_moniversive:`, `settlement_chain:`, `extension_mis:` |
-| Outcomes | `morph_kernel`, `ring_swap`, `ivc_accumulate`, `select_mode` |
-| fn | — |
-| EMBED 3..=6 | no |
-
-## Source (excerpt)
-
-```mis
-// Moniversive deep root — letter-hash
-// Superdynamic MIS — dynamic values inside static bounds
-
-module MisSuperdynamic {
-
-  
-
-  invariant letter_hash_bound: letter_hash_root != @0;
-  invariant deep_root_moniversive: deep_root == moniversive;
-  invariant settlement_chain: chain_id == 1202;
-  invariant extension_mis: source_extension == mis;
-
-  outcome morph_kernel(payload: Bytes) {
-    require payload != @0;
-    constraint morph_kernel_ok == true;
-  }
-
-  outcome ring_swap(payload: Bytes) {
-    require payload != @0;
-    constraint ring_swap_ok == true;
-  }
-
-  outcome ivc_accumulate(payload: Bytes) {
-    require payload != @0;
-    constraint ivc_accumulate_ok == true;
-  }
-
-  outcome select_mode(payload: Bytes) {
-    require payload != @0;
-    constraint select_mode_ok == true;
-  }
-}
-```
-
-[Index hub](README.md) · [All symbols](../symbols-full.md)
+[Index hub](README.md) · [Full `.mis` index](../mis-sources-full-index.md)

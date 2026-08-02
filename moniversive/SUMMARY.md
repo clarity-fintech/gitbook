@@ -30,6 +30,7 @@
 * [Definitions, variables & sets](language/definitions-variables-sets.md)
 * [Unique traits](language/unique-traits.md)
 * [Collections & concurrency](language/collections-concurrency.md)
+* [Boundary — CLRTY-1 vs MIS](language/boundary-clrty-vs-mis.md)
 
 ## Core protocol specs
 

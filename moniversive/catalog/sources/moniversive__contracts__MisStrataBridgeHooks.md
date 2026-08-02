@@ -1,6 +1,6 @@
 # `moniversive/contracts/MisStrataBridgeHooks.mis`
 
-> Generated 2026-07-29T03:15:28Z · module **`MisStrataBridgeHooks`** · 36 lines
+> Generated 2026-08-02T12:03:42Z · module **`MisStrataBridgeHooks`** · 36 lines
 
 ```bash
 bin/misc moniversive/contracts/MisStrataBridgeHooks.mis --check --compact-letters

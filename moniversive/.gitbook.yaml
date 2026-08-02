@@ -7,4 +7,4 @@ structure:
 variables:
   tier: L1-moniversive
   language: mis-ml
-  extension: .clrty
+  extension: .mis
